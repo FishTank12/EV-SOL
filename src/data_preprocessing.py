@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from sklearn.cluster import KMeans
+from statsmodels.tsa.arima.model import ARIMA
 import geopandas as gpd
 from shapely.geometry import Point
 
@@ -50,8 +52,6 @@ print(combined_df.head())
 
 # Check for missing values
 missing_values = combined_df.isnull().sum()
-
-# Display columns with missing values
 print(missing_values[missing_values > 0])
 
 # Remove rows with missing critical data
@@ -96,15 +96,13 @@ plt.ylabel('Access Days and Times')
 plt.savefig("../results/Distribution_of_Access_Days_and_Times.png")
 
 # Correlation Matrix
-numerical_columns = cleaned_combined_df.select_dtypes(include=['float64', 'int64']).columns
-if len(numerical_columns) > 0:
+numerical_columns = ['EV_Level1_EVSE_Num', 'EV_Level2_EVSE_Num', 'EV_DC_Fast_Count', 'Total_kWh', 'Dollars_Spent']
+if any(col in cleaned_combined_df.columns for col in numerical_columns):
     plt.figure(figsize=(12, 8))
     corr_matrix = cleaned_combined_df[numerical_columns].corr()
     sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
     plt.title('Correlation Matrix')
     plt.savefig("../results/Correlation_Matrix.png")
-else:
-    print("No numerical columns to calculate the correlation matrix.")
 
 # Time Series Analysis
 if 'Timestamps' in cleaned_combined_df.columns:
@@ -112,22 +110,20 @@ if 'Timestamps' in cleaned_combined_df.columns:
     cleaned_combined_df.set_index('Timestamps', inplace=True)
     
     # Plotting total kWh over time
-    if 'Total_kWh' in cleaned_combined_df.columns:
-        plt.figure(figsize=(12, 6))
-        cleaned_combined_df['Total_kWh'].resample('M').sum().plot()
-        plt.title('Total kWh Usage Over Time')
-        plt.xlabel('Time')
-        plt.ylabel('Total kWh')
-        plt.savefig("../results/Total_kWh_Usage_Over_Time.png")
+    plt.figure(figsize=(12, 6))
+    cleaned_combined_df['Total_kWh'].resample('M').sum().plot()
+    plt.title('Total kWh Usage Over Time')
+    plt.xlabel('Time')
+    plt.ylabel('Total kWh')
+    plt.savefig("../results/Total_kWh_Usage_Over_Time.png")
 
     # Plotting total dollars spent over time
-    if 'Dollars_Spent' in cleaned_combined_df.columns:
-        plt.figure(figsize=(12, 6))
-        cleaned_combined_df['Dollars_Spent'].resample('M').sum().plot()
-        plt.title('Total Dollars Spent Over Time')
-        plt.xlabel('Time')
-        plt.ylabel('Dollars Spent')
-        plt.savefig("../results/Total_Dollars_Spent_Over_Time.png")
+    plt.figure(figsize=(12, 6))
+    cleaned_combined_df['Dollars_Spent'].resample('M').sum().plot()
+    plt.title('Total Dollars Spent Over Time')
+    plt.xlabel('Time')
+    plt.ylabel('Dollars Spent')
+    plt.savefig("../results/Total_Dollars_Spent_Over_Time.png")
 
 # Geospatial Analysis (requires geopandas)
 if 'Latitude' in cleaned_combined_df.columns and 'Longitude' in cleaned_combined_df.columns:
@@ -140,3 +136,33 @@ if 'Latitude' in cleaned_combined_df.columns and 'Longitude' in cleaned_combined
     gdf.plot(ax=ax, color='red', markersize=5)
     plt.title('Geographic Distribution of Charging Stations')
     plt.savefig("../results/Geographic_Distribution_of_Charging_Stations.png")
+
+# Optimal Location Model
+locations = cleaned_combined_df[['Latitude', 'Longitude']]
+kmeans = KMeans(n_clusters=10)
+kmeans.fit(locations)
+cleaned_combined_df['Cluster'] = kmeans.labels_
+
+plt.figure(figsize=(12, 6))
+plt.scatter(cleaned_combined_df['Longitude'], cleaned_combined_df['Latitude'], c=cleaned_combined_df['Cluster'], cmap='viridis', marker='.')
+plt.title('Optimal Locations for New Charging Stations')
+plt.xlabel('Longitude')
+plt.ylabel('Latitude')
+plt.colorbar(label='Cluster')
+plt.savefig("../results/Optimal_Locations_for_New_Charging_Stations.png")
+
+# Power Distribution Model
+if 'Timestamps' in cleaned_combined_df.columns and 'Total_kWh' in cleaned_combined_df.columns:
+    power_usage = cleaned_combined_df['Total_kWh']
+    model = ARIMA(power_usage, order=(5, 1, 0))
+    model_fit = model.fit(disp=0)
+    forecast = model_fit.forecast(steps=30)
+    
+    plt.figure(figsize=(12, 6))
+    plt.plot(power_usage, label='Historical')
+    plt.plot(forecast, label='Forecast', color='red')
+    plt.title('Power Usage Forecast')
+    plt.xlabel('Time')
+    plt.ylabel('Total kWh')
+    plt.legend()
+    plt.savefig("../results/Power_Usage_Forecast.png")
