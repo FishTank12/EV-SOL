@@ -53,6 +53,12 @@ distributor_locations = pd.DataFrame({
     'Connected_Lines': [",".join(np.random.choice(line_ids, np.random.randint(1, 5))) for _ in range(num_distributors)]
 })
 
+# Ensure correlation between demand and generation rates
+hourly_trends['Power_Demand_kWh'] = hourly_trends['Power_Demand_kWh'] * 0.7 + np.random.normal(0, 20, num_hours)
+
+supplier_locations['Current_Generation_Rate_kWh'] = supplier_locations['Max_Generation_Rate_kWh'] * 0.7 + np.random.normal(0, 50, num_suppliers)
+power_lines['Current_Load_kWh'] = power_lines['Max_Capacity_kWh'] * 0.5 + np.random.normal(0, 20, num_lines)
+
 # Save synthetic data to CSV files
 hourly_trends.to_csv('../data/synthetic_hourly_trends.csv', index=False)
 power_lines.to_csv('../data/synthetic_power_lines.csv', index=False)
