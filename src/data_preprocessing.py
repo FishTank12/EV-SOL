@@ -95,11 +95,16 @@ plt.xlabel('Number of Charging Stations')
 plt.ylabel('Access Days and Times')
 plt.savefig("../results/Distribution_of_Access_Days_and_Times.png")
 
-plt.figure(figsize=(12, 8))
-corr_matrix = cleaned_combined_df.corr()
-sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
-plt.title('Correlation Matrix')
-plt.savefig("../results/Correlation_Matrix.png")
+# Correlation Matrix
+numerical_columns = cleaned_combined_df.select_dtypes(include=['float64', 'int64']).columns
+if len(numerical_columns) > 0:
+    plt.figure(figsize=(12, 8))
+    corr_matrix = cleaned_combined_df[numerical_columns].corr()
+    sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
+    plt.title('Correlation Matrix')
+    plt.savefig("../results/Correlation_Matrix.png")
+else:
+    print("No numerical columns to calculate the correlation matrix.")
 
 # Time Series Analysis
 if 'Timestamps' in cleaned_combined_df.columns:
@@ -107,20 +112,22 @@ if 'Timestamps' in cleaned_combined_df.columns:
     cleaned_combined_df.set_index('Timestamps', inplace=True)
     
     # Plotting total kWh over time
-    plt.figure(figsize=(12, 6))
-    cleaned_combined_df['Total_kWh'].resample('M').sum().plot()
-    plt.title('Total kWh Usage Over Time')
-    plt.xlabel('Time')
-    plt.ylabel('Total kWh')
-    plt.savefig("../results/Total_kWh_Usage_Over_Time.png")
+    if 'Total_kWh' in cleaned_combined_df.columns:
+        plt.figure(figsize=(12, 6))
+        cleaned_combined_df['Total_kWh'].resample('M').sum().plot()
+        plt.title('Total kWh Usage Over Time')
+        plt.xlabel('Time')
+        plt.ylabel('Total kWh')
+        plt.savefig("../results/Total_kWh_Usage_Over_Time.png")
 
     # Plotting total dollars spent over time
-    plt.figure(figsize=(12, 6))
-    cleaned_combined_df['Dollars_Spent'].resample('M').sum().plot()
-    plt.title('Total Dollars Spent Over Time')
-    plt.xlabel('Time')
-    plt.ylabel('Dollars Spent')
-    plt.savefig("../results/Total_Dollars_Spent_Over_Time.png")
+    if 'Dollars_Spent' in cleaned_combined_df.columns:
+        plt.figure(figsize=(12, 6))
+        cleaned_combined_df['Dollars_Spent'].resample('M').sum().plot()
+        plt.title('Total Dollars Spent Over Time')
+        plt.xlabel('Time')
+        plt.ylabel('Dollars Spent')
+        plt.savefig("../results/Total_Dollars_Spent_Over_Time.png")
 
 # Geospatial Analysis (requires geopandas)
 if 'Latitude' in cleaned_combined_df.columns and 'Longitude' in cleaned_combined_df.columns:
