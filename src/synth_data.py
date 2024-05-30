@@ -20,7 +20,7 @@ timestamps = [datetime(2024, 5, 1) + timedelta(hours=i) for i in range(num_hours
 hourly_trends = pd.DataFrame({
     'Distributor_ID': np.random.choice(distributor_ids, num_hours),
     'Timestamp': [timestamps[i % len(timestamps)] for i in range(num_hours)],
-    'Power_Demand_kWh': np.random.uniform(50, 200, num_hours)  # Increased demand range for more realistic values
+    'Power_Demand_kWh': np.random.uniform(50, 150, num_hours)  # Adjusted demand range for more realistic values
 })
 
 # Generate synthetic data for power lines strength
@@ -32,8 +32,8 @@ power_lines = pd.DataFrame({
     'Power_Line_ID': line_ids,
     'Source_ID': np.random.choice(source_ids, num_lines),
     'Destination_ID': destination_ids,
-    'Max_Capacity_kWh': np.random.uniform(150, 300, num_lines),  # Increased capacity range
-    'Current_Load_kWh': np.random.uniform(50, 150, num_lines)  # Increased load range for realism
+    'Max_Capacity_kWh': np.random.uniform(100, 200, num_lines),  # Adjusted capacity range
+    'Current_Load_kWh': np.random.uniform(50, 150, num_lines)  # Adjusted load range for realism
 })
 
 # Generate synthetic data for power supplier locations and generation rates
@@ -41,8 +41,8 @@ supplier_locations = pd.DataFrame({
     'Supplier_ID': source_ids,
     'Latitude': [fake.latitude() for _ in range(num_suppliers)],
     'Longitude': [fake.longitude() for _ in range(num_suppliers)],
-    'Max_Generation_Rate_kWh': np.random.uniform(500, 1000, num_suppliers),  # Increased generation rates
-    'Current_Generation_Rate_kWh': np.random.uniform(300, 800, num_suppliers)  # Increased current generation rates
+    'Max_Generation_Rate_kWh': np.random.uniform(400, 800, num_suppliers),  # Adjusted generation rates
+    'Current_Generation_Rate_kWh': np.random.uniform(300, 600, num_suppliers)  # Adjusted current generation rates
 })
 
 # Generate synthetic data for power distributor locations and connections
@@ -54,10 +54,10 @@ distributor_locations = pd.DataFrame({
 })
 
 # Ensure correlation between demand and generation rates
-hourly_trends['Power_Demand_kWh'] = hourly_trends['Power_Demand_kWh'] * 0.7 + np.random.normal(0, 20, num_hours)
+hourly_trends['Power_Demand_kWh'] = hourly_trends['Power_Demand_kWh'] * 0.8 + np.random.normal(0, 10, num_hours)
 
-supplier_locations['Current_Generation_Rate_kWh'] = supplier_locations['Max_Generation_Rate_kWh'] * 0.7 + np.random.normal(0, 50, num_suppliers)
-power_lines['Current_Load_kWh'] = power_lines['Max_Capacity_kWh'] * 0.5 + np.random.normal(0, 20, num_lines)
+supplier_locations['Current_Generation_Rate_kWh'] = supplier_locations['Max_Generation_Rate_kWh'] * 0.8 + np.random.normal(0, 20, num_suppliers)
+power_lines['Current_Load_kWh'] = power_lines['Max_Capacity_kWh'] * 0.7 + np.random.normal(0, 10, num_lines)
 
 # Save synthetic data to CSV files
 hourly_trends.to_csv('../data/synthetic_hourly_trends.csv', index=False)
