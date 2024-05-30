@@ -1,0 +1,8 @@
+           City                    Access_Days_Time EV_Level1_EVSE_Num  ...                         Station_Name          Street_Address EV_Level2_EVSE_Num
+0        Darien                      24 hours daily               NONE  ...                        BMW OF DARIEN        138-142 Ledge Rd                  2
+1       Meriden  24 hours daily; for Tesla use only               NONE  ...         Dunkin’ - Tesla Supercharger           893 E Main St               NONE
+2  Beacon Falls                      24 hours daily               NONE  ...  Town of Beacon Falls - Commuter Lot           105 N Main St                  1
+3  Old Saybrook                      24 hours daily               NONE  ...                      OLD SAYBROOK VW  319 Middlesex Turnpike                  2
+4     Fairfield                      24 hours daily               NONE  ...               Fairfield Rail Station        80 Mill Plain Rd                  2
+
+[5 rows x 7 columns]

@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Define file paths
 file_paths = [
@@ -42,14 +44,13 @@ for df in dfs:
     combined_df = pd.concat([combined_df, df], ignore_index=True)
 
 # Display the first few rows of the combined and cleaned dataset
-combined_df.head()
+print(combined_df.head())
 
 # Check for missing values
 missing_values = combined_df.isnull().sum()
 
 # Display columns with missing values
-missing_values[missing_values > 0]
-
+print(missing_values[missing_values > 0])
 
 # Remove rows with missing critical data
 cleaned_combined_df = combined_df.dropna(subset=['City', 'Street_Address', 'Station_Name'])
@@ -62,12 +63,11 @@ cleaned_combined_df['EV_DC_Fast_Count'].fillna(0, inplace=True)
 # Fill missing text data with a default value
 cleaned_combined_df['Access_Days_Time'].fillna('Unknown', inplace=True)
 
+# Save the cleaned dataset to a file
+cleaned_combined_df.to_csv("../results/cleaned_combined_data.csv", index=False)
+
 # Display the first few rows of the cleaned dataset
-cleaned_combined_df.head()
-
-
-import matplotlib.pyplot as plt
-import seaborn as sns
+print(cleaned_combined_df.head())
 
 # Plot distribution of charging stations by city
 plt.figure(figsize=(12, 6))
@@ -75,29 +75,8 @@ sns.countplot(y=cleaned_combined_df['City'], order=cleaned_combined_df['City'].v
 plt.title('Distribution of Charging Stations by City')
 plt.xlabel('Number of Charging Stations')
 plt.ylabel('City')
-plt.show()
-
-
-# Plot distribution of EV Level 1, Level 2, and DC Fast chargers
-plt.figure(figsize=(12, 6))
-sns.histplot(cleaned_combined_df['EV_Level1_EVSE_Num'], bins=20, label='Level 1', color='blue', kde=True)
-sns.histplot(cleaned_combined_df['EV_Level2_EVSE_Num'], bins=20, label='Level 2', color='green', kde=True)
-sns.histplot(cleaned_combined_df['EV_DC_Fast_Count'], bins=20, label='DC Fast', color='red', kde=True)
-plt.title('Distribution of EVSE Numbers')
-plt.xlabel('Number of EVSE')
-plt.ylabel('Frequency')
-plt.legend()
-plt.show()
-
-
-# Plot distribution of access days and times
-plt.figure(figsize=(12, 6))
-sns.countplot(y=cleaned_combined_df['Access_Days_Time'], order=cleaned_combined_df['Access_Days_Time'].value_counts().index)
-plt.title('Distribution of Access Days and Times')
-plt.xlabel('Number of Charging Stations')
-plt.ylabel('Access Days and Times')
-plt.show()
-
+plt.savefig("../results/Distribution_of_Charging_Stations_by_City.png")
+plt.close()
 
 # Plot distribution of EV Level 1, Level 2, and DC Fast chargers
 plt.figure(figsize=(12, 6))
@@ -108,9 +87,8 @@ plt.title('Distribution of EVSE Numbers')
 plt.xlabel('Number of EVSE')
 plt.ylabel('Frequency')
 plt.legend()
-plt.show()
-
-
+plt.savefig("../results/Distribution_of_EVSE_Numbers.png")
+plt.close()
 
 # Plot distribution of access days and times
 plt.figure(figsize=(12, 6))
@@ -118,7 +96,9 @@ sns.countplot(y=cleaned_combined_df['Access_Days_Time'], order=cleaned_combined_
 plt.title('Distribution of Access Days and Times')
 plt.xlabel('Number of Charging Stations')
 plt.ylabel('Access Days and Times')
-plt.show()
+plt.savefig("../results/Distribution_of_Access_Days_and_Times.png")
+plt.close()
 
-
-print(cleaned_combined_df.head())
+# Save the first few rows of the cleaned dataset to a text file
+with open("../results/head.txt", 'w') as f:
+    f.write(cleaned_combined_df.head().to_string())
