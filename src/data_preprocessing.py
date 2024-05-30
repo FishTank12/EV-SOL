@@ -56,4 +56,39 @@ print(missing_values[missing_values > 0])
 cleaned_combined_df = combined_df.dropna(subset=['City', 'Street_Address', 'Station_Name'])
 
 # Fill missing numerical data with zeros
-cleaned_combined_df['EV_Level1_EVSE_Num'].fillna(0, inplace=True)
+for col in ['EV_Level1_EVSE_Num', 'EV_Level2_EVSE_Num', 'EV_DC_Fast_Count', 'Total_kWh', 'Dollars_Spent']:
+    if col in cleaned_combined_df.columns:
+        cleaned_combined_df[col].fillna(0, inplace=True)
+
+# Fill missing text data with a default value
+cleaned_combined_df['Access_Days_Time'].fillna('Unknown', inplace=True)
+
+# Display the first few rows of the cleaned dataset
+print(cleaned_combined_df.head())
+
+# Plot distribution of charging stations by city
+plt.figure(figsize=(12, 6))
+sns.countplot(y=cleaned_combined_df['City'], order=cleaned_combined_df['City'].value_counts().index)
+plt.title('Distribution of Charging Stations by City')
+plt.xlabel('Number of Charging Stations')
+plt.ylabel('City')
+plt.savefig("../results/Distribution_of_Charging_Stations_by_City.png")
+
+# Plot distribution of EV Level 1, Level 2, and DC Fast chargers
+plt.figure(figsize=(12, 6))
+sns.histplot(cleaned_combined_df['EV_Level1_EVSE_Num'], bins=20, label='Level 1', color='blue', kde=True)
+sns.histplot(cleaned_combined_df['EV_Level2_EVSE_Num'], bins=20, label='Level 2', color='green', kde=True)
+sns.histplot(cleaned_combined_df['EV_DC_Fast_Count'], bins=20, label='DC Fast', color='red', kde=True)
+plt.title('Distribution of EVSE Numbers')
+plt.xlabel('Number of EVSE')
+plt.ylabel('Frequency')
+plt.legend()
+plt.savefig("../results/Distribution_of_EVSE_Numbers.png")
+
+# Plot distribution of access days and times
+plt.figure(figsize=(12, 6))
+sns.countplot(y=cleaned_combined_df['Access_Days_Time'], order=cleaned_combined_df['Access_Days_Time'].value_counts().index)
+plt.title('Distribution of Access Days and Times')
+plt.xlabel('Number of Charging Stations')
+plt.ylabel('Access Days and Times')
+plt.savefig("../results/Distribution_of_Access_Days_and_Times.png")
