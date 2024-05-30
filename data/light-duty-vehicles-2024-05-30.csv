@@ -1,0 +1,839 @@
+Vehicle ID,Fuel ID,Manufacturer ID,Category ID,Model,Model Year,Alternative Fuel Economy City,Alternative Fuel Economy Highway,Alternative Fuel Economy Combined,Conventional Fuel Economy City,Conventional Fuel Economy Highway,Conventional Fuel Economy Combined,Engine Type,Engine Size,Engine Cylinder Count,Engine/Motor(s) Description,Manufacturer,Manufacturer URL,Category,Fuel Code,Fuel,Electric-Only Range,Total Range,PHEV Type,Notes,Drivetrain,Charging Rate Level 2 (kW),Charging Rate DC Fast (kW),Charging Speed Level 1 (miles added per hour of charging),Charging Speed Level 2 (miles added per hour of charging),Charging Speed DC Fast (miles added per hour of charging),Battery Voltage,Battery Capacity Amp Hours,Battery Capacity kWh,Seating Capacity
+13644,41,365,29,ZDX AWD,2024,94,80,87,"","","",e-motor,155 and 220 kW,"",155 and 220 kW electric motors,Acura,http://www.acura.com/,SUV,ELEC,Electric,304,"","","",AWD,"","","","","",400,298.0,119.0,""
+13645,41,365,29,ZDX RWD,2024,96,83,90,"","","",e-motor,255 kW ,"",255 kW  electric motor,Acura,http://www.acura.com/,SUV,ELEC,Electric,313,"","","",RWD,"","","","","",400,298.0,119.0,""
+13421,41,377,27,e-tron GT/RS e-tron GT,2024,"","",85,"","","",e-motor,175 kW and 320 or 335 kW,"",175 kW and 320 or 335 kW electric motors,Audi,http://progress.audiusa.com/,Sedan/Wagon,ELEC,Electric,249,"","","",AWD,9.6,270,3,23,292,723,129.0,93.0,5
+13422,41,377,29,Q4 40 e-tron,2024,112,94,103,"","","",e-motor,150 kW,"",150 kW electric motor,Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,265,"","","",RWD,11,125,3,31,282,352,234.0,82.0,5
+13423,41,377,29,Q4 50 e-tron quattro,2024,"","",93-95,"","","",e-motor,80 kW (x2),"",80 kW electric motors (x2),Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,236-242,"","",Includes Sportback model,AWD,11,125,3,31,282,352,234.0,82.0,5
+13646,41,377,29,Q4 55 e-tron quattro,2024,107,92,100,"","","",e-motor,80 and 150 kW,"",80 and 150 kW electric motors,Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,258,"","",Includes Sportback model,AWD,11,125,3,31,282,352,234.0,82.0,5
+13425,41,377,29,Q8 e-tron quattro,2024,80,83,81,"","","",e-motor,141 kW (x2),"",141 kW electric motors (x2),Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,285,"","","",AWD,11,125,3,31,282,397,288.0,114.0,5
+13535,41,377,29,Q8 Sportback e-tron quattro,2024,84,90,87,"","","",e-motor,141 and 172 kW,"",141 and 172 kW electric motors,Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,296,"","","",AWD,9.6-19.2,170,3,44,311,397,288.0,114.0,5
+13426,41,377,29,Q8 Sportback e-tron ultra quattro,2024,84,89,86,"","","",e-motor,172 kW (x2),"",172 kW electric motors (x2),Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,300,"","","",AWD,11,125,3,31,282,397,288.0,114.0,5
+13536,41,377,29,SQ8 e-tron/Sportback e-tron,2024,"","",63-73,"","","",e-motor,172 kW,"",172 kW electric motor,Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,218-253,"","","Includes models with 20"", 21"", and 22"" wheels",AWD,"","","","","",397,288.0,114.0,""
+13427,41,211,27,i4 eDrive35 Gran Coupe,2024,"","",110-120,"","","",e-motor,250 kW,"",250 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,252-276,"","","Includes models with 18"" and 19"" wheels",RWD,11,195,4,33,463,399,211.0,84.0,""
+13428,41,211,27,i4 eDrive40 Gran Coupe,2024,"","",100-109,"","","",e-motor,250 kW,"",250 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,283-301,"","","Includes models with 18"" and 19"" wheels",RWD,11,195,4,33,463,399,211.0,84.0,5
+13430,41,211,27,i4 M50 Gran Coupe,2024,"","",80-95,"","","",e-motor,190 and 230 kW ,"",190 and 230 kW electric motors,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,227-269,"","","Includes models with 19"" and 20"" wheels",AWD,11,196,4,33,463,376,281.0,105.0,5
+13429,41,211,27,i4 xDrive40 Gran Coupe,2024,"","",99-109,"","","",e-motor,190 and 230 kW ,"",190 and 230 kW electric motors,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,279-307,"","","Includes models with 18"" and 19"" wheels",AWD,11,195,4,33,463,376,281.0,105.0,5
+13431,41,211,27,i5 eDrive40 Sedan,2024,"","",96-105,"","","",e-motor,250 kW,"",250 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,270-295,"","","Includes models with 19"", 20"", and 21"" wheels",RWD,"","","","","",399,211.0,84.0,""
+13432,41,211,27,i5 M60 xDrive Sedan,2024,"","",85-91,"","","",e-motor,190 and 230 kW ,"",190 and 230 kW electric motors,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,240-256,"","","Includes models with 19"", 20"", and 21"" wheels",4WD,"","","","","",399,211.0,84.0,""
+13433,41,211,27,i7 eDrive50 Sedan,2024,"","",86-90,"","","",e-motor,335 kW,"",335 kW  electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,301-321,"","","Includes models with 19"", 20"", and 21"" wheels",RWD,11,195,4,33,412,376,281.0,105.0,5
+13434,41,211,27,i7 M70 xDrive Sedan,2024,"","",77-81,"","","",e-motor,190 and 360 kW,"",190 and 360 kW  electric motors,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,274-291,"","","Includes models with 20"" and 21"" wheels",AWD,11,195,4,33,412,369,303.0,111.0,5
+13435,41,211,27,i7 xDrive60 Sedan,2024,"","",84-90,"","","",e-motor,190 and 230 kW,"",190 and 230 kW  electric motors,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,298-317,"","","Includes models with 19"", 20"", and 21"" wheels",4WD,11,195,4,33,412,376,281.0,105.0,5
+13436,41,211,29,iX M60,2024,"","",80,"","","",e-motor,190 and 360 kW,"",190 and 360 kW electric motors,BMW,https://www.bmwusa.com,SUV,ELEC,Electric,296,"","","Includes models with 21"" and 22"" wheels",AWD,11,195,3,28,393,369,303.0,111.0,5
+13437,41,211,29,iX xDrive40,2024,87,85,86,"","","",e-motor,190 and 230 kW,"",190 and 230 kW electric motors,BMW,https://www.bmwusa.com,SUV,ELEC,Electric,217,"","","Includes models with 20"", 21"", and 22"" wheels",AWD,11,195,3,28,393,369,303.0,111.0,5
+13438,41,211,29,iX xDrive50,2024,"","",83,"","","",e-motor,190 and 230 kW,"",190 and 230 kW electric motors,BMW,https://www.bmwusa.com,SUV,ELEC,Electric,307,"","","Includes models with 20"", 21"", and 22"" wheels",AWD,11,195,3,28,393,369,303.0,111.0,5
+13439,41,231,29,Lyric,2024,95,82,88,"","","",e-motor,255 kW electric motor,"",255 kW electric motor,Cadillac,http://www.cadillac.com,SUV,ELEC,Electric,314,"","","",RWD,11.5-19.2,190,4,29,401,400,298.0,119.0,5
+13647,41,231,29,Lyric AWD,2024,96,81,89,"","","",e-motor,155 kW (x2),"",155 kW electric motors (x2),Cadillac,http://www.cadillac.com,SUV,ELEC,Electric,307,"","","",AWD,11.5-19.2,190,4,29,401,400,298.0,119.0,5
+13537,41,215,29,Blazer EV AWD,2024,103,88,96,"","","",e-motor,67 kW (x2),"",67 kW electric motors (x2),Chevrolet,http://www.chevrolet.com,SUV,ELEC,Electric,279,"","","",AWD,11.5,150-190,3,33,342,335,298.0,99.0,5
+13648,41,215,29,Blazer EV RWD,2024,99,84,92,"","","",e-motor,255 kW,"",255 kW electric motor,Chevrolet,http://www.chevrolet.com,SUV,ELEC,Electric,324,"","","",RWD,11.5,150-190,3,33,342,400,298.0,119.0,5
+13650,41,215,29,Equinox EV AWD,2024,101,90,96,"","","",e-motor,67 and 180 kW ,"",67 and 180 kW  electric motors,Chevrolet,http://www.chevrolet.com,SUV,ELEC,Electric,285,"","","",AWD,"","","","","",335,298.0,99.0,""
+13649,41,215,29,Equinox EV FWD,2024,117,99,108,"","","",e-motor,180 kW,"",180 kW electric motor,Chevrolet,http://www.chevrolet.com,SUV,ELEC,Electric,319,"","","",FWD,"","","","","",335,298.0,99.0,""
+13440,41,215,25,Silverado EV,2024,67,59,63,"","","",e-motor,191 kW (x2),"",191 kW electric motors (x2),Chevrolet,http://www.chevrolet.com,Pickup,ELEC,Electric,450,"","","",AWD,"","","","","",350,596.0,208.0,""
+13538,41,215,25,Silverado EV,2024,72,62,67,"","","",e-motor,189 kW (x2),"",189 kW electric motors (x2),Chevrolet,http://www.chevrolet.com,Pickup,ELEC,Electric,393,"","","",AWD,"","","","","",290,580.0,168.0,""
+13651,41,379,27,500e,2024,"","",110-116,"","","",e-motor,87 kW electric motor,"",87 kW electric motor,Fiat,http://www.fiatusa.com/,Sedan/Wagon,ELEC,Electric,141-149,"","",Includes standard and All Season model,FWD,"","","","","",352,120.0,42.0,""
+13652,41,219,25,F150 Lightning 4WD,2024,76,61,68,"","","",e-motor,358 kW (x2),"",358 kW electric motors (x2),Ford,https://www.ford.com,Pickup,ELEC,Electric,240,"","","",AWD,11.6-19.6,150,2,24-40,249,378,328.0,123.0,5
+13653,41,219,25,F150 Lightning 4WD Plat/Ext. Range,2024,"","",66-70,"","","",e-motor,210 kW (x2),"",210 kW electric motors (x2),Ford,https://www.ford.com,Pickup,ELEC,Electric,300-320,"","",Includes  Platinum and PRO Extended Range models,AWD,11.6-19.6,150,2,24-40,249,403,410.0,165.0,5
+13656,41,219,29,Mustang Mach-E AWD,2024,95,88,91,"","","",e-motor,198 kW (x2),"",198 kW electric motors (x2),Ford,https://www.ford.com,SUV,ELEC,Electric,230,"","","",AWD,11,115-150,3,30,331,410,223.0,91.0,5
+13657,41,219,29,Mustang Mach-E AWD Extended,2024,103,94,99,"","","",e-motor,78 and 210 kW,"",78 and 210 kW  electric motors,Ford,https://www.ford.com,SUV,ELEC,Electric,300,"","","",AWD,11,115-150,3,30,331,404,288.0,116.0,5
+13655,41,219,29,Mustang Mach-E GT/Rally,2024,"","",86-90,"","","",e-motor,210 kW (x2),"",210 kW electric motors (x2),Ford,https://www.ford.com,SUV,ELEC,Electric,265-280,"","","",AWD,11,115-150,3,30,331,404,288.0,116.0,5
+13654,41,219,29,Mustang Mach-E RWD,2024,"","",102-106,"","","",e-motor,197 or 216 kWe,"",197 or 216 kW electric motor,Ford,https://www.ford.com,SUV,ELEC,Electric,250-320,"","",Includes Extended Range models,RWD,11,115-150,3,30,331,404,288.0,116.0,5
+13441,41,478,27,Electrified G70,2024,98,83,91,"","","",e-motor,160 kW (x2),"",160 kW electric motors (x2),Genesis,https://www.genesis.com/us/en/genesis.html,Sedan/Wagon,ELEC,Electric,236,"","","",AWD,11,230,3,29,497,697,111.0,77.0,5
+13539,41,478,27,Electrified G80,2024,105,89,97,"","","",e-motor,136 kW (x2),"",136 kW electric motors (x2),Genesis,https://www.genesis.com/us/en/genesis.html,Sedan/Wagon,ELEC,Electric,282,"","","",AWD,11,230,3,32,530,523,167.0,87.0,5
+13442,41,478,29,GV60 Advanced/Performance,2024,"","",95-100,"","","",e-motor,160 kW and 74 or 160 kW,"",160 kW and 74 or 160 kW electric motors,Genesis,https://www.genesis.com/us/en/genesis.html,SUV,ELEC,Electric,248-264,"","","Includes models with 19"" and 20"" wheels
+",AWD,11,230,3,29,497,697,111.0,77.0,5
+13540,41,478,29,GV60 Standard,2024,125,99,112,"","","",e-motor,168 kW ,"",168 kW electric motor,Genesis,https://www.genesis.com/us/en/genesis.html,SUV,ELEC,Electric,294,"","","",RWD,11,230,3,29,491,697,111.0,77.0,5
+13443,41,213,25,Hummer EV Pickup,2024,"","",50-53,"","","",e-motor,214 kW (x3),"",214 kW electric motors (x3),GMC,http://www.gmc.com,Pickup,ELEC,Electric,298-314,"","",Includes models with MT tires,AWD,"","","","","",334,596.0,199.0,""
+13444,41,213,29,Hummer EV SUV,2024,"","",50-53,"","","",e-motor,214 kW (x3),"",214 kW electric motors (x3),GMC,http://www.gmc.com,SUV,ELEC,Electric,298-314,"","",Includes models with MT tires,AWD,"","","","","",334,596.0,199.0,""
+13659,41,209,29,Prologue AWD Elite/Touring,2024,"","",92-95,"","","",e-motor,67 and 180 kW,"",67 and 180 kW electric motors,Honda,http://automobiles.honda.com,SUV,ELEC,Electric,273-281,"","","",AWD,"","","","","",336,298.0,100.0,""
+13658,41,209,29,Prologue FWD,2024,107,91,99,"","","",e-motor,168 kW,"",168 kW electric motor,Honda,http://automobiles.honda.com,SUV,ELEC,Electric,296,"","","",FWD,"","","","","",336,298.0,100.0,5
+13447,41,351,29,Ioniq 5 Long range AWD,2024,110,88,99,"","","",e-motor,165 kW (x2),"",165 kW electric motor (x2),Hyundai,http://www.hyundaiusa.com/,SUV,ELEC,Electric,260,"","","",AWD,11,199,4,35,503,697,111.0,77.0,5
+13446,41,351,29,Ioniq 5 Long range RWD,2024,132,98,114,"","","",e-motor,168 kW,"",168 kW electric motor,Hyundai,http://www.hyundaiusa.com/,SUV,ELEC,Electric,303,"","","",RWD,11,199,4,35,503,697,111.0,77.0,5
+13445,41,351,29,Ioniq 5 Standard range RWD,2024,127,94,110,"","","",e-motor,125 kW,"",125 kW electric motor,Hyundai,http://www.hyundaiusa.com/,SUV,ELEC,Electric,220,"","","",RWD,11,199,4,35,503,523,111.0,58.0,5
+13448,41,351,27,Ioniq 6 Long range AWD,2024,"","",103-121,"","","",e-motor,165 kW (x2),"",165 kW electric motors (x2),Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,270-316,"","","Includes models with 18"" and 20"" wheels",AWD,"","","","","",697,111.0,77.0,""
+13449,41,351,27,Ioniq 6 Long range RWD,2024,"","",117-140,"","","",e-motor,168 kW (x2),"",168 kW electric motors (x2),Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,305-361,"","","Includes models with 18"" and 20"" wheels",RWD,"","","","","",697,111.0,77.0,""
+13450,41,351,27,Ioniq 6 Standard range RWD,2024,151,120,135,"","","",e-motor,111 kW,"",111 kW electric motor,Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,240,"","","",RWD,"","","","","",480,111.0,53.0,""
+13541,41,351,29,Kona Electric,2024,"","",116-118,"","","",e-motor,99 or 150 kW,"",99 or 150 kW electric motor,Hyundai,http://www.hyundaiusa.com/,SUV,ELEC,Electric,200-261,"","",Includes Standard and Long Range models,FWD,11,100,4,25,208,268,181.0,48.0,5
+13451,41,385,29,I-PACE EV400,2024,"","",76-85,"","","",e-motor,147 kW (x2),"",147 kW electric motors (x2),Jaguar,http://www.jaguarusa.com/index.html,SUV,ELEC,Electric,217-246,"","","",4WD,7,100,3,16,180,388,223.0,86.0,5
+13455,41,361,29,EV6 AWD GT,2024,85,77,83,"","","",e-motor,160 kW (x2),"","160 kW electric motors (x2)
+\",Kia,http://www.kia.com,SUV,ELEC,Electric,218,"","","",AWD,11,200,4,36,527,697,111.0,77.0,5
+13454,41,361,29,EV6 Long Range AWD,2024,"","",96-109,"","","",e-motor,165 kW (x2),"",165 kW electric motors (x2),Kia,http://www.kia.com,SUV,ELEC,Electric,252-282,"","","Includes models with 19"" and 20"" wheels",AWD,11,200,4,36,527,697,111.0,77.0,5
+13453,41,361,29,EV6 Long Range RWD,2024,134,101,117,"","","",e-motor,168 kW,"",168 kW electric motor,Kia,http://www.kia.com,SUV,ELEC,Electric,310,"","","",RWD,11,200,4,36,527,697,111.0,77.0,5
+13452,41,361,29,EV6 Standard Range RWD,2024,136,100,117,"","","",e-motor,125 kW,"",125 kW electric motor,Kia,http://www.kia.com,SUV,ELEC,Electric,232,"","","",RWD,11,200,4,36,527,697,111.0,77.0,5
+13544,41,361,29,EV9 Long Range AWD,2024,"","",80-83,"","","",e-motor,141 (x2),"",141 kW electric motors (x2),Kia,http://www.kia.com,SUV,ELEC,Electric,270-280,"","",Includes GT-Line model,AWD,"","","","","",552,181.0,99.0,""
+13542,41,361,29,EV9 Long Range RWD,2024,100,78,89,"","","",e-motor,160 kW,"",160 kW electric motor,Kia,http://www.kia.com,SUV,ELEC,Electric,304,"","","",RWD,"","","","","",552,181.0,99.0,""
+13543,41,361,29,EV9 Standard Range RWD,2024,99,77,88,"","","",e-motor,160 kW,"",160 kW electric motor,Kia,http://www.kia.com,SUV,ELEC,Electric,230,"","","",RWD,"","","","","",632,121.0,76.0,""
+13456,41,361,29,Niro Electric,2024,126,101,113,"","","",e-motor,150 kW,"",150 kW electric motor,Kia,http://www.kia.com,SUV,ELEC,Electric,253,"","","",FWD,7.2,75,4,24,199,358,181.0,64.0,5
+13660,41,243,29,RZ 300e,2024,"","",105-125,"","","",e-motor,150 kW,"",150 kW electric motor,Lexus,"",SUV,ELEC,Electric,224-270,"","","Includes models with 18"" and 20"" wheels",FWD,"","","","","",355,205.0,72.0,""
+13661,41,243,29,RZ 450e,2024,"","",95-107,"","","",e-motor,80 kW and 150 kW,"",80 kW and 150 kW electric motors,Lexus,"",SUV,ELEC,Electric,196-220,"","","Includes models with 18"" and 20"" wheels",AWD,6.6,100-150,4,23,353,355,201.0,71.0,5
+13662,41,469,27,Air G Touring XR AWD,2024,"","",113-129,"","","",e-motor,178 and 433 kW,"",178 and 433 kW electric motors,Lucid,"",Sedan/Wagon,ELEC,Electric,450-516,"","","Includes models with 19"", 20"", and 21"" wheels",AWD,19,300,4,69,876,800,171.0,136.0,5
+13545,41,469,27,Air Pure RWD,2024,"","",130-137,"","","",e-motor,330 kW,"",330 kW electric motor,Lucid,"",Sedan/Wagon,ELEC,Electric,394-419,"","","Includes models with 19"" and 20"" wheels",RWD,19,300,4,69,876,580,149.0,86.0,5
+13546,41,469,27,Air Sapphire AWD,2024,108,101,105,"","","",e-motor,310 kW (x2) and 330 kW,"",310 kW (x2) and 330 kW electric motors,Lucid,"",Sedan/Wagon,ELEC,Electric,427,"","","",AWD,19,300,4,69,876,800,150.0,120.0,""
+13663,41,469,27,Air Touring AWD,2024,"","",118-133,"","","",e-motor,178 and 433 kW,"",178 and 433 kW  electric motors,Lucid,"",Sedan/Wagon,ELEC,Electric,365-411,"","","Includes models with 19"", 20"", and 21"" wheels",AWD,19,300,4,69,876,800,171.0,136.0,5
+13664,41,479,27,Grancabrio/Granturismo Folgore,2024,"","",82-87,"","","",e-motor,275 kW (x3),"",275 kW electric motors (x3),Maserati,https://www.maserati.com/us/en,Sedan/Wagon,ELEC,Electric,233-242,"","","",AWD,"","","","","",701,65.0,45.0,""
+13665,41,239,27,AMG EQE 4MATIC+,2024,73,74,73,"","","",e-motor,165 kW (x2),"",165 kW electric motors (x2),Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,230,"","","",AWD,9.6,170,3,22,456,328,292.0,95.0,5
+13547,41,239,27,AMG EQE 4MATIC+,2024,73,74,73,"","","",e-motor,165 kW (x2),"",165 kW electric motors (x2),Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,230,"","","",AWD,9.6,170,3,22,456,328,292.0,95.0,5
+13666,41,239,29,AMG EQE 4MATIC+ (SUV),2024,77,71,74,"","","",e-motor,165 kW (x2),"",165 kW electric motors (x2),Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,235,"","","",AWD,9.6,170,3,22,456,328,292.0,95.0,5
+13457,41,239,29,AMG EQE 4MATIC+ (SUV),2024,77,71,74,"","","",e-motor,165 kW (x2),"",165 kW electric motors (x2),Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,235,"","","",AWD,9.6,170,3,22,456,328,292.0,95.0,5
+13548,41,239,27,AMG EQS 4MATIC+,2024,79,85,82,"","","",e-motor,310 kW (x2),"",310 kW electric motors (x2),Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,305,"","","",AWD,9.6,200,4,29,489,396,282.0,111.0,5
+13667,41,239,29,EQB 250+,2024,114,100,107,"","","",e-motor,140 kW,"",140 kW electric motor,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,251,"","","",FWD,9.6,100,3,27,228,321,225.0,72.0,5-7
+13668,41,239,29,EQB 350 4MATIC,2024,89,85,87,"","","",e-motor,72 and 96 kW,"",72 and 96 kW electric motors,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,207,"","","",AWD,9.6,100,3,27,228,321,225.0,72.0,5-7
+13549,41,239,27,EQE 350+,2024,98,94,96,"","","",e-motor,215 kW (x2),"",215 kW electric motor,Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,298,"","","",RWD,9.6,170,3,22,456,330,290.0,95.0,5
+13550,41,239,27,EQE 350 4MATIC,2024,86,96,90,"","","",e-motor,72 and 144 kW (x2),"",72 and 144 kW electric motors (x2),Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,280,"","","",AWD,9.6,170,3,22,456,330,290.0,95.0,5
+13670,41,239,29,EQE 350 4MATIC (SUV),2024,88,82,85,"","","",e-motor,71 and 144 kW,"",71 and 144 kW electric motors,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,265,"","","",AWD,9.6,171,3,23,389,328,271.0,88.0,5
+13669,41,239,29,EQE 350+ (SUV),2024,99,88,94,"","","",e-motor,215 kW,"","215 kW electric motor
+",Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,307,"","","",RWD,9.6,171,3,23,389,330,308.0,101.0,5
+13551,41,239,27,EQE 500 4MATIC,2024,98,94,96,"","","",e-motor,100 and 200 kW,"",100 and 200 kW electric motors,Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,298,"","","",AWD,9.6,170,3,22,456,328,271.0,88.0,5
+13671,41,239,29,EQE 500 4MATIC (SUV),2024,88,83,86,"","","",e-motor,31 and 104 kW,"",31 and 104 kW electric motors,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,282,"","","",AWD,9.6,171,3,23,389,330,290.0,95.0,5
+13553,41,239,27,EQS 450+,2024,95,98,96,"","","",e-motor,265 kW,"","265 kW electric motor
+",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,352,"","","",RWD,9.6,200,3,27,489,396,282.0,111.0,5
+13552,41,239,27,EQS 450 4MATIC,2024,93,98,95,"","","",e-motor,135 kW (x2),"",135 kW electric motors (x2),Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,345,"","","",AWD,9.6,200,3,27,489,396,272.0,107.0,5
+13672,41,239,29,EQS 450/580 4MATIC (SUV),2024,85,81,83,"","","",e-motor,135 and 265 kW,"",135 and 265 kW electric motors,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,330,"","","",AWD,9.6,200,3,22,366,396,308.0,121.0,5
+13673,41,239,29,EQS 450+ (SUV),2024,88,83,86,"","","",e-motor,265 kW,"",265 kW electric motor,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,339,"","","",RWD,9.6,200,3,22,366,396,308.0,121.0,5
+13554,41,239,27,EQS 580 4MATIC,2024,95,98,96,"","","",e-motor,265 kW (x2),"",265 kW electric motors (x2),Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,345,"","","",AWD,9.6,200,3,27,489,396,272.0,107.0,5
+13555,41,239,29,EQS 680 4MATIC Maybach (SUV),2024,75,77,76,"","","",e-motor,310 kW (x2),"","310 kW electric motors (x2)
+",Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,280,"","","",AWD,9.6,200,3,27,489,396,282.0,111.0,5
+13674,41,239,29,EQS 680 4MATIC Maybach (SUV),2024,81,81,81,"","","",e-motor,174 and 310 kW,"",174 and 310 kW electric motors,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,321,"","","",AWD,9.6,200,3,22,366,396,308.0,121.0,5
+13458,41,425,27,Cooper SE Hardtop 2 door,2024,119,100,110,"","","",e-motor,135 kW,"",135 kW electric motor,Mini,"",Sedan/Wagon,ELEC,Electric,114,"","","",FWD,7.4,"",4,28,128,349,93.0,32.0,4
+13676,41,217,27,ARIYA ENGAGE e-4ORCE 63kWh,2024,101,89,95,"","","",e-motor,160 kW (x2),"",160 kW electric motors (x2),Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,205,"","","",AWD,7.2,130,4,22,312,352,187.0,65.0,5
+13677,41,217,27,ARIYA ENGAGE+/EVOLVE+ e-4ORCE 87kWh,2024,97,86,92,"","","",e-motor,160 kW (x2),"",160 kW electric motors (x2),Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,272,"","","",AWD,7.2,130,4,22,312,352,258.0,90.0,5
+13675,41,217,27,ARIYA ENGAGE FWD 63kWh,2024,109,94,101,"","","",e-motor,160 kW,"",160 kW electric motor,Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,216,"","","",FWD,7.2,130,4,22,312,352,187.0,65.0,5
+13678,41,217,27,ARIYA EVOLVE+/EMPOWER+/VENTURE+ FWD 87kWh,2024,"","",98-103,"","","",e-motor,178 kW,"",178 kW electric motor,Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,289-304,"","","",FWD,7.2,130,4,22,312,352,258.0,90.0,5
+13679,41,217,27,ARIYA PLATINUM+ e-4ORCE 87kWh,2024,"","",87-90,"","","",e-motor,160 kW,"",160 kW electric motors (x2),Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,257-267,"","","Includes models with 19"" and 20"" wheels",AWD,7.2,130,4,22,312,352,258.0,90.0,5
+13459,41,217,27,LEAF,2024,123,99,111,"","","",e-motor,110 kW,"",110 kW electric motor,Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,149,"","","",FWD,6.6,70,4,22,189,350,115.0,40.0,5
+13460,41,217,27,LEAF SV,2024,121,98,109,"","","",e-motor,160 kW,"",160 kW electric motor,Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,212,"","","",FWD,6.6,70,4,22,189,350,173.0,60.0,5
+13461,41,462,27,Polestar 2 Dual Motor,2024,"","",102-106,"","","",e-motor,110 and 200 kW,"",110 and 200 kW electric motors,Polestar Automotive USA,"",Sedan/Wagon,ELEC,Electric,266-276,"","","Includes models with 19"" and 20"" wheels",AWD,11,150,3,30,328,397,196.0,77.0,5
+13462,41,462,27,Polestar 2 Dual Motor Performance Pack,2024,100,90,95,"","","",e-motor,135 and 200 kW,"",135 and 200 kW electric motors,Polestar Automotive USA,"",Sedan/Wagon,ELEC,Electric,247,"","","",AWD,11,150,3,30,328,397,196.0,77.0,5
+13463,41,462,27,Polestar 2 Single Motor,2024,"","",111-115,"","","",e-motor,220 kW,"",220 kW electric motor,Polestar Automotive USA,"",Sedan/Wagon,ELEC,Electric,307-320,"","","Includes models with 19"" and 20"" wheels",RWD,11,150,3,30,328,404,202.0,81.0,5
+13680,41,391,27,Taycan 4S Cross Turismo,2024,78,78,78,"","","",e-motor,190 and 235 kW,"",190 and 235 kW electric motors,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,230,"","","",AWD,11,270,2,23,442,850,129.0,109.0,4
+13557,41,391,27,Taycan 4S Perf Battery/Plus,2024,"","",80-82,"","","",e-motor,150 kW and 234 or 254 kW,"",150 kW and 234 or 254 kW electric motors,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,206-235,"","",Includes Performance Battery and Performance Battery Plus models,AWD,11,270,2,23,442,850,129.0,109.0,4
+13560,41,391,27,Taycan Cross Turismo,2024,"","",75-80,"","","",e-motor,234 kW and/or 235 kW,"",234 kW and/or 235 kW electric motors,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,222-235,"","","Includes 4, Turbo, and Turbo S models",AWD,11,270,2,23,442,850,129.0,109.0,4
+13556,41,391,27,Taycan GTS Sport Turismo,2024,"","",80-83,"","","",e-motor,234 or 254 kW,"",234 or 254 kW electric motors,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,233-246,"","",Includes Sport Turismo model,AWD,11,270,2,23,442,850,129.0,109.0,4
+13559,41,391,27,Taycan Perf Battery/Plus,2024,"","",82--83,"","","",e-motor,280 kW,"",280 kW electric motor,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,208-242,"","",Includes Performance Battery and Performance Battery Plus models,RWD,11,270,2,23,442,850,129.0,109.0,4
+13558,41,391,27,Taycan Turbo/Turbo S,2024,"","",75-81,"","","",e-motor,235 or 254 kW,"",235 or 254 kW electric motor,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,222-238,"","","",AWD,11,270,2,23,442,850,129.0,109.0,4
+13561,41,470,29,R1S All-Terrain Quad Large (20in),2024,65,60,63,"","","",e-motor,"162 kW (x2), 163 kW, and 135 kW ","","162 kW (x2), 163 kW, and 135 kW electric motors",Rivian ,"",SUV,ELEC,Electric,274,"","","",AWD,11.5,209,2,24,349,400,360.0,144.0,7
+13681,41,470,29,R1S Dual,2024,"","",65-78,"","","",e-motor,208 kW (x2),"",208 kW electric motors (x2),Rivian ,"",SUV,ELEC,Electric,255-352,"","","Includes Large, Standard, Standard Plus, All-Terrain, and Performance models with 20"", 21"", and 22"" wheels",Part-Time 4WD,11.5,209,2,24,349,400,360.0,144.0,7
+13682,41,470,29,R1S Dual Max,2024,"","",73-82,"","","",e-motor,208 kW (x2),"",208 kW electric motors (x2),Rivian ,"",SUV,ELEC,Electric,355-400,"","","Includes  All-Terrain and Performance models and models with 20"", 21"", and 22"" wheels",Part-Time 4WD,11.5,209,2,24,349,392,382.0,149.0,7
+13683,41,470,29,R1S Quad Large,2024,"","",64-71,"","","",e-motor,162 kW (x4),"",162 kW electric motors (x4),Rivian ,"",SUV,ELEC,Electric,289-321,"","","Includes  models with 20"", 21"", and 22"" wheels",AWD,11.5,209,2,24,349,400,360.0,144.0,7
+13684,41,470,25,R1T Dual,2024,"","",65-78,"","","",e-motor,208 kW (x2),"",208 kW electric motors (x2),Rivian ,"",Pickup,ELEC,Electric,255-352,"","","Includes  Large, Standard, Standard Plus, All-Terrain, and Performance models with 20"", 21"", and 22"" wheels",Part-Time 4WD,11.5,210,2,24,344,400,360.0,144.0,5
+13685,41,470,25,R1T Dual Max,2024,"","",73-84,"","","",e-motor,208 kW (x2),"",208 kW electric motors (x2),Rivian ,"",Pickup,ELEC,Electric,355-410,"","","Includes All-Terrain and Performance models with 20"", 21"", and 22"" wheels",Part-Time 4WD,11.5,210,2,24,344,392,382.0,149.0,5
+13686,41,470,25,R1T Quad Large,2024,"","",63-73,"","","",e-motor,162 kW (x4),"",162 kW electric motors (x4),Rivian ,"",Pickup,ELEC,Electric,274-328,"","","Includes All-Terrain models and models with 20"", 21"", and 22"" wheels",AWD,11.5,210,2,24,344,400,360.0,144.0,5
+13562,41,491,27,Black Badge Spectre,2024,"","",73-78,"","","",e-motor,190 and 360 kW,"",190 and 360 kW electric motors,Rolls-Royce,"",Sedan/Wagon,ELEC,Electric,264-280,"","","Includes models with 22"" and 23"" wheels",AWD,"","","","","",376,281.0,105.0,""
+13563,41,491,27,Spectre,2024,"","",74-81,"","","",e-motor,190 and 360 kW,"",190 and 360 kW electric motors,Rolls-Royce,"",Sedan/Wagon,ELEC,Electric,266-291,"","","Includes models with 22"" and 23"" wheels",AWD,"","","","","",376,281.0,105.0,""
+13564,41,383,29,Solterra,2024,"","",102-104,"","","",e-motor,80 kW (x2),"",80 kW electric motors (x2),Subaru,http://www.subaru.com/,SUV,ELEC,Electric,222-227,"","",Includes Limited and Touring model,AWD,6.6,100-150,4,23,353,355,205.0,72.0,5
+13690,41,237,27,Model 3 Long Range AWD,2024,137,124,130,"","","",e-motor,84 and 191 kW,"",84 and 191 kW electric motors,Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,342,"","","",AWD,11.5,250,4,41,712,354,230.0,81.0,5
+13689,41,237,27,Model 3 RWD,2024,140,125,132,"","","",e-motor,192 kW,"",192 kW electric motor,Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,272,"","","",RWD,11.5,250,4,41,712,348,173.0,60.2,5
+13687,41,237,27,Model S ,2024,127,116,122,"","","",e-motor,247 kW (x2),"",247 kW electric motors (x2),Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,402,"","","",AWD,11.5,250,4,38,653,408,256.0,104.0,5
+13688,41,237,27,Model S Plaid,2024,"","",96-107,"","","",e-motor,250 kW (X3),"",250 kW electric motors (X3),Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,320-359,"","","Includes models with 19"" and 21"" wheels",AWD,11.5,250,4,38,653,410,256.0,104.0,5
+13691,41,237,29,Model X,2024,"","",90-100,"","","",e-motor,243 kW (X2) or 230 kW (X3),"",243 kW (X2) or 230 kW (X3)  electric motors,Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,300-335,"","","Includes Plaid models with 20"" and 22"" wheels",AWD,11.5,250,3,33,570,410,256.0,104.0,5-7
+13692,41,237,29,Model Y Performance/Long Range AWD,2024,"","",105-117,"","","",e-motor,91/135 and 200/202 kW,"",91/135 and 200/202 kW electric motors,Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,279-310,"","","",AWD,11.5,250,4,41,712,355,235.0,83.0,5-7
+13693,41,221,29,bZ4X,2024,"","",112-119,"","","",e-motor,150 kW,"",150 kW electric motor,Toyota,http://www.toyota.com,SUV,ELEC,Electric,236-252,"","",Includes standard and Limited models,FWD,6.6,150,4,23,353,355,201.0,71.0,5
+13694,41,221,29,bZ4X AWD,2024,"","",102-104,"","","",e-motor,80 kW (X2),"",80 kW electric motors (X2),Toyota,http://www.toyota.com,SUV,ELEC,Electric,222-228,"","",Includes standard and Limited models,AWD,6.6,100-150,4,23,353,355,205.0,72.0,5
+13565,41,483,29,VF 9 Eco/Plus,2024,"","",69-75,"","","",e-motor,260 or 300 kW,"",260 or 300 kW electric motor,VinFast,https://vinfastauto.us/,SUV,ELEC,Electric,291-330,"","",Includes Plus model,AWD,"","","","","",403,232.0,93.0,""
+13567,41,347,29,ID.4 AWD Pro/Pro S,2024,"","",102,"","","",e-motor,105 and 209 kW,"",105 and 209 kW electric motors,Volkswagen,http://www.vw.com,SUV,ELEC,Electric,263,"","","",AWD,11,170,4,34,416,350,234.0,81.0,5
+13566,41,347,29,ID.4/S/Pro S,2024,"","",107-113,"","","",e-motor,210 kW,"",210 kW electric motor,Volkswagen,http://www.vw.com,SUV,ELEC,Electric,206-291,"","","Includes standard, S, and Pro S models",RWD,11,170,4,34,416,350,234.0,81.0,5
+13464,41,395,29,C40/XC40 Recharge,2024,"","",106-107,"","","",e-motor,185 kW,"",185 kW electric motor,Volvo,"",SUV,ELEC,Electric,293-297,"","","",RWD,11,149,3,28,310,397,196.0,77.0,5
+13465,41,395,29,C40/XC40 Recharge Twin,2024,"","",98-99,"","","",e-motor,110 and 190 kW,"",110 and 190 kW electric motors,Volvo,"",SUV,ELEC,Electric,254-257,"","","",AWD,11,149,3,28,310,397,196.0,77.0,5
+13221,41,377,27,e-tron GT/RS e-tron GT,2023,"","",81-82,"","","",e-motor,TBD,"",TBD,Audi,http://progress.audiusa.com/,Sedan/Wagon,ELEC,Electric,232-238,"","","",AWD,9.6,270,3,23,292,397,240.0,95.0,5
+13219,41,377,29,e-tron quattro/S,2023,"","",63-79,"","","",e-motor,138 kW,"",138 kW electric motor,Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,181-226,"","","Includes models with 20"",  21"", and 22"" wheels",AWD,9.6,150,3,22,278,397,240.0,95.0,5
+13220,41,377,29,e-tron Sportback/S Sportback,2023,"","",65-78,"","","",e-motor,138 kW,"",138 kW electric motor,Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,185-225,"","","Includes models with 20"",  21"", and 22"" wheels",AWD,9.6,150,3,22,274,397,240.0,95.0,5
+13222,41,377,29,Q4 e-tron,2023,112,94,103,"","","",e-motor,TBD,"",TBD,Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,265,"","","",RWD,11,125,3,31,282,352,234.0,82.0,5
+13223,41,377,29,Q4 e-tron quattro,2023,97,87,93,"","","",e-motor,TBD,"",TBD,Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,236,"","","",AWD,11,125,3,31,282,397,240.0,95.0,5
+13224,41,377,29,Q4 e-tron Sportback,2023,100,89,95,"","","",e-motor,TBD,"",TBD,Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,242,"","","",AWD,11,125,3,31,282,352,234.0,82.0,5
+13225,41,211,27,i4 eDrive35/40 Gran Coupe,2023,"","",99-113,"","","",e-motor,250 kW,"",250 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,235-301,"","","Includes eDrive35 and eDrive40 models with 18"" and 19"" wheels",RWD,11,195,4,33,463,399,211.0,84.0,""
+13226,41,211,27,i4 M50 Gran Coupe,2023,"","",80-96,"","","",e-motor,TBD,"",TBD,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,227-271,"","","",AWD,11,196,4,33,463,399,210.0,83.0,5
+13227,41,211,27,i7 xDrive60 Sedan,2023,"","",83-89,"","","",e-motor,TBD,"",TBD,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,296-318,"","","Includes models with 19"", 20"", and 21"" wheels",AWD,"","","","","",376,281.0,105.0,5
+13108,41,211,29,iX M60,2023,"","",77-78,"","","",e-motor,190 and 360 kW electric motors,"",190 and 360 kW electric motors,BMW,https://www.bmwusa.com,SUV,ELEC,Electric,274-288,"","","",AWD,11,195,3,28,393,369,303.0,111.0,5
+13228,41,211,29,iX xDrive50,2023,"","",83-86,"","","",e-motor,TBD,"",TBD,BMW,https://www.bmwusa.com,SUV,ELEC,Electric,305-324,"","","",AWD,11,195,3,28,393,330,232.0,76.0,5
+13109,41,231,29,Lyric,2023,97,82,89,"","","",e-motor,255 kW electric motor,"",255 kW electric motor,Cadillac,http://www.cadillac.com,SUV,ELEC,Electric,312,"","","",RWD,11.5-19.2,190,4,29,401,400,298.0,119.0,5
+13339,41,231,29,Lyric AWD,2023,96,81,89,"","","",e-motor,155 and 220 kW,"",155 and 220 kW electric motor,Cadillac,http://www.cadillac.com,SUV,ELEC,Electric,307,"","","",AWD,11.5-19.2,190,4,29,401,400,298.0,119.0,5
+13111,41,215,27,Bolt EUV,2023,125,104,115,"","","",e-motor,150 kW electric motor,"",150 kW electric motor,Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,247,"","","",FWD,11.5,50,4,39,136,400,189.0,75.0,5
+13110,41,215,27,Bolt EV,2023,131,109,120,"","","",e-motor,150 kW electric motor,"",150 kW electric motor,Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,259,"","","",FWD,11.5,50,4,41,142,400,189.0,75.0,5
+13390,41,367,29,"Ocean Extreme, One",2023,99,84,92,"","","",e-motor,207 kW,"",207 kW electric motors (x2),Fisker Automotive,http://www.fiskerautomotive.com/en-ca/,SUV,ELEC,Electric,360,"","","",Part-Time 4WD,"","","","","",380,298.0,113.0,""
+13330,41,219,25,F150 Lightning 4WD,2023,"","",68,"","","",e-motor,358 kW electric motors (x2),"",358 kW electric motors (x2),Ford,https://www.ford.com,Pickup,ELEC,Electric,240,"","","",AWD,11.6-19.6,150,2,24-40,249,378,328.0,123.0,5
+13317,41,219,25,F150 Lightning 4WD Plat/Ext. Range,2023,"","",66-70,"","","",e-motor,210 kW electric motors (x2),"",210 kW electric motors (x2),Ford,https://www.ford.com,Pickup,ELEC,Electric,300-320,"","",Includes Platinum and Extended Range models,AWD,11.6-19.6,150,2,24-40,249,403,410.0,165.0,5
+13334,41,219,29,Mustang Mach-E AWD,2023,99,86,93,"","","",e-motor,198 kW electric motors (x2),"",198 kW electric motors (x2),Ford,https://www.ford.com,SUV,ELEC,Electric,224,"","","",AWD,11,115-150,3,30,331,404,288.0,116.0,5
+13335,41,219,29,Mustang Mach-E AWD CAL RT 1/EXT,2023,"","",92-98,"","","",e-motor,258 kW electric motors (x2),"",258 kW electric motors (x2),Ford,https://www.ford.com,SUV,ELEC,Electric,290-312,"","",Includes California Route 1 and Extended models,AWD,11,115-150,3,30,331,404,288.0,116.0,5
+13333,41,219,29,Mustang Mach-E GT,2023,"","",82-84,"","","",e-motor,180  kW electric motor,"",180  kW electric motors (x2),Ford,https://www.ford.com,SUV,ELEC,Electric,260-270,"","",Includes Performance model,AWD,11,115-150,3,30,331,404,288.0,116.0,5
+13391,41,219,29,Mustang Mach-E RWD Extended,2023,105,92,99,"","","",e-motor,216 kW electric motor,"",216 kW electric motor,Ford,https://www.ford.com,SUV,ELEC,Electric,310,"","","",RWD,11,115-150,3,30,331,404,288.0,116.0,5
+13332,41,219,29,Mustang Mach-E RWD (incl. LFP),2023,"","",101-103,"","","",e-motor,198 kW electric motor,"",198 kW electric motor,Ford,https://www.ford.com,SUV,ELEC,Electric,247-250,"","","",RWD,11,115-150,3,30,331,410,223.0,91.0,5
+13229,41,478,27,Electrified G80,2023,105,89,97,"","","",e-motor,TBD,"",TBD,Genesis,https://www.genesis.com/us/en/genesis.html,Sedan/Wagon,ELEC,Electric,282,"","","",AWD,"","","","","",523,167.0,87.0,""
+13112,41,478,27,GV60 Advance,2023,103,86,95,"","","",e-motor,74 and 160 kW electric motors,"",74 and 160 kW electric motors,Genesis,https://www.genesis.com/us/en/genesis.html,Sedan/Wagon,ELEC,Electric,248,"","","",AWD,"","","","","",697,111.0,77.0,""
+13113,41,478,27,GV60 Performance,2023,97,82,90,"","","",e-motor,160 kW electric motors (X2),"",160 kW electric motors (X2),Genesis,https://www.genesis.com/us/en/genesis.html,Sedan/Wagon,ELEC,Electric,235,"","","",AWD,"","","","","",697,111.0,77.0,""
+13342,41,351,27,Ioniq 6 Long range AWD,2023,"","",103-121,"","","",e-motor,74 and 165 kW ,"",74 and 165 kW electric motors,Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,270-316,"","","Includes models with 18"" and 20"" wheels",AWD,"","","","","",697,111.0,77.0,""
+13340,41,351,27,Ioniq 6 Long range RWD,2023,"","",117-140,"","","",e-motor,168 kW,"",168 kW electric motor,Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,305-361,"","","Includes models with 18"" and 20"" wheels",RWD,"","","","","",697,111.0,77.0,""
+13341,41,351,27,Ioniq 6 Standard range RWD,2023,151,120,135,"","","",e-motor,111 kW,"",111 kW electric motor,Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,240,"","","",RWD,"","","","","",480,111.0,53.0,""
+13230,41,351,29,Kona Electric,2023,132,106,120,"","","",e-motor,TBD,"",TBD,Hyundai,http://www.hyundaiusa.com/,SUV,ELEC,Electric,258,"","","",FWD,7.2,75,4,26,214,356,180.0,64.0,5
+13231,41,385,29,I-PACE EV400,2023,"","",76-85,"","","",e-motor,TBD,"",TBD,Jaguar,http://www.jaguarusa.com/index.html,SUV,ELEC,Electric,217-246,"","","",4WD,7,100,3,16,180,388,223.0,86.0,5
+13234,41,361,27,EV6 AWD GT,2023,85,74,79,"","","",e-motor,TBD,"",TBD,Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,206,"","","",AWD,11,200,4,36,527,697,111.0,77.0,5
+13233,41,361,27,EV6 Long Range AWD,2023,"","",96-109,"","","",e-motor,TBD,"",TBD,Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,252-282,"","","",AWD,11,200,4,35,527,697,111.0,77.0,5
+13232,41,361,27,EV6 Standard/Long Range RWD,2023,"","",117,"","","",e-motor,TBD,"",TBD,Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,232-310,"","","",RWD,11,200,4,36,527,697,111.0,77.0,5
+13235,41,361,27,Niro Electric,2023,123,101,113,"","","",e-motor,TBD,"",TBD,Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,253,"","","",FWD,7.2,75,4,24,199,358,180.0,64.0,5
+13392,41,243,29,"RZ 450e AWD (18""/20"" Wheels)",2023,"","",95-107,"","","",e-motor,80 kW and 150 kW electric motors,"",80 kW and 150 kW electric motors,Lexus,"",SUV,ELEC,Electric,196-220,"","","Includes models with 18"" and 20"" wheels",AWD,6.6,100-150,4,23,353,355,201.0,71.0,5
+13336,41,482,25,Endurance,2023,49,46,48,"","","",e-motor,96 kW (x4),"",96 kW electric motors (x4),Lordstown,https://www.lordstownmotors.com/,Pickup,ELEC,Electric,174,"","","",4WD,"","","","","",348,315.0,109.0,""
+13307,41,469,27,Air G Touring XR AWD,2023,"","",121-131,"","","",e-motor,370 and 370/459 kW,"",370 and 370/459 kW electric motors,Lucid,"",Sedan/Wagon,ELEC,Electric,469-516,"","","Includes models with 19"", 20"", and 21"" wheels",AWD,19,300,4,69,876,800,150.0,120.0,5
+13308,41,469,27,Air GT P AWD,2023,"","",111,"","","",e-motor,TBD,"",TBD,Lucid,"",Sedan/Wagon,ELEC,Electric,446,"","","21"" wheels",AWD,19,300,4,69,876,800,150.0,120.0,5
+13309,41,469,27,Air Pure AWD,2023,"","",121-140,"","","",e-motor,TBD,"",TBD,Lucid,"",Sedan/Wagon,ELEC,Electric,384-410,"","","Includes models with 19"" and 20"" wheels",AWD,19,300,4,69,876,800,150.0,120.0,5
+13310,41,469,27,Air Touring AWD,2023,"","",121-140,"","","",e-motor,TBD,"",TBD,Lucid,"",Sedan/Wagon,ELEC,Electric,384-425,"","","Includes models with 19"", 20"", and 21"" wheels",AWD,19,300,4,69,876,800,150.0,120.0,5
+13393,41,229,27,MX-30,2023,98,85,92,"","","",e-motor,81 kW electric motor,"",81 kW electric motor,Mazda,http://www.mazdausa.com,Sedan/Wagon,ELEC,Electric,100,"","","",FWD,"","","","","",355,100.0,35.0,""
+13236,41,239,27,EQS 450 4MATIC,2023,101,105,103,"","","",e-motor,TBD,"",TBD,Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,340,"","","",AWD,9.6,200,3,27,456,396,282.0,111.0,5
+13237,41,239,29,EQS 450 4MATIC (SUV),2023,79,77,78,"","","",e-motor,TBD,"",TBD,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,285,"","","",AWD,9.6,200,3,27,456,396,282.0,111.0,5
+13238,41,239,29,EQS 450+ (SUV),2023,87,83,85,"","","",e-motor,TBD,"",TBD,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,305,"","","",RWD,9.6,200,3,27,456,396,282.0,111.0,5
+13239,41,239,29,EQS 580 4MATIC (SUV),2023,79,74,77,"","","",e-motor,TBD,"",TBD,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,285,"","","",AWD,9.6,200,3,27,456,396,282.0,111.0,5
+13114,41,425,27,Cooper SE Hardtop 2 door,2023,119,100,110,"","","",e-motor,135 kW electric motor,"",135 kW electric motor,Mini,"",Sedan/Wagon,ELEC,Electric,114,"","","",FWD,7.4,"",4,24,128,349,93.0,32.0,4
+13394,41,217,27,ARIYA ENGAGE e-4ORCE 63kWh,2023,101,89,95,"","","",e-motor,160 kW electric motors (x2),"",160 kW electric motors (x2),Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,205,"","","",AWD,7.2,130,4,22,312,352,187.0,65.0,5
+13240,41,217,27,ARIYA ENGAGE FWD 63kWh,2023,109,94,101,"","","",e-motor,TBD,"",TBD,Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,216,"","","",FWD,"","","","","",352,187.0,65.0,""
+13395,41,217,27,ARIYA ENG+/EVO+/PLAT+ e-4ORCE 87kWh,2023,"","",87-92,"","","",e-motor,160 kW electric motors (x2),"",160 kW electric motors (x2),Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,257,"","","Includes ENGAGE+, EVO+, and PLATINUM+ e-4ORCE models with 19"" or 20"" wheels",AWD,7.2,130,4,22,312,352,258.0,90.0,5
+13241,41,217,27,ARIYA FWD 87kWh,2023,"","",98-103,"","","",e-motor,TBD,"",TBD,Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,289-304,"","","Includes EVO+, EMP+, PRM, and VENTURE+ models",FWD,"","","","","",352,258.0,90.0,""
+13242,41,217,27,LEAF,2023,123,99,111,"","","",e-motor,TBD,"",TBD,Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,149,"","","",FWD,6.6,70,4,22,189,350,115.0,40.0,5
+13243,41,217,27,LEAF SV,2023,121,98,109,"","","",e-motor,TBD,"",TBD,Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,212,"","","",FWD,6.6,70,4,22,189,350,173.0,60.0,5
+13116,41,462,27,Polestar 2,2023,113,100,107,"","","",e-motor,170 kW electric motor,"",170 kW electric motor,Polestar Automotive USA,"",Sedan/Wagon,ELEC,Electric,270,"","",Single motor,FWD,11,150,3,30,328,396,196.0,77.0,5
+13115,41,462,27,Polestar 2 Dual Motor,2023,"","",96-100,"","","",e-motor,150 /175 kW electric motors (X2),"",150 /175 kW electric motors (X2),Polestar Automotive USA,"",Sedan/Wagon,ELEC,Electric,247-260,"","","Includes Dual Motor, Performance Pack, and BST Edition",AWD,11,150,3,30,328,396,196.0,77.0,5
+13245,41,391,27,Taycan AWD,2023,"","",75-83,"","","",e-motor,175/190 and 270/335 kW motors,"",175/190 and 270/335 kW electric motors,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,206-246,"","","Includes GTS, 4S Performance Battery, 4S Performance Battery Plus, Turbo, and Turbo S",AWD,11,270,2,23,442,850,129.0,109.0,4
+13247,41,391,27,Taycan Cross Turismo,2023,"","",75-80,"","","",e-motor,175/190 and 335 kW motors,"",175/190 and 335 kW electric motors,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,222-235,"","","Includes 4, 4S, Turbo, and Turbo S models",AWD,11,270,2,23,442,850,129.0,109.0,4
+13244,41,391,27,Taycan GTS Sport Turismo,2023,80,80,80,"","","",e-motor,175 and 335 kW electric motors,"",175 and 335 kW electric motors,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,233,"","","",AWD,11,270,2,23,442,850,129.0,109.0,4
+13246,41,391,27,Taycan Perf Battery/Battery Plus,2023,"","",82--83,"","","",e-motor,240 or 280 kW electric motor,"",240 or 280 kW electric motor,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,208-242,"","","",RWD,11,270,2,23,442,850,129.0,109.0,4
+13319,41,470,29,R1S,2023,"","",63-71,"","","",e-motor,162 kW (x2) and 163 kW (x2),"",162 kW (x2) and 163 kW (x2) electric motors,Rivian ,"",SUV,ELEC,Electric,274-321,"","",Includes multiple wheel and tire options,AWD,11.5,209,2,24,349,400,360.0,144.0,7
+13396,41,470,29,R1S Dual Motor,2023,"","",68-78,"","","",e-motor,"208 kW, 418 kW, or 496 kW","","208 kW, 418 kW, or 496 kW electric motors (x2)",Rivian ,"",SUV,ELEC,Electric,307-352,"","",Includes Performance models and multiple wheel and tire options,AWD,11.5,209,2,24,349,400,360.0,144.0,7
+13318,41,470,25,R1T,2023,"","",64-73,"","","",e-motor,162 kW (x2) and 163 kW (x2),"",162 kW (x2) and 163 kW (x2) electric motors,Rivian ,"",Pickup,ELEC,Electric,289-328,"","","Includes 20"", 21"", and 22"" wheel options",AWD,11.5,210,2,24,344,400,360.0,144.0,5
+13397,41,470,25,R1T Dual Motor,2023,"","",76-78,"","","",e-motor,418 kW (x2) or 496 kW (x2),"",418 kW or 496  kW electric motors (x2),Rivian ,"",Pickup,ELEC,Electric,341-352,"","","Includes Performance models and 21"" and 22"" wheels",AWD,11.5,210,2,24,344,400,360.0,144.0,5
+13248,41,383,29,Solterra AWD,2023,"","",102-104,"","","",e-motor,TBD,"",TBD,Subaru,http://www.subaru.com/,SUV,ELEC,Electric,222-228,"","","Includes Standard, Limited, and Touring models",AWD,"","","","","",355,205.0,72.0,""
+13276,41,237,27,Model 3 AWD,2023,"","",113-131,"","","",e-motor,98/131 kW and 190/195 kW motors,"",98/131 kW and 190/195 kW electric motors,Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,315-358,"","",Includes Performance and Long Range models,AWD,11.5,250,4,41,712,360,235.0,84.0,5
+13275,41,237,27,Model 3 RWD,2023,138,126,132,"","","",e-motor,192 kW electric motor,"",192 kW electric motor,Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,272,"","","",RWD,"",250,4,41,712,350,174.0,60.9,5
+13274,41,237,27,Model S ,2023,124,115,120,"","","",e-motor,247 kW electric motors (x2),"",247 kW electric motors (x2),Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,405,"","","",AWD,11.5,250,4,38,653,408,256.0,104.0,5
+13277,41,237,29,Model X,2023,"","",91-102,"","","",e-motor,243 and 248 kW or 231 kW (x3),"",243 and 248 kW electric motors or 231 kW electric motors (x3),Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,311-348,"","","Includes Plaid and models with 20"" and 22"" wheels",AWD,11.5,250,3,33,570,410,256.0,104.0,5-7
+13278,41,237,29,Model Y AWD,2023,"","",111-123,"","","",e-motor,91/133 kW and 179/200 kW motors,"",91/133 kW and 179/200 kW electric motors,Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,279-330,"","",Includes Performance and Long Range models,AWD,11.5,250,4,41,712,360,235.0,84.0,5-7
+13117,41,221,29,bZ4X,2023,"","",114-119,"","","",e-motor,150 kW electric motor,"",150 kW electric motor,Toyota,http://www.toyota.com,SUV,ELEC,Electric,242-252,"","",Includes standard and Limited models,FWD,6.6,150,4,23,353,355,201.0,71.0,5
+13118,41,221,29,bZ4X AWD,2023,"","",102-104,"","","",e-motor,80 and 150 kW electric motors,"",80 and 150 kW electric motors,Toyota,http://www.toyota.com,SUV,ELEC,Electric,222-228,"","",Includes standard and Limited models,AWD,6.6,100-150,4,23,353,355,205.0,72.0,5
+13337,41,483,29,VF 8 Eco/Plus,2023,"","",80-87,"","","",e-motor,130/150 kW (x2),"",130/150 kW electric motors (x2),VinFast,https://vinfastauto.us/,SUV,ELEC,Electric,191-207,"","",Includes Plus model,AWD,"","","","","",400,222.0,88.0,""
+13250,41,347,29,ID.4 AWD Pro/Pro S,2023,104,93,99,"","","",e-motor,TBD,"",TBD,Volkswagen,http://www.vw.com,SUV,ELEC,Electric,255,"","","",AWD,11,125,4,34,306,350,234.0,81.0,5
+13249,41,347,29,ID.4 S/Pro/Pro S,2023,115,98,107,"","","",e-motor,150 kW electric motor,"",150 kW electric motor,Volkswagen,http://www.vw.com,SUV,ELEC,Electric,209-275,"","","",RWD,11,125,4,34,306,350,234.0,81.0,5
+13119,41,395,29,C40 Recharge Twin,2023,94,80,87,"","","",e-motor,175 kW electric motors (X2),"",175 kW electric motors (X2),Volvo,"",SUV,ELEC,Electric,226,"","","",AWD,11,149,3,28,310,396,196.0,77.0,5
+13120,41,395,29,XC40 Recharge Twin,2023,92,79,85,"","","",e-motor,150 kW electric motors (X2),"",150 kW electric motors (X2),Volvo,"",SUV,ELEC,Electric,223,"","","",AWD,11,150,3,28,303,396,196.0,77.0,5
+12949,41,377,27,e-tron GT,2022,81,83,82,"","","",e-motor,175 kW electric motor,"","175 kW electric motor;
+129 Ah battery",Audi,http://progress.audiusa.com/,Sedan/Wagon,ELEC,Electric,238,"","","",AWD,"","","","","","","","",""
+13002,41,377,29,e-tron quattro,2022,78,77,78,"","","",e-motor,141 kW and 172 kW electric motor,"","141 kW and 172 kW electric motors;
+240 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,222,"","","",AWD,"","","","","","","","",""
+12950,41,377,29,"e-tron S (20"" wheels)",2022,72,75,73,"","","",e-motor,138kW electric motor,"","138kW electric motor;
+240 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,208,"","","",AWD,"","","","","","","","",""
+12951,41,377,29,"e-tron S (21"" or 22"" wheels)",2022,62,64,63,"","","",e-motor,138kW electric motor,"","138kW electric motor;
+240 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,181,"","","",AWD,"","","","","","","","",""
+13001,41,377,29,e-tron Sportback quattro,2022,76,78,77,"","","",e-motor,141 kW and 172 kW electric motor,"","141 kW and 172 kW electric motors;
+240 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,218,"","","",AWD,"","","","","","","","",""
+12952,41,377,29,"e-tron S Sportback (20"" wheels)",2022,73,78,75,"","","",e-motor,138kW electric motor,"","138kW electric motor;
+240 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,212,"","","",AWD,"","","","","","","","",""
+12953,41,377,29,"e-tron S Sportback (21"" or 22"" wheels)",2022,64,66,65,"","","",e-motor,157kW electric motor,"","157kW electric motor;
+240 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,185,"","","",AWD,"","","","","","","","",""
+12954,41,377,29,Q4 e-tron quattro,2022,100,89,95,"","","",e-motor,80 kW and 150 kW electric motor,"","80 kW and 150 kW electric motors;
+234 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,241,"","","",AWD,"","","","","","","","",""
+12955,41,377,29,Q4 e-tron Sportback quattro,2022,100,89,95,"","","",e-motor,80 kW and 150 kW electric motor,"","80 kW and 150 kW electric motors;
+234 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,241,"","","",AWD,"","","","","","","","",""
+12956,41,377,29,RS e-tron GT,2022,100,89,95,"","","",e-motor,335 kW electric motor,"","335 kW electric motor;
+723 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,241,"","","",AWD,"","","","","","","","",""
+13047,41,211,27,"i4 eDrive40 Gran Coupe (18"" Wheels) ",2022,109,108,109,"","","",e-motor,250 kW electric motor,"","250 kW electric motor;
+211 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,301,"","","",RWD,"","","","","","","","",""
+13046,41,211,27,"i4 eDrive40 Gran Coupe (19"" Wheels) ",2022,100,98,99,"","","",e-motor,250 kW electric motor,"","250 kW electric motor;
+211 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,282,"","","",RWD,"","","","","","","","",""
+13048,41,211,27,"i4 M50 Gran Coupe (19"" Wheels) ",2022,94,98,96,"","","",e-motor,190 and 230 kW electric motors,"","190 and 230 kW electric motors;
+211 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,270,"","","",AWD,"","","","","","","","",""
+13049,41,211,27,"i4 M50 Gran Coupe (20"" Wheels) ",2022,79,80,80,"","","",e-motor,190 and 230 kW electric motors,"","190 and 230 kW electric motors;
+211 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,227,"","","",AWD,"","","","","","","","",""
+13050,41,211,29,"iX xDrive50 (20"" Wheels) ",2022,86,87,86,"","","",e-motor,190 and 230 kW electric motors,"","190 and 230 kW electric motors;
+303 Ah battery",BMW,https://www.bmwusa.com,SUV,ELEC,Electric,324,"","","",AWD,"","","","","","","","",""
+13051,41,211,29,"iX xDrive50 (21"" Wheels) ",2022,82,84,83,"","","",e-motor,190 and 230 kW electric motors,"","190 and 230 kW electric motors;
+303 Ah battery",BMW,https://www.bmwusa.com,SUV,ELEC,Electric,305,"","","",AWD,"","","","","","","","",""
+13052,41,211,29,"iX xDrive50 (22"" Wheels) ",2022,86,85,86,"","","",e-motor,190 and 230 kW electric motors,"","190 and 230 kW electric motors;
+303 Ah battery",BMW,https://www.bmwusa.com,SUV,ELEC,Electric,315,"","","",AWD,"","","","","","","","",""
+12778,41,215,27,Bolt EUV,2022,125,104,115,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+189 Ah battery",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,247,"","","",FWD,"","","","","","","","",""
+12777,41,215,27,Bolt EV,2022,131,109,120,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+189 Ah battery",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,259,"","","",FWD,"","","","","","","","",""
+13093,41,219,25,F150 Lightning 4WD,2022,76,61,68,"","","",e-motor,358 kW electric motors (x2),"","358 kW electric motors (X2);
+328 Ah battery",Ford,https://www.ford.com,Pickup,ELEC,Electric,230,"","","",AWD,"","","","","","","","",""
+13094,41,219,25,F150 Lightning 4WD Extended Range,2022,78,63,70,"","","",e-motor,210 kW electric motors (x2),"","210 kW electric motors (X2);
+410 Ah battery",Ford,https://www.ford.com,Pickup,ELEC,Electric,320,"","","",AWD,"","","","","","","","",""
+13095,41,219,25,F150 Lightning Platinum 4WD,2022,73,60,66,"","","",e-motor,210 kW electric motors (x2),"","210 kW electric motors (X2);
+410 Ah battery",Ford,https://www.ford.com,Pickup,ELEC,Electric,300,"","","",AWD,"","","","","","","","",""
+13059,41,219,29,Mustang Mach-E AWD,2022,98,86,93,"","","",e-motor,198 kW electric motors (x2),"","198 kW electric motors (x2);
+216 Ah battery",Ford,https://www.ford.com,SUV,ELEC,Electric,224,"","","",AWD,"","","","","","","","",""
+13056,41,219,29,Mustang Mach-E AWD California Route 1,2022,105,91,98,"","","",e-motor,258 kW electric motors (x2),"","258 kW electric motors (x2);
+288 Ah battery",Ford,https://www.ford.com,SUV,ELEC,Electric,312,"","","",AWD,"","","","","","","","",""
+13060,41,219,29,Mustang Mach-E AWD Extended,2022,97,84,91,"","","",e-motor,258 kW electric motors (x2),"","258 kW electric motors (x2);
+288 Ah battery",Ford,https://www.ford.com,SUV,ELEC,Electric,277,"","","",AWD,"","","","","","","","",""
+13057,41,219,29,Mustang Mach-E GT AWD,2022,90,77,84,"","","",e-motor,179  kW electric motors (X2),"","179  kW electric motors (X2);
+288 Ah battery",Ford,https://www.ford.com,SUV,ELEC,Electric,270,"","","",AWD,"","","","","","","","",""
+13058,41,219,29,Mustang Mach-E GT Performance,2022,88,75,82,"","","",e-motor,179  kW electric motor,"","179  kW electric motor;
+288 Ah battery",Ford,https://www.ford.com,SUV,ELEC,Electric,260,"","","",AWD,"","","","","","","","",""
+13053,41,219,29,Mustang Mach-E RWD,2022,110,96,103,"","","",e-motor,198 kW electric motor,"","198 kW electric motor;
+216 kWh battery",Ford,https://www.ford.com,SUV,ELEC,Electric,247,"","","",RWD,"","","","","","","","",""
+13055,41,219,29,Mustang Mach-E RWD California Route 1,2022,108,94,101,"","","",e-motor,216 kW electric motor,"","216 kW electric motor;
+288 Ah battery",Ford,https://www.ford.com,SUV,ELEC,Electric,314,"","","",RWD,"","","","","","","","",""
+13054,41,219,29,Mustang Mach-E RWD Extended,2022,104,90,97,"","","",e-motor,216 kW electric motor,"","216 kW electric motor;
+288 Ah battery",Ford,https://www.ford.com,SUV,ELEC,Electric,303,"","","",RWD,"","","","","","","","",""
+13005,41,351,27,Ioniq 5 AWD (Long Range),2022,110,87,98,"","","",e-motor,74 kW and 165 kW electric motors,"","74 kW and 165 kW electric motors;
+111 Ah battery",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,256,"","","",AWD,"","","","","","","","",""
+13003,41,351,27,Ioniq 5 RWD,2022,127,94,110,"","","",e-motor,125 kW electric motor,"","125 kW electric motor;
+111 Ah battery",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,220,"","","",RWD,"","","","","","","","",""
+13004,41,351,27,Ioniq 5 RWD (Long Range),2022,132,98,114,"","","",e-motor,168 kW electric motor,"","168 kW electric motor;
+111 Ah battery",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,303,"","","",RWD,"","","","","","","","",""
+12879,41,351,29,Kona Electric,2022,132,108,120,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+180 Ah battery",Hyundai,http://www.hyundaiusa.com/,SUV,ELEC,Electric,258,"","","",FWD,"","","","","","","","",""
+13008,41,361,27,EV6 AWD (Long Range) ,2022,116,94,105,"","","",e-motor,74 kW and 165 kW electric motors,"","74 kW and 165 kW electric motors;
+111 Ah battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,274,"","","",AWD,"","","","","","","","",""
+13006,41,361,27,EV6 RWD,2022,136,100,117,"","","",e-motor,125 kW electric motor,"","125 kW electric motor;
+111 Ah battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,232,"","","",RWD,"","","","","","","","",""
+13007,41,361,27,EV6 RWD (Long Range) ,2022,134,101,117,"","","",e-motor,168 kW electric motor,"","168 kW electric motor;
+111 Ah battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,310,"","","",RWD,"","","","","","","","",""
+12880,41,361,27,Niro Electric,2022,123,102,112,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+180 Ah battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,239,"","","",FWD,"","","","","","","","",""
+12894,41,469,27,"Air Dream P AWD w/19"" wheels",2022,117,114,116,"","","",e-motor,370kW and 459kW electric motors,"","370kW and 459kW electrics motors;
+150Ah battery",Lucid,"",Sedan/Wagon,ELEC,Electric,471,"","","",AWD,"","","","","","","","",""
+12895,41,469,27,"Air Dream P AWD w/21"" wheels",2022,110,111,111,"","","",e-motor,370kW and 459kW electric motors,"","370kW and 459kW electrics motors;
+150Ah battery",Lucid,"",Sedan/Wagon,ELEC,Electric,451,"","","",AWD,"","","","","","","","",""
+12896,41,469,27,"Air Dream R AWD w/19"" wheels",2022,126,125,125,"","","",e-motor,198kW and 498kW electric motors,"","198kW and 498kW electrics motors;
+150Ah battery",Lucid,"",Sedan/Wagon,ELEC,Electric,520,"","","",AWD,"","","","","","","","",""
+12897,41,469,27,"Air Dream R AWD w/21"" wheels",2022,115,117,116,"","","",e-motor,198kW and 498kW electric motors,"","198kW and 498kW electrics motors;
+150Ah battery",Lucid,"",Sedan/Wagon,ELEC,Electric,481,"","","",AWD,"","","","","","","","",""
+12898,41,469,27,"Air G Touring AWD w/19"" wheels",2022,130,132,131,"","","",e-motor,178kW and 433kW electric motors,"","178kW and 433kW electrics motors;
+143Ah battery",Lucid,"",Sedan/Wagon,ELEC,Electric,516,"","","",AWD,"","","","","","","","",""
+12899,41,469,27,"Air G Touring AWD w/21"" wheels",2022,121,122,121,"","","",e-motor,178kW and 433kW electric motors,"","178kW and 433kW electrics motors;
+143Ah battery",Lucid,"",Sedan/Wagon,ELEC,Electric,469,"","","",AWD,"","","","","","","","",""
+12957,41,229,27,MX-30,2022,98,85,92,"","","",e-motor,81 kW electric motor,"","81 kW electric motor;
+100 Ah battery",Mazda,http://www.mazdausa.com,Sedan/Wagon,ELEC,Electric,100,"","","",FWD,"","","","","","","","",""
+13311,41,239,27,AMG EQS 4MATIC+,2022,76,78,77,"","","",e-motor,174 and 310 kW,"",174 and 310 kW electric motors,Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,277,"","","",AWD,9.6,200,3,27,456,396,282.0,111.0,5
+13312,41,239,29,EQB 300 4MATIC,2022,104,98,101,"","","",e-motor,72 and 96 kW,"",72 and 96 kW electric motors,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,243,"","","",AWD,"","","","","",321,229.0,73.0,""
+13313,41,239,29,EQB 350 4MATIC,2022,98,93,96,"","","",e-motor,72 and 143 kW,"",72 and 143 kW electric motors,Mercedes-Benz,https://www.mbusa.com,SUV,ELEC,Electric,227,"","","",AWD,"","","","","",321,229.0,73.0,""
+12958,41,239,27,EQS450+,2022,97,97,97,"","","",e-motor,245 kW electric motor,"","245 kW electric motor;
+282 Ah battery",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,350,"","","",RWD,"","","","","","","","",""
+12959,41,239,27,EQS 580 4MATIC,2022,92,99,95,"","","",e-motor,135 and 255 kW electric motors,"","135 kW and 255 kW electric motors;
+282 Ah battery",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,340,"","","",AWD,"","","","","","","","",""
+12779,41,425,27,Cooper SE Hardtop 2 door,2022,119,100,110,"","","",e-motor,135 kW electric motor,"","135 kW electric motor;
+93 Ah battery",Mini,"",Sedan/Wagon,ELEC,Electric,114,"","","",FWD,"","","","","","","","",""
+12881,41,217,27,Leaf (40 kWh battery pack),2022,123,99,111,"","","",e-motor,110 kW electric motor,"","110 kW electric motor;
+115 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,149,"","","",FWD,"","","","","","","","",""
+12882,41,217,27,Leaf (62 kWh battery pack),2022,118,97,108,"","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+176 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,226,"","","",FWD,"","","","","","","","",""
+12883,41,217,27,Leaf SV/SL (62 kWh battery pack),2022,114,94,104,"","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+176 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,215,"","","",FWD,"","","","","","","","",""
+12884,41,462,27,Polestar 2 (Dual Motor),2022,94,84,89,"","","",e-motor,150kW electric motors (X2),"","dual 150 kW electric motors (300kW total);
+196 Ah battery",Polestar Automotive USA,"",Sedan/Wagon,ELEC,Electric,249,"","","",AWD,"","","","","","","","",""
+13009,41,462,27,Polestar 2 (Single Motor),2022,113,100,107,"","","",e-motor,170kW electric motor,"","170kW electric motor;
+196 Ah battery",Polestar Automotive USA,"",Sedan/Wagon,ELEC,Electric,270,"","","",FWD,"","","","","","","","",""
+12966,41,391,27,Taycan 4 Cross Turismo,2022,76,77,76,"","","",e-motor,175 and 320 kW electric motors,"","175 and 320 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,215,"","","",AWD,"","","","","","","","",""
+12967,41,391,27,Taycan 4S Cross Turismo,2022,75,75,75,"","","",e-motor,175 and 320 kW electric motors,"","175 and 320 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,215,"","","",AWD,"","","","","","","","",""
+12960,41,391,27,Taycan 4S Perf Battery,2022,79,80,79,"","","",e-motor,150 and 270 kW electric motors,"","150 and 270 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,199,"","","",AWD,"","","","","","","","",""
+12961,41,391,27,Taycan 4S Perf Battery Plus,2022,72,81,77,"","","",e-motor,175 and 320 kW electric motors,"","175 and 320 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,227,"","","",AWD,"","","","","","","","",""
+13106,41,391,27,Taycan GTS,2022,83,82,83,"","","",e-motor,194 and 360 kW electric motors,"","194 and 360 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,246,"","","",AWD,"","","","","","","","",""
+13107,41,391,27,Taycan GTS ST,2022,80,80,80,"","","",e-motor,194 and 360 kW electric motors,"","194 and 360 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,233,"","","",AWD,"","","","","","","","",""
+12964,41,391,27,Taycan Perf Battery,2022,76,84,79,"","","",e-motor,240 kW electric motor,"","240 kW electric motor; 
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,200,"","","",AWD,"","","","","","","","",""
+12965,41,391,27,Taycan Perf Battery Plus,2022,71,80,75,"","","",e-motor,280 kW electric motor,"","280 kW electric motor; 
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,225,"","","",AWD,"","","","","","","","",""
+12962,41,391,27,Taycan Turbo,2022,71,75,73,"","","",e-motor,170 and 335 kW electric motors,"","170 and 335 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,212,"","","",AWD,"","","","","","","","",""
+12968,41,391,27,Taycan Turbo Cross Turismo,2022,72,72,72,"","","",e-motor,175 and 355 kW electric motors,"","175 and 355 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,204,"","","",AWD,"","","","","","","","",""
+12963,41,391,27,Taycan Turbo S,2022,69,71,70,"","","",e-motor,190 and 335 kW electric motors,"","190 and 335 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,201,"","","",AWD,"","","","","","","","",""
+12969,41,391,27,Taycan Turbo S Cross Turismo,2022,74,73,73,"","","",e-motor,175 and 355 kW electric motors,"","175 and 355 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,202,"","","",AWD,"","","","","","","","",""
+12970,41,470,29,R1S,2022,73,65,69,"","","",e-motor,"162, 162, 163, 163 kW ","","162, 162, 163, 163kW electric independent electric motors;
+360Ah battery",Rivian ,"",SUV,ELEC,Electric,316,"","","",Part-Time 4WD,"","","","","","","","",""
+12971,41,470,25,R1T,2022,74,66,70,"","","",e-motor,"162, 162, 163, 163 kW ","","162, 162, 163, 163kW electric independent electric motors;
+360Ah battery",Rivian ,"",Pickup,ELEC,Electric,314,"","","",Part-Time 4WD,"","","","","","","","",""
+13014,41,237,27,Model 3 (Long Range) AWD,2022,134,126,131,"","","",e-motor,98 kW and 195 kW electric motors,"","98 kW and 195 kW electric motors; 
+235 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,353,"","","",AWD,"","","","","","","","",""
+13015,41,237,27,Model 3 Performance AWD,2022,118,107,113,"","","",e-motor,131kW and 190 kW electric motors,"","131kW and 190 kW electric motors; 
+235 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,315,"","","",AWD,"","","","","","","","",""
+13013,41,237,27,Model 3 RWD,2022,138,126,132,"","","",e-motor,192 kW electric motor,"","192 kW electric motor; 
+174 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,272,"","","",RWD,"","","","","","","","",""
+13010,41,237,27,Model S ,2022,124,115,120,"","","",e-motor,247 kW dual electric motors,"","247 kW dual electric motors;
+256 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,405,"","","",AWD,"","","","","","","","",""
+13012,41,237,27,"Model S Plaid (19"" Wheels)",2022,119,112,116,"","","",e-motor,250 kW electric motors (X3),"","250 kW electric motors (X3);
+256 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,396,"","","",AWD,"","","","","","","","",""
+13011,41,237,27,"Model S Plaid (21"" Wheels)",2022,102,99,101,"","","",e-motor,250 kW electric motors (X3),"","250 kW electric motors (X3);
+256 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,348,"","","",AWD,"","","","","","","","",""
+13019,41,237,29,Model X AWD,2022,107,97,102,"","","",e-motor,243 and 248 kW electric motors,"","243 and 248 kW electric motors;
+256 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,348,"","","",AWD,"","","","","","","","",""
+13020,41,237,29,"Model X Plaid (20"" Wheels)",2022,103,93,98,"","","",e-motor,230kW electric motors (X3),"","230kW electric motors (X3);
+256 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,333,"","","",AWD,"","","","","","","","",""
+13021,41,237,29,"Model X Plaid (22"" Wheels)",2022,94,88,91,"","","",e-motor,230kW electric motors (X3),"","230kW electric motors (X3);
+256 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,311,"","","",AWD,"","","","","","","","",""
+13075,41,237,29,Model Y AWD,2022,129,116,123,"","","",e-motor,91 and 200 kW electric motors,"","91 and 200 kW electric motors;
+235 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,279,"","","",AWD,"","","","","","","","",""
+13017,41,237,29,Model Y (Long Range) AWD,2022,127,117,122,"","","",e-motor,91 and 200 kW electric motors,"","91 and 200 kW electric motors;
+235 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,330,"","","",AWD,"","","","","","","","",""
+13016,41,237,29,Model Y Performance AWD,2022,115,106,111,"","","",e-motor,133 and 179 kW electric motors,"","133 and 179 kW electric motors;
+235 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,303,"","","",AWD,"","","","","","","","",""
+13018,41,237,29,Model Y RWD,2022,140,119,129,"","","",e-motor,209 kW electric motor,"","209 kW electric motor;
+158 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,244,"","","",RWD,"","","","","","","","",""
+13096,41,347,29,ID.4 AWD Pro,2022,106,96,101,"","","",e-motor,80 and 150 kW electric motors,"","80 and 150 kW electric motors;
+234 Ah battery",Volkswagen,http://www.vw.com,SUV,ELEC,Electric,251,"","","",AWD,"","","","","","","","",""
+13097,41,347,29,ID.4 AWD Pro S,2022,100,90,95,"","","",e-motor,80 and 150 kW electric motors,"","80 and 150 kW electric motors;
+234 Ah battery",Volkswagen,http://www.vw.com,SUV,ELEC,Electric,245,"","","",AWD,"","","","","","","","",""
+13098,41,347,29,ID.4 Pro,2022,116,98,107,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+234 Ah battery",Volkswagen,http://www.vw.com,SUV,ELEC,Electric,275,"","","",RWD,"","","","","","","","",""
+13099,41,347,29,ID.4 Pro S,2022,110,93,102,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+234 Ah battery",Volkswagen,http://www.vw.com,SUV,ELEC,Electric,262,"","","",RWD,"","","","","","","","",""
+13022,41,395,29,C40 Recharge Twin,2022,94,80,87,"","","",e-motor,150 kW electric motors (X2),"","150 kW electric motors (X2);
+196 Ah battery",Volvo,"",SUV,ELEC,Electric,226,"","","",AWD,"","","","","","","","",""
+12885,41,395,29,XC40 Recharge Twin,2022,92,79,85,"","","",e-motor,150 kW electric motors (X2),"","150 kW electric motors (X2);
+196 Ah battery",Volvo,"",SUV,ELEC,Electric,223,"","","",AWD,"","","","","","","","",""
+12623,41,377,29,e-tron,2021,78,77,78,"","","",e-motor,141 kW and 172 kW electric motor,"","141 kW and 172 kW electric motors;
+240 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,222,"","","","","","","","","","","","",""
+12622,41,377,29,e-tron Sportback,2021,76,78,77,"","","",e-motor,141 kW and 172 kW electric motor,"","141 kW and 172 kW electric motors;
+240 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,218,"","","","","","","","","","","","",""
+12750,41,211,27,i3,2021,124,102,113,"","","",e-motor,125 kW electric motor,"","125 kW electric motor;
+120 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,153,"","","","","","","","","","","","",""
+12695,41,211,27,i3s,2021,124,102,113,"","","",e-motor,135 kW electric motor,"","135 kW electric motor;
+120 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,153,"","","","","","","","","","","","",""
+12696,41,215,27,Bolt EV,2021,127,108,118,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+189 Ah battery",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,259,"","","","","","","","","","","","",""
+12666,41,219,27,Mustang Mach-E AWD,2021,100,86,93,"","","",e-motor,198 kW electric motor,"","198 kW electric motor;
+216 kWh battery",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,211,"","","",Part-Time 4WD,"","","","","","","","",""
+12667,41,219,27,Mustang Mach-E AWD Extended,2021,96,84,90,"","","",e-motor,209 kW electric motor,"","209 kW electric motor;
+288 kWh battery",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,270,"","","","","","","","","","","","",""
+12994,41,219,27,Mustang Mach-E GT AWD,2021,88,75,82,"","","",e-motor,179  kW electric motors (X2),"","179  kW electric motors (X2);
+288 Ah battery",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,260,"","","",AWD,"","","","","","","","",""
+12993,41,219,27,Mustang Mach-E GT AWD,2021,90,77,84,"","","",e-motor,179  kW electric motors (X2),"","179  kW electric motors (X2);
+288 Ah battery",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,270,"","","",AWD,"","","","","","","","",""
+12664,41,219,27,Mustang Mach-E RWD,2021,105,93,100,"","","",e-motor,198 kW electric motor,"","198 kW electric motor;
+216 kWh battery",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,230,"","","","","","","","","","","","",""
+12714,41,219,27,Mustang Mach-E RWD California Route 1,2021,108,94,101,"","","",e-motor,216 kW electric motor,"","216 kW electric motor;
+288 kWh battery",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,305,"","","","","","","","","","","","",""
+12665,41,219,27,Mustang Mach-E RWD Extended,2021,104,90,97,"","","",e-motor,216 kW electric motor,"","216 kW electric motor;
+288 kWh battery",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,300,"","","","","","","","","","","","",""
+12756,41,351,27,Ioniq Electric,2021,145,121,133,"","","",e-motor,100 kW electric motor,"","100 kW electric motor;
+120 Ah battery",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,170,"","","","","","","","","","","","",""
+12725,41,351,29,Kona Electric,2021,132,108,120,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+180 Ah battery",Hyundai,http://www.hyundaiusa.com/,SUV,ELEC,Electric,258,"","","","","","","","","","","","",""
+12757,41,385,29,I-PACE EV400,2021,80,72,76,"","","",e-motor,"","",223 Ah battery,Jaguar,http://www.jaguarusa.com/index.html,SUV,ELEC,Electric,234,"","","",4WD,"","","","","","","","",""
+12686,41,466,27,K27,2021,127,102,114,"","","",e-motor,20 kW electric motor,"","20 kW electric motor;
+57 Ah battery",Kandi,"",Sedan/Wagon,ELEC,Electric,59,"","","","","","","","","","","","",""
+12751,41,361,27,Niro Electric,2021,123,102,112,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+180 Ah battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,239,"","","","","","","","","","","","",""
+12556,41,425,27,Cooper SE Hardtop 2 door,2021,115,100,108,"","","",e-motor,135 kW electric motor,"","135 kW electric motor;
+93 Ah battery",Mini,"",Sedan/Wagon,ELEC,Electric,110,"","","","","","","","","","","","",""
+12697,41,217,27,Leaf (40 kWh battery pack),2021,123,99,111,"","","",e-motor,110 kW electric motor,"","110 kW electric motor;
+115 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,149,"","","","","","","","","","","","",""
+12700,41,217,27,Leaf (62 kWh battery pack),2021,118,97,108,"","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+176 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,226,"","","",FWD,"","","","","","","","",""
+12699,41,217,27,Leaf SV/SL (62 kWh battery pack),2021,114,94,104,"","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+176 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,215,"","","","","","","","","","","","",""
+12595,41,462,27,Polestar 2,2021,96,88,92,"","","","","","","150 kW electric motor;
+196 Ah battery",Polestar Automotive USA,"",Sedan/Wagon,ELEC,Electric,233,"","","","","","","","","","","","",""
+12701,41,391,27,Taycan 4S Perf Battery,2021,79,80,79,"","","",e-motor,194 and 280 kW electric motors,"","194 and 280 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,199,"","","","","","","","","","","","",""
+12702,41,391,27,Taycan 4S Perf Battery Plus,2021,75,81,77,"","","",e-motor,210 and 250 kW electric motors,"","210 and 250 kW electric motors;
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,227,"","","","","","","","","","","","",""
+12739,41,391,27,Taycan Perf Battery,2021,76,84,79,"","","",e-motor,240 kW electric motor,"",240 kW electric motor; 129 Ah battery,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,200,"","","","","","","","","","","","",""
+12740,41,391,27,Taycan Perf Battery Plus,2021,71,80,75,"","","",e-motor,280 kW electric motor,"",280 kW electric motor; 129 Ah battery,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,225,"","","","","","","","","","","","",""
+12759,41,391,27,Taycan Turbo,2021,71,75,73,"","","",e-motor,"","",129 Ah battery,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,212,"","","","","","","","","","","","",""
+12758,41,391,27,Taycan Turbo S,2021,69,71,70,"","","",e-motor,"","",129 Ah battery,Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,201,"","","","","","","","","","","","",""
+12626,41,237,27,Model 3 Long Range AWD,2021,141,127,134,"","","",e-motor,131 and 190 kW electric motors,"","131 kW and 190 kW electric motors;
+235 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,353,"","","","","","","","","","","","",""
+12627,41,237,27,Model 3 Performance AWD,2021,118,107,113,"","","",e-motor,131 and 190 kW electric motors,"","131 kW and 190 kW electric motors;
+235 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,315,"","","","","","","","","","","","",""
+12752,41,237,27,Model 3 Standard Range Plus RWD,2021,150,133,142,"","","",e-motor,198 kW electric motor,"",198 kW electric motor; 158 Ah battery,Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,263,"","","",RWD,"","","","","","","","",""
+12774,41,237,27,Model S Long Range,2021,124,115,120,"","","",e-motor,179 kW and 186 kW electric motor,"","179 kW and 186 kW electric motors; 
+305 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,405,"","","","","","","","","","","","",""
+12673,41,237,27,"Model S Performance (19"" Wheels)",2021,114,106,110,"","","",e-motor,149 kW and 276 kW electric motor,"","149 kW and 276 kW electric motors;
+305 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,387,"","","This model is also available with 21"" wheels, at reduced fuel economy and 334 miles range.","","","","","","","","","",""
+12776,41,237,27,"Model S Plaid (21"" Wheels)",2021,102,99,101,"","","",e-motor,250 kW electric motors (X3),"","250 kW electric motors (X3);
+256 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,348,"","","",AWD,"","","","","","","","",""
+12624,41,237,29,Model X Long Range Plus,2021,109,101,105,"","","",e-motor,180 and 189 kW electric motor,"","180 and 189 kW electric motors;
+305 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,371,"","","","","","","","","","","","",""
+12625,41,237,29,"Model X Performance (20"" Wheels)",2021,100,95,97,"","","",e-motor,151 and 273 kW electric motors,"","151 kW and 273 kW electric motors;
+305 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,341,"","","This model is also available with 22"" wheels, at reduced fuel economy and 300 miles range.","","","","","","","","","",""
+12629,41,237,29,Model Y Long Range AWD,2021,131,117,125,"","","",e-motor,69 and 201 kW electric motors,"","69 and 201 kW electric motors;
+235 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,326,"","","","","","","","","","","","",""
+12628,41,237,29,Model Y Performance AWD,2021,115,106,111,"","","",e-motor,133 and 179 kW electric motors,"","133 and 179 kW electric motors;
+235 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,303,"","","","","","","","","","","","",""
+12760,41,237,29,Model Y Standard Range RWD,2021,140,119,129,"","","",e-motor,209 kW electric motor,"","209 kW electric motor;
+158 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,244,"","","","","","","","","","","","",""
+12674,41,347,29,ID.4 1st,2021,104,89,97,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+234 Ah battery",Volkswagen,http://www.vw.com,SUV,ELEC,Electric,250,"","","","","","","","","","","","",""
+12996,41,347,29,ID.4 AWD Pro,2021,102,90,97,"","","",e-motor,80 and 150 kW electric motors,"","80 and 150 kW electric motors;
+234 Ah battery",Volkswagen,http://www.vw.com,SUV,ELEC,Electric,249,"","","",AWD,"","","","","","","","",""
+12838,41,347,29,ID.4 Pro,2021,107,91,99,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+234 Ah battery",Volkswagen,http://www.vw.com,SUV,ELEC,Electric,260,"","","","","","","","","","","","",""
+12675,41,347,29,ID.4 Pro S,2021,104,89,97,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+234 Ah battery",Volkswagen,http://www.vw.com,SUV,ELEC,Electric,250,"","","","","","","","","","","","",""
+12995,41,347,29,ID.4 Pro S AWD ,2021,98,88,93,"","","",e-motor,80 and 150 kW electric motors,"","80 and 150 kW electric motors;
+234 Ah battery",Volkswagen,http://www.vw.com,SUV,ELEC,Electric,240,"","","",AWD,"","","","","","","","",""
+12596,41,395,29,XC40 Recharge,2021,85,72,79,"","","","","","","150 kW electric motor;
+196 Ah battery",Volvo,"",SUV,ELEC,Electric,208,"","","","","","","","","","","","",""
+12432,41,377,29,e-tron Sportback,2020,76,78,77,"","","",e-motor,141 kW and 172 kW electric motor,"","141 kW and 172 kW electric motors;
+240 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,218,"","","","","","","","","","","","",""
+12438,41,211,27,i3,2020,124,102,113,"","","",e-motor,125 kW electric motor,"","125 kW electric motor;
+120 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,153,"","","","","","","","","","","","",""
+12439,41,211,27,i3s,2020,124,102,113,"","","",e-motor,135 kW electric motor,"","135 kW electric motor;
+120 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,153,"","","","","","","","","","","","",""
+12351,41,215,27,Bolt EV,2020,127,108,118,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+188 Ah battery",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,259,"","","","","","","","","","","","",""
+12461,41,219,9,Transit Cargo Van,2020,"","","","","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+43 kWh battery",Ford,https://www.ford.com,Van,ELEC,Electric,60,"","","This vehicle is available with an electric power train developed and installed by Lightning eMotors, an approved qualified vehicle modifier (QVM). It is available for delivery through select Ford dealerships, without impacting OEM warranties or service agreements.","","","","","","","","","",""
+12462,41,219,9,Transit Cargo Van,2020,"","","","","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+86 kWh battery",Ford,https://www.ford.com,Van,ELEC,Electric,120,"","","This vehicle is available with an electric power train developed and installed by Lightning eMotors, an approved qualified vehicle modifier (QVM). It is available for delivery through select Ford dealerships, without impacting OEM warranties or service agreements.","","","","","","","","","",""
+12463,41,219,3,Transit Passenger Van,2020,"","","","","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+86 kWh battery",Ford,https://www.ford.com,Passenger Van/Shuttle Bus,ELEC,Electric,120,"","","This vehicle is available with an electric power train developed and installed by Lightning eMotors, an approved qualified vehicle modifier (QVM). It is available for delivery through select Ford dealerships, without impacting OEM warranties or service agreements.","","","","","","","","","",""
+12464,41,219,3,Transit Passenger Van,2020,"","","","","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+43 kWh battery",Ford,https://www.ford.com,Passenger Van/Shuttle Bus,ELEC,Electric,60,"","","This vehicle is available with an electric power train developed and installed by Lightning eMotors, an approved qualified vehicle modifier (QVM). It is available for delivery through select Ford dealerships, without impacting OEM warranties or service agreements.","","","","","","","","","",""
+12362,41,351,27,Ioniq Electric,2020,145,121,133,"","","",e-motor,88 kW electric motor,"","100 kW electric motor;
+120 Ah battery",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,170,"","","","","","","","","","","","",""
+12352,41,351,29,Kona Electric,2020,132,108,120,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+180 Ah battery",Hyundai,http://www.hyundaiusa.com/,SUV,ELEC,Electric,258,"","","","","","","","","","","","",""
+12267,41,385,29,I-PACE,2020,80,72,76,"","","",e-motor,201 kW electric motor,"","201 kW electric motor;
+223 Ah battery",Jaguar,http://www.jaguarusa.com/index.html,SUV,ELEC,Electric,234,"","","","","","","","","","","","",""
+12440,41,361,27,Niro Electric,2020,123,102,112,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+180 Ah battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,239,"","","","","","","","","","","","",""
+12434,41,425,27,Cooper SE Hardtop 2 door,2020,115,100,108,"","","",e-motor,135 kW electric motor,"","135 kW electric motor;
+93 Ah battery",Mini,"",Sedan/Wagon,ELEC,Electric,110,"","","","","","","","","","","","",""
+12444,41,217,27,Leaf (40 kWh battery pack),2020,123,99,111,"","","",e-motor,110 kW electric motor,"","110 kW electric motor;
+115 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,149,"","","","","","","","","","","","",""
+12445,41,217,27,Leaf (62 kWh battery pack),2020,118,97,108,"","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+176 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,226,"","","","","","","","","","","","",""
+12446,41,217,27,Leaf SV/SL (62 kWh battery pack),2020,114,94,104,"","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+176 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,215,"","","","","","","","","","","","",""
+12451,41,391,27,Taycan 4S Perf Battery Plus,2020,68,69,71,"","","",e-motor,120 kW electric motor,"","120 kW electric motor
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,203,"","","","","","","","","","","","",""
+12417,41,391,27,Taycan Turbo,2020,68,69,71,"","","",e-motor,170 kW electric motor,"","170 kW electric motor
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,201,"","","","","","","","","","","","",""
+12416,41,391,27,Taycan Turbo S,2020,67,68,68,"","","",e-motor,170 kW electric motor,"","170 kW electric motor
+129 Ah battery",Porsche,http://www.porsche.com,Sedan/Wagon,ELEC,Electric,192,"","","","","","","","","","","","",""
+12372,41,237,27,Model 3 Long Range,2020,136,123,130,"","","",e-motor,211 kW electric motor,"","211 kW electric motor;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,330,"","","","","","","","","","","","",""
+12373,41,237,27,Model 3 Long Range AWD,2020,124,116,121,"","","",e-motor,147 kW and 188 kW electric motor,"","147 kW and 188 kW electric motors;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,322,"","","","","","","","","","","","",""
+12374,41,237,27,"Model 3 Long Range Performance AWD (18"" Wheels)",2020,124,116,121,"","","",e-motor,147 kW and 188 kW electric motor,"","147 kW and 188 kW electric motors;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,322,"","","This model is also available with 19"" or 20"" wheels, at reduced fuel economy and range.","","","","","","","","","",""
+12371,41,237,27,Model 3 Mid Range,2020,128,117,123,"","","",e-motor,211 kW electric motor,"","211 kW electric motor;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,264,"","","","","","","","","","","","",""
+12369,41,237,27,Model 3 Standard Range,2020,138,124,133,"","","",e-motor,211 kW electric motor,"","211 kW electric motor;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,220,"","","","","","","","","","","","",""
+12370,41,237,27,Model 3 Standard Range Plus,2020,148,141,132,"","","",e-motor,211 kW electric motor,"","211 kW electric motor;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,250,"","","","","","","","","","","","",""
+12368,41,237,27,Model S Long Range,2020,115,107,111,"","","",e-motor,193 kW and 205 kW electric motor,"","193 kW and 205 kW electric motor;
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,373,"","","","","","","","","","","","",""
+12465,41,237,27,Model S Long Range Plus,2020,121,112,117,"","","",e-motor,193 kW and 375 kW electric motor,"","193 kW and 375 kW electric motor;
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,402,"","","","","","","","","","","","",""
+12366,41,237,27,"Model S Performance (19"" Wheels)",2020,104,104,104,"","","",e-motor,193 kW and 205 kW electric motor,"","193 kW and 205 kW electric motor;
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,348,"","","This model is also available with 21"" wheels, at reduced fuel economy and 326 miles range.","","","","","","","","","",""
+12367,41,237,27,Model S Standard Range,2020,113,105,109,"","","",e-motor,193 kW and 205 kW electric motor,"","193 kW and 205 kW electric motor;
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,287,"","","","","","","","","","","","",""
+12364,41,237,29,Model X Long Range,2020,99,93,96,"","","",e-motor,193 and 205 kW electric motor,"","193 and 205 kW electric motors;
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,328,"","","","","","","","","","","","",""
+12365,41,237,29,"Model X Performance (20"" Wheels)",2020,90,89,90,"","","",e-motor,205 and 375 kW electric motors,"","205 and 375 kW electric motors;
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,305,"","","This model is also available with 22"" wheels, at reduced fuel economy and 272 miles range.","","","","","","","","","",""
+12363,41,237,29,Model X Standard Range,2020,105,98,101,"","","",e-motor,193 and 205 kW electric motor,"","193 and 205 kW electric motors;
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,258,"","","","","","","","","","","","",""
+12498,41,237,29,Model Y Long Range AWD,2020,127,114,121,"","","",e-motor,158 and 203 kW electric motors,"","158 and 203 kW electric motors;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,316,"","","","","","","","","","","","",""
+12454,41,237,29,Model Y Performance AWD,2020,129,112,121,"","","",e-motor,147 and 211 kW electric motors,"","147 and 211 kW electric motors;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,315,"","","","","","","","","","","","",""
+12497,41,237,29,"Model Y Performance AWD (21"" wheels)",2020,116,106,111,"","","",e-motor,158 and 219 kW electric motors,"","158 and 219 kW electric motors;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,291,"","","","","","","","","","","","",""
+12353,41,347,27,e-Golf,2020,122,104,113,"","","",e-motor,100 kW electric motor,"","100 kW electric motor;
+111 Ah battery",Volkswagen,http://www.vw.com,Sedan/Wagon,ELEC,Electric,123,"","","","","","","","","","","","",""
+12247,41,377,29,e-tron,2019,73,74,74,"","","",e-motor,141 kW and 172 kW electric motor,"","141 kW and 172 kW electric motors;
+240 Ah battery",Audi,http://progress.audiusa.com/,SUV,ELEC,Electric,204,"","","","","","","","","","","","",""
+12100,41,211,27,i3,2019,124,102,113,"","","",e-motor,135 kW electric motor,"","125 kW electric motor;
+120 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,153,"","","","","","","","","","","","",""
+12101,41,211,27,i3s,2019,124,102,113,"","","",e-motor,135 kW electric motor,"","135 kW electric motor;
+120 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,153,"","","","","","","","","","","","",""
+12217,41,410,27,e6,2019,73,71,72,"","","",e-motor,75 kW electric motor,"","75 kW electric motor; 
+270 Ah battery",BYD Motors,http://www.byd.com/,Sedan/Wagon,ELEC,Electric,187,"","","","","","","","","","","","",""
+12209,41,215,27,Bolt EV,2019,128,110,119,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+171 Ah battery",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,238,"","","","","","","","","","","","",""
+12219,41,379,27,500e,2019,121,103,112,"","","",e-motor,82 kW electric motor,"","82 kW electric motor;
+63 Ah battery",Fiat,http://www.fiatusa.com/,Sedan/Wagon,ELEC,Electric,84,"","","","","","","","","","","","",""
+12220,41,219,9,Transit Van/Wagon,2019,"","","","","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+86 kWh battery",Ford,https://www.ford.com,Van,ELEC,Electric,120,"","","This vehicle is available with an electric power train developed and installed by Lightning Systems, an approved qualified vehicle modifier (QVM). It is available for delivery through select Ford dealerships, without impacting OEM warranties or service agreements.","","","","","","","","","",""
+12246,41,219,9,Transit Van/Wagon,2019,"","","","","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+43 kWh battery",Ford,https://www.ford.com,Van,ELEC,Electric,60,"","","This vehicle is available with an electric power train developed and installed by Lightning Systems, an approved qualified vehicle modifier (QVM). It is available for delivery through select Ford dealerships, without impacting OEM warranties or service agreements.","","","","","","","","","",""
+12170,41,209,27,Clarity,2019,126,103,114,"","","",e-motor,120 kW electric motor,"","120 kW electric motor; 
+82 Ah battery",Honda,http://automobiles.honda.com,Sedan/Wagon,ELEC,Electric,89,"","","","","","","","","","","","",""
+12061,41,351,27,Ioniq Electric,2019,150,122,136,"","","",e-motor,88 kW electric motor,"","88 kW electric motor;
+78 Ah battery",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,124,"","","","","","","","","","","","",""
+12210,41,351,29,Kona Electric,2019,132,108,120,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+180 Ah battery",Hyundai,http://www.hyundaiusa.com/,SUV,ELEC,Electric,258,"","","","","","","","","","","","",""
+12103,41,385,29,I-PACE,2019,80,72,76,"","","",e-motor,147 kW electric motor,"","147 kW electric motor;
+223 Ah battery",Jaguar,http://www.jaguarusa.com/index.html,SUV,ELEC,Electric,239,"","","","","","","","","","","","",""
+12104,41,361,27,Niro Electric,2019,123,102,112,"","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+180 Ah battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,239,"","","","","","","","","","","","",""
+12221,41,361,27,Soul,2019,124,93,108,"","","",e-motor,81 kW electric motor,"","81 kW electric motor;
+80 Ah battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,111,"","","","","","","","","","","","",""
+12075,41,217,27,Leaf (40 kWh battery pack),2019,124,99,112,"","","",e-motor,110 kW electric motor,"","110 kW electric motor;
+115 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,150,"","","","","","","","","","","","",""
+12222,41,217,27,Leaf (62 kWh battery pack),2019,118,97,108,"","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+176 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,226,"","","","","","","","","","","","",""
+12223,41,217,27,Leaf SV/SL (62 kWh battery pack),2019,114,94,104,"","","",e-motor,160 kW electric motor,"","160 kW electric motor;
+176 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,215,"","","","","","","","","","","","",""
+12172,41,381,27,EQ fortwo convertible,2019,112,91,102,"","","",e-motor,60 kW electric motor,"","60 kW electric motor;
+51 Ah battery",smart,http://www.smartusa.com/,Sedan/Wagon,ELEC,Electric,57,"","","","","","","","","","","","",""
+12171,41,381,27,EQ fortwo coupe,2019,124,94,108,"","","",e-motor,60 kW electric motor,"","60 kW electric motor;
+51 Ah battery",smart,http://www.smartusa.com/,Sedan/Wagon,ELEC,Electric,58,"","","","","","","","","","","","",""
+12181,41,237,27,Model 3 Long Range,2019,136,123,130,"","","",e-motor,211 kW electric motor,"","211 kW electric motor;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,310,"","","","","","","","","","","","",""
+12182,41,237,27,Model 3 Long Range AWD,2019,120,112,116,"","","",e-motor,147 kW and 188 kW electric motor,"","147 kW and 188 kW electric motors;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,310,"","","","","","","","","","","","",""
+12179,41,237,27,Model 3 Long Range AWD Performance,2019,120,112,116,"","","",e-motor,147 kW and 211 kW electric motor,"","147 kW and 211 kW electric motors;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,310,"","","","","","","","","","","","",""
+12180,41,237,27,Model 3 Mid Range,2019,128,117,123,"","","",e-motor,202 kW electric motor,"","202 kW electric motor;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,264,"","","","","","","","","","","","",""
+12250,41,237,27,Model 3 Standard Range,2019,138,124,131,"","","",e-motor,211 kW electric motor,"","211 kW electric motor;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,220,"","","","","","","","","","","","",""
+12251,41,237,27,Model 3 Standard Range Plus,2019,140,124,133,"","","",e-motor,211 kW electric motor,"","211 kW electric motor;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,240,"","","","","","","","","","","","",""
+12177,41,237,27,Model S 100D,2019,101,102,102,"","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2);
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,335,"","","","","","","","","","","","",""
+12178,41,237,27,Model S 75D,2019,102,105,103,"","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2);
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,259,"","","","","","","","","","","","",""
+12249,41,237,27,Model S Long Range,2019,115,107,111,"","","",e-motor,193 kW and 205 kW electric motor,"","193 kW and 205 kW electric motor;
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,370,"","","","","","","","","","","","",""
+12176,41,237,27,Model S P100D,2019,92,105,98,"","","",e-motor,193 kW and 375 kW electric motor,"","193 kW and 375 kW electric motor;
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,315,"","","","","","","","","","","","",""
+12248,41,237,27,"Model S Performance (19"" Wheels)",2019,104,104,104,"","","",e-motor,193 kW and 205 kW electric motor,"","193 kW and 205 kW electric motor;
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,345,"","","","","","","","","","","","",""
+12258,41,237,27,Model S Standard Range,2019,113,105,109,"","","",e-motor,193 kW and 205 kW electric motor,"","193 kW and 205 kW electric motor;
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,285,"","","","","","","","","","","","",""
+12174,41,237,29,Model X 100D,2019,86,89,87,"","","",e-motor,193 kW and 193 kW electric motor,"","193 kW kW electric motor (X2);
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,295,"","","","","","","","","","","","",""
+12173,41,237,29,Model X 75D,2019,91,95,93,"","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2);
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,238,"","","","","","","","","","","","",""
+12256,41,237,29,Model X Long Range,2019,99,93,96,"","","",e-motor,"193, 205, 375 kW electric motor","","193, 205, and 375 kW electric motors;
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,325,"","","","","","","","","","","","",""
+12175,41,237,29,Model X P100D,2019,83,89,85,"","","",e-motor,193 kW and 375 kW electric motor,"","193 kW and 375 kW electric motor;
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,289,"","","","","","","","","","","","",""
+12257,41,237,29,"Model X Performance (22"" Wheels)",2019,80,77,79,"","","",e-motor,"193, 205, 375 kW electric motor","","193, 205, and 375 kW electric motors;
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,270,"","","","","","","","","","","","",""
+12105,41,347,27,e-Golf,2019,126,111,119,"","","",e-motor,100 kW electric motor,"","100 kW electric motor;
+111 Ah battery",Volkswagen,http://www.vw.com,Sedan/Wagon,ELEC,Electric,125,"","","","","","","","","","","","",""
+11975,41,211,27,I3 (94 Ah) ,2018,129,106,"","","","",e-motor,125 kW electric motor,"","125 kW electric motor;
+94 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11976,41,211,27,I3s (94 Ah) ,2018,126,99,"","","","",e-motor,125 kW electric motor,"","125 kW electric motor;
+94 Ah battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+12218,41,410,27,e6,2018,73,71,"","","","",e-motor,75 kW electric motor,"","75 kW electric motor; 
+270 Ah battery",BYD Motors,http://www.byd.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11841,41,215,27,Bolt EV,2018,128,110,"","","","",e-motor,150 kW electric motor,"","150 kW electric motor;
+171 Ah battery",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11990,41,379,27,500e,2018,121,103,"","","","",e-motor,82 kW electric motor,"","82 kW electric motor;
+63 Ah battery",Fiat,http://www.fiatusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11842,41,219,27,Focus Electric FWD,2018,118,96,"","","","",e-motor,107 kW electric motor,"","107 kW electric motor;
+105 Ah battery",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11991,41,209,27,Clarity,2018,126,103,"","","","",e-motor,120 kW electric motor,"","120 kW electric motor; 
+82 Ah battery",Honda,http://automobiles.honda.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11844,41,351,27,Ioniq Electric,2018,150,122,"","","","",e-motor,88 kW electric motor,"","88 kW electric motor;
+78 Ah battery",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11845,41,361,27,Soul,2018,124,93,"","","","",e-motor,81 kW electric motor,"","81 kW electric motor;
+80 Ah battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11974,41,217,27,Leaf,2018,125,100,"","","","",e-motor,110 kW electric motor,"","110 kW electric motor;
+115 Ah battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11849,41,381,27,fortwo electric drive convertable,2018,112,91,"","","","",e-motor,60 kW electric motor,"","60 kW electric motor;
+51 Ah battery",smart,http://www.smartusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11847,41,381,27,fortwo electric drive coupe,2018,124,94,"","","","",e-motor,60 kW electric motor,"","60 kW electric motor;
+51 Ah battery",smart,http://www.smartusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11966,41,237,27,Model 3 Long Range,2018,136,123,"","","","",e-motor,211 kW electric motor,"","211 kW electric motor;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+12057,41,237,27,Model 3 Long Range AWD,2018,120,112,"","","","",e-motor,147 kW and 188 kW electric motor,"","147 kW and 188 kW electric motors; 
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+12058,41,237,27,Model 3 Long Range AWD Performance,2018,120,112,"","","","",e-motor,147 kW and 188 kW electric motor,"","147 kW and 211 kW electric motors;
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11965,41,237,27,Model S 75 kWh,2018,97,100,"","","","",e-motor,270 kW electric motor,"","270 kW electric motor;
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11964,41,237,27,Model S AWD - 100D,2018,101,102,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2);
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11962,41,237,27,Model S AWD - 75D,2018,102,105,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2);
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11963,41,237,27,Model S AWD - P100D,2018,92,105,"","","","",e-motor,193 kW and 375 kW electric motor,"","193 kW and 375 kW electric motors;
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11959,41,237,29,Model X AWD - 100D,2018,86,89,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motors (X2);
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11958,41,237,29,Model X AWD - 75D,2018,91,95,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2);
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11961,41,237,29,Model X AWD - P100D,2018,83,89,"","","","",e-motor,193 kW and 375 kW electric motor,"","193 kW and 375 kW electric motors;
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11637,41,211,27,i3 BEV,2017,129,106,"","","","",SI,125 kW ,"",125 kW electric motor - 94 Amp-hour battery,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11636,41,211,27,i3 BEV,2017,137,111,"","","","",SI,125 kW,"",125 kW electric motor - 60 Amp-hour battery,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11813,41,410,27,e6,2017,73,71,"","","","",SI,"","","",BYD Motors,http://www.byd.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11638,41,215,27,Bolt,2017,128,110,"","","","",SI,150 kW,"","150 kW electric motor
+60 kWh battery",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11639,41,379,27,500e,2017,121,103,"","","","",SI,82 kW,"","82 kW electric motor
+24 kWh battery",Fiat,http://www.fiatusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11765,41,219,27,Focus Electric,2017,118,96,"","","","",SI,107 kW,"","107 kW electric motor
+34 kWh battery",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11843,41,209,27,Clarity,2017,126,103,"","","","",e-motor,120 kW electric motor,"","120 kW electric motor
+82 Ah battery",Honda,http://automobiles.honda.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11640,41,351,27,Ioniq,2017,150,122,"","","","",SI,"","","88 kW electric motor;
+28 kWh battery",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11768,41,361,27,Soul,2017,120,92,"","","","",SI,81 kW ,"","81 kW electric motor
+27 kWh battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11641,41,239,27,B250e,2017,85,82,"","","","",SI,132 kW,"","132 kW electric motor
+28 kWh battery",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11642,41,263,27,i-MiEV,2017,121,102,"","","","",SI,"","",49 kW electric motor 16 kW battery,Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11771,41,217,27,Leaf,2017,124,101,"","","","",SI,80 kW,"","80 kW electric motor
+30 kWh battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11848,41,381,27,fortwo electric drive convertable,2017,112,91,"","","","",e-motor,60 kW electric motor,"","60 kW electric motor
+51 Ah battery",smart,http://www.smartusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11846,41,381,27,fortwo electric drive coupe,2017,124,94,"","","","",e-motor,60 kW electric motor,"","60 kW electric motor
+51 Ah battery",smart,http://www.smartusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11852,41,237,27,Model 3 Long Range,2017,131,120,"","","","",e-motor,211 kW electric motor,"","211 kW electric motor
+230 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11851,41,237,27,Model S AWD - 100D,2017,101,102,"","","","",e-motor,193 kW and 375 kW electric motor,"","193 kW and 375 kW electric motors
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11777,41,237,27,Model S AWD - 60D,2017,101,107,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2)
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11778,41,237,27,Model S AWD - 75D,2017,102,105,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motors (X2)
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11780,41,237,27,Model S AWD - P100D,2017,92,105,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2)
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11779,41,237,27,Model S AWD - P90D,2017,92,100,"","","","",e-motor,193 kW and 375 kW electric motor,"","193 kW and 375 kW electric motors
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11781,41,237,27,Model S RWD 60 kWh,2017,98,101,"","","","",e-motor,285 kW electric motor,"","285 kW electric motor
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11782,41,237,27,Model S RWD 75 kWh,2017,97,100,"","","","",e-motor,285 kW electric motor,"","285 kW electric motor
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11850,41,237,27,Model S RWD 90D,2017,102,107,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2)
+245 Ah battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11960,41,237,29,Model X AWD - 100D,2017,86,89,"","","","",e-motor,193 kW and 193 kW electric motor,"","193 kW and 193 kW electric motors;
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11812,41,237,29,Model X AWD - 60D,2017,91,94,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2)
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11773,41,237,29,Model X AWD - 75D,2017,91,95,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motor (X2)
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11774,41,237,29,Model X AWD - 90D,2017,90,94,"","","","",e-motor,193 kW electric motor (X2),"","193 kW electric motors (X2)
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11775,41,237,29,Model X AWD - P100D,2017,81,92,"","","","",e-motor,193 kW electric motor (X2),"","193 kW and 375 kW electric motors
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11776,41,237,29,Model X AWD - P90D,2017,89,90,"","","","",e-motor,193 kW and 375 kW electric motor,"","193 kW and 375 kW electric motor (X2)
+250 Ah battery",Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11644,41,347,27,e-Golf,2017,119,111,"","","","",SI,"","","100 kW electric motor;
+36 kWh battery",Volkswagen,http://www.vw.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11598,41,211,27,i3,2016,137,111,"","","","",SI,125 kW ,"",125 kW electric motor 21 kWh battery,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11599,41,215,27,Spark,2016,128,108,"","","","",SI,104 kW,"",104 kW electric motor 20 kWh battery,Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11600,41,379,27,500e,2016,122,108,"","","","",SI,83kW,"",83kW electric motor 24 kWh battery,Fiat,http://www.fiatusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11601,41,219,27,Focus,2016,110,99,"","","","",SI,107 kW,"",107 kW electric motor 23 kWh battery,Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11603,41,239,27,B250e,2016,85,82,"","","","",SI,132 kW,"",132 kW electric motor 28 kWh battery,Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11604,41,263,27,i-MiEV,2016,126,99,"","","","",SI,49 kW,"",49 kW electric motor 16 kWh battery,Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11605,41,217,27,Leaf,2016,126,101,"","","","",SI,80 kW,"",80 kW electric motor 24 kWh battery,Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11606,41,381,27,fortwo,2016,122,93,"","","","",SI,55 kW,"",55 kW electric motor 17.6 kWh battery,smart,http://www.smartusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11607,41,237,27,Model S,2016,88,90,"","","","",SI,285 kW,"",285 kW electric motor 70 kWh battery,Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11608,41,237,27,Model S AWD,2016,95,106,"","","","",SI,350/285 kW,"",350/285 kW electric motor 90 kWh battery,Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11609,41,237,29,Model X AWD 90D,2016,90,94,"","","","",SI,193/193 kW,"",193/193 kW electric motor 90 kWh battery,Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11610,41,237,29,Model X AWD P90D,2016,89,90,"","","","",SI,193/375 kW,"",193/375 kW electric motor 90 kWh battery,Tesla,https://www.tesla.com/models/design,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+11611,41,347,27,e-Golf,2016,126,105,"","","","",SI,85 kW,"",85 kW electric motor 24.2 kWh battery,Volkswagen,http://www.vw.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11344,41,211,27,i3,2015,137,111,"","","","","",125 kW,"","125 kW electric motor, 21 kWh battery",BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11345,41,215,27,Spark,2015,128,109,"","","","",e-motor,104 kW,"","104 kW electric motor, 20 kWh battery",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11346,41,379,27,500e,2015,122,108,"","","","",e-motor,83 kW,"","83kW electric motor, 24 kWh battery",Fiat,http://www.fiatusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11347,41,219,27,Focus,2015,110,99,"","","","",e-motor,107 kW,"","107 kW electric motor, 23 kWh battery",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11349,41,361,27,Soul,2015,120,92,"","","","",e-motor,50 kW,"","50 kW electric motor, 16.4 kWh battery",Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11350,41,239,27,B-Class Electric,2015,85,83,"","","","",e-motor,132 kW,"","132 kW electric motor, 28 kWh battery",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11351,41,263,27,i-MiEV,2015,126,99,"","","","",e-motor,49 kW,"","49 kW electric motor, 16 kWh battery",Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11352,41,217,27,Leaf,2015,126,101,"","","","",e-motor,80 kW,"","80 kW electric motor, 24 kWh battery",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11353,41,381,27,fortwo,2015,122,93,"","","","",e-motor,55 kW,"","55 kW electric motor, 17.6 kWh battery",smart,http://www.smartusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11354,41,237,27,Model S,2015,94,97,"","","","",e-motor,300 kW,"","300 kW electric motor, 60 kWh battery",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11356,41,347,27,e-Golf,2015,"","","","","","",e-motor,85 kW,"","85 kW electric motor, 24.2 kWh battery",Volkswagen,http://www.vw.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11260,41,211,27,i3,2014,"","","","","","","",125,"",125 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11261,41,215,27,Spark,2014,128,109,"","","","","",104,"",104 kW electric motor,Chevrolet,http://www.chevrolet.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11262,41,379,27,500e,2014,122,108,"","","","","",83kW,"",83kW electric motor,Fiat,http://www.fiatusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11263,41,219,27,Focus,2014,110,99,"","","","","",107,"",107 kW electric motor,Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11264,41,209,27,Fit,2014,132,105,"","","","","",92,"",92 kW electric motor,Honda,http://automobiles.honda.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11265,41,361,27,Soul,2014,"","","","","","","",50,"",50 kW electric motor,Kia,http://www.kia.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11266,41,239,27,B-Class Electric,2014,"","","","","","","",100,"",100 kW electric motor,Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11267,41,263,27,i-MiEV,2014,126,99,"","","","","",49,"",49 kW electric motor,Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11268,41,217,27,Leaf,2014,"","","","","","","",80,"",80 kW electric motor,Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11269,41,353,27,iQ EV,2014,138,105,"","","","","",47,"",47 kW electric motor,Scion,http://www.scion.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11270,41,381,27,fortwo,2014,122,93,"","","","","",55,"",55 kW electric motor,smart,http://www.smartusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11271,41,237,27,Model S,2014,94,97,"","","","","",300,"",300 kW electric motor,Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+11272,41,221,29,RAV 4 EV,2014,78,74,"","","","","",115,"",115 kW electric motor,Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+10474,41,363,27,CODA,2013,77,68,"","","","",Electric,100 kW e-motor,"","",Coda Automotive,http://www.codaautomotive.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10491,41,379,27,500e,2013,116,100,"","","","","",100 kW e-motor,"","",Fiat,http://www.fiatusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10492,41,219,27,Focus,2013,110,99,"","","","","",107 kW e-motor,"","",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10524,41,209,27,FIT EV,2013,132,105,"","","","","",92 kW e-motor,"","",Honda,http://automobiles.honda.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10540,41,263,27,i-MiEV,2013,126,99,"","","","","",49 kW e-motor,"","",Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10541,41,217,27,Leaf,2013,106,92,"","","","","",80 kW e-motor,"","",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10557,41,353,27,iQ EV,2013,138,105,"","","","","",47 kW e-motor,"","",Scion,http://www.scion.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10539,41,381,27,fortwo,2013,112,88,"","","","","",55 kW e-motor,"","",smart,http://www.smartusa.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10546,41,237,27,Model S,2013,88,90,"","","","","",300 kW e-motor,"","",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10556,41,221,29,RAV 4 EV,2013,78,74,"","","","","",115 kW e-motor,"","",Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+10420,41,363,27,CODA,2012,77,68,"","","","","",100kW e-motor,"","",Coda Automotive,http://www.codaautomotive.com/,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10303,41,219,27,Focus EV,2012,"","","","","","",105 kW e-motor,"","","",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10304,41,219,9,Ford Azure Transit Connect,2012,62,62,"","","","",52 kW e-motor,"","","",Ford,https://www.ford.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+10357,41,209,27,Fit EV,2012,"","","","","","","","","","",Honda,http://automobiles.honda.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10371,41,263,27,Mitusbishi i,2012,126,99,"","","","",66 kW e-motor,"","","",Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10375,41,217,27,Leaf,2012,106,92,"","","","",80 kW e-motor,"","","",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10378,41,237,27,Model S,2012,88,90,"","","","",e-motor,300 kW,"","",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10386,41,221,29,RAV4 EV,2012,"","","","","","","","","","",Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+10389,41,241,27,LiFe,2012,"","","","","","",15 kW e-motor,"","","","Wheego Electric Cars, Inc.","",Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10200,41,219,9,Ford  Azure Transit Connect,2011,62,"","","","","",52 kW e-motor,"","","",Ford,https://www.ford.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+10128,41,217,27,Leaf,2011,"","","","","","","","","","",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10058,41,217,27,LEAF,2011,0.320,0.370,"","","","",AC electric motor,"","","",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+10060,41,237,27,Roadster 2.5,2011,0.300,0.300,"","","","","","","","",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+955,41,237,27,Roadster,2010,"","","","","","","","","","",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+928,41,237,27,Roadster 2.5,2009,"","","","","","","","","","",Tesla,https://www.tesla.com/models/design,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+281,41,319,9,Citivan,2004,800,800,"","","","",110kW Solectria AC Induction Direct-Drive,"","","",Solectria,http://www.solectria.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+264,41,219,27,TH!NK City,2003,"","","","","","",Three-phase AC induction,"","","",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+279,41,217,27,Altra EV,2003,26,29,"","","","",Permanent Magnet Synchronous Motor,"",0,"",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+280,41,217,27,Hypermini,2003,"","","","","","",Neodymium Magnet AC Synchronous,"","","",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+572,41,319,9,Citivan,2003,800,800,"","","","",110kW Solectria AC Induction Direct-Drive,"","","",Solectria,http://www.solectria.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+262,41,221,29,RAV4-EV,2003,27,34,"",25,31,"",Permanent-Magnet 50 kW DC,"","","",Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+183,41,219,25,Ranger EV(Lead Acid),2002,38,44,"",17,22,"","High Efficiency, liquid cooled, 3-phase 67 kW AC induction","","","",Ford,https://www.ford.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+169,41,219,27,Th!NK City,2002,"","","","","","",Three-phase AC induction,"","","",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+206,41,217,27,Altra EV,2002,26,29,"","","","",Permanent Magnet Synchronous Motor,"",0,"",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+207,41,217,27,Hypermini,2002,"","","","","","",Neodymium Magnet AC Synchronous,"","","",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+208,41,319,9,Citivan,2002,"","","","",0,"",70kW Solectria AC Induction Direct-Drive,"","","",Solectria,http://www.solectria.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+209,41,221,29,RAV4-EV,2002,29,37,"",22,26,"",Permanent-Magnet 50 kW DC,"","","",Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+92,41,219,25,Ranger EV(Lead Acid),2001,38,44,"","","","","High Efficiency, liquid cooled, 3-phase 67 kW AC induction","","","",Ford,https://www.ford.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+104,41,317,27,EV1-Lead Acid,2001,26,26,"","","","","Three Phase, Alternating Current, AC Induction","","","",General Motors EV,"",Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+105,41,317,27,EV1-NiMH,2001,34,30,"","","","","","","","",General Motors EV,"",Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+131,41,217,27,Altra EV,2001,26,29,"","","","",Permanent Magnet Synchronous Motor,"",0,"",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+570,41,217,27,Hypermini (CA only),2001,"","","","","","",Neodymium Magnet AC Synchronous,"","","",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+130,41,319,9,Citivan,2001,"","","","",0,"",70kW Solectria AC Induction Direct-Drive,"","","",Solectria,http://www.solectria.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+128,41,319,25,Flash,2001,"","","",0,0,"",34kW AC Induction Drive,"","","",Solectria,http://www.solectria.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+129,41,319,27,Force,2001,13.700,"","",30,34,"","","","","",Solectria,http://www.solectria.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+123,41,221,27,E-COM,2001,"","","","","","",Permanent-Magnet,"","","",Toyota,http://www.toyota.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+122,41,221,29,RAV4-EV,2001,29,37,"",22,26,"",Permanent-Magnet 50 kW DC,"","","",Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+579,41,215,25,Chevrolet S-10 NiMH,2000,94,86,"",16,21,"","","","","",Chevrolet,http://www.chevrolet.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+578,41,215,25,Chevrolet S-10 PbA,2000,45,41,"",16,21,"","","","","",Chevrolet,http://www.chevrolet.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+79,41,223,9,Voyager EPIC,2000,67,73,"",20,26,"","","","","",Chrysler,http://www.chrysler.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+75,41,225,9,Caravan EPIC,2000,67,"","","",26,"","","","","",Dodge,http://www.dodge.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+73,41,219,25,Ranger EV-NiMH PbA,2000,38,44,"",19,26,"","","","","",Ford,https://www.ford.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+580,41,219,27,Th!NK City-sel mrkts,2000,"","","","","","",Three-phase AC induction,"","","",Ford,https://www.ford.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+577,41,317,27,EV1-Lead Acid,2000,26,26,"","","","","Three Phase, Alternating Current, AC Induction","","","",General Motors EV,"",Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+576,41,317,27,EV1-NiMH,2000,34,30,"","","","","","","","",General Motors EV,"",Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+81,41,217,27,Altra EV,2000,26,29,"",0,0,"","","",0,"",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+83,41,319,25,Flash,2000,"","","",0,0,"","","","","",Solectria,http://www.solectria.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+84,41,319,27,Force NiCd PbA NiMH,2000,13.700,"","",30,34,"","","","","",Solectria,http://www.solectria.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+82,41,221,29,RAV4-EV,2000,29,37,"",22,26,"","","","","",Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+44,41,215,25,Chevrolet S-10 L/A,1999,45,41,"",16,21,"","","","","",Chevrolet,http://www.chevrolet.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+53,41,215,25,Chevrolet S-10 NiMH,1999,94,86,"",16,21,"","","","","",Chevrolet,http://www.chevrolet.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+23,41,223,9,Epic Minivan,1999,67,73,"",20,26,"","","","","",Chrysler,http://www.chrysler.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+600,41,225,9,Caravan EPIC,1999,67,"","","",26,"","","","","",Dodge,http://www.dodge.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+37,41,219,25,Ranger EV-Lead Acid,1999,38,44,"",16,21,"","","","","",Ford,https://www.ford.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+51,41,219,25,Ranger EV-NiMH,1999,0,0,"",16,21,"","","","","",Ford,https://www.ford.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+43,41,317,27,EV1-Lead Acid,1999,30,25,"",0,0,"","Three Phase, Alternating Current, AC Induction","","","",General Motors EV,"",Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+52,41,317,27,EV1-NiMH,1999,34,30,"",0,0,"","","","","",General Motors EV,"",Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+26,41,209,27,EV Plus,1999,49,51,"",20,28,"","","",0,"",Honda,http://automobiles.honda.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+47,41,217,27,Altra EV,1999,30,34,"",0,0,"","","",0,"",Nissan,http://www.nissanusa.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+29,41,319,9,CitiVan,1999,8.500,"","",0,0,"","","","","",Solectria,http://www.solectria.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""
+30,41,319,25,Flash,1999,"","","",0,0,"","","","","",Solectria,http://www.solectria.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+32,41,319,27,Force Lead Acid,1999,13.700,"","",30,34,"","","","","",Solectria,http://www.solectria.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+31,41,319,27,Force NiCd,1999,13.700,"","",30,34,"","","","","",Solectria,http://www.solectria.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+582,41,221,29,RAV4-EV NiMH,1999,29,37,"",22,26,"","","","","",Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+50,41,221,29,RAV4-EV PbA,1999,29,37,"",22,26,"","","","","",Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+12,41,215,25,Chevrolet S-10,1998,94,86,"",28,34,"","","","","",Chevrolet,http://www.chevrolet.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+11,41,215,25,Chevrolet S-10 PbA,1998,45,41,"",28,34,"","","","","",Chevrolet,http://www.chevrolet.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+1,41,219,25,Ranger EV,1998,0,0,"",0,0,"","high-efficiency, 3-phase AC induction motor","",0,"",Ford,https://www.ford.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+594,41,317,27,"EV1-NiMH (CA,AZ)",1998,34,30,"","","","","","","","",General Motors EV,"",Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+593,41,317,27,"EV1 - PbA (CA, AZ)",1998,30,25,"",0,0,"","Three Phase, Alternating Current, AC Induction","","","",General Motors EV,"",Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+3,41,209,27,EV Plus,1998,100,84,"",0,0,"","","",0,"",Honda,http://automobiles.honda.com,Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+596,41,221,29,RAV4-EV NiMH (Flts.),1998,29,37,"",22,26,"","","","","",Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+595,41,221,29,RAV4-EV PbA (Fleets),1998,29,37,"",22,26,"","","","","",Toyota,http://www.toyota.com,SUV,ELEC,Electric,"","","","","","","","","","","","","",""
+616,41,215,25,Chevrolet S-10 PbA,1997,45,41,"",28,34,"","","","","",Chevrolet,http://www.chevrolet.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+601,41,219,25,Ranger EV,1997,0,0,"",0,0,"","high-efficiency, 3-phase AC induction motor","",0,"",Ford,https://www.ford.com,Pickup,ELEC,Electric,"","","","","","","","","","","","","",""
+214,41,317,27,EV1-Lead Acid,1997,26,26,"","","","","Three Phase, Alternating Current, AC Induction","","","",General Motors EV,"",Sedan/Wagon,ELEC,Electric,"","","","","","","","","","","","","",""
+630,41,225,9,Plymouth TE Van,1995,"","","","","","","","",6,"",Dodge,http://www.dodge.com,Van,ELEC,Electric,"","","","","","","","","","","","","",""

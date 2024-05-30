@@ -1,0 +1,628 @@
+Vehicle ID,Fuel ID,Manufacturer ID,Category ID,Model,Model Year,Alternative Fuel Economy City,Alternative Fuel Economy Highway,Alternative Fuel Economy Combined,Conventional Fuel Economy City,Conventional Fuel Economy Highway,Conventional Fuel Economy Combined,Engine Type,Engine Size,Engine Cylinder Count,Engine/Motor(s) Description,Manufacturer,Manufacturer URL,Category,Fuel Code,Fuel,Electric-Only Range,Total Range,PHEV Type,Notes,Drivetrain,Charging Rate Level 2 (kW),Charging Rate DC Fast (kW),Charging Speed Level 1 (miles added per hour of charging),Charging Speed Level 2 (miles added per hour of charging),Charging Speed DC Fast (miles added per hour of charging),Battery Voltage,Battery Capacity Amp Hours,Battery Capacity kWh,Seating Capacity
+13532,57,490,29,Tonale eAWD,2024,"","",77,29,29,29,SI,1.3L,4,"1.3L I4;
+89 kW electric motor",Alfa Romeo,"",SUV,PHEV,Plug-in Hybrid Electric,33,360,Blended,"",AWD,"","","","","",304,51.0,15.0,""
+13597,57,355,27,Flying Spur Hybrid,2024,"","",46,17,22,19,SI,2.9L,6,"2.9L V6;
+103 kW electric motor",Bentley Motors,http://www.bentleymotors.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,430,Blended,"",AWD,"","","","","",374,48.0,17.0,""
+13598,57,211,27,330e Sedan,2024,"","",73,24,32,26,SI,2.0L,4,2.0L I4; 80 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,22,310,Blended,"",RWD,3.7,"",3,8,"",354,34.0,12.0,5
+13599,57,211,27,330e xDrive,2024,"","",68,22,32,26,SI,2.0L,4,2.0L I4; 80 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,20,300,Blended,"",AWD,3.7,"",3,8,"",354,34.0,12.0,5
+13600,57,211,29,XM,2024,"","",46,12,17,14,SI,4.4L,8,4.4L V8; 145 kW electric motor,BMW,https://www.bmwusa.com,SUV,PHEV,Plug-in Hybrid Electric,31,300,Blended,"",AWD,7.4,"",2,11,"",317,93.0,29.0,5
+13530,57,223,9,Pacifica Hybrid,2024,"","",82,29,30,30,SI,3.6L,6,"3.6L V6;
+89 kW electric motor",Chrysler,http://www.chrysler.com,Van,PHEV,Plug-in Hybrid Electric,32,550,Blended,"",FWD,6.6,"",3,16,"",360,47.0,16.0,7
+13531,57,225,29,Hornet PHEV AWD,2024,"","",77,29,29,29,SI,1.3L,4,"1.3L I4;
+89 kW electric motor",Dodge,http://www.dodge.com,SUV,PHEV,Plug-in Hybrid Electric,33,360,Blended,"",AWD,"","","","","",304,51.0,15.0,""
+13601,57,409,27,SF90 Spider,2024,"","",44,16,19,17,SI,3.9L,8,"3.9L V8; 99, 99, and 150 kW electric motors",Ferrari,http://www.ferrari.com/en_us/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,8,330,Blended,"",AWD,"","","","","",309,21.0,6.0,""
+13602,57,409,27,SF90 Stradale ,2024,"","",51,16,20,18,SI,3.9L,8,"3.9L V8; 99, 99, and 150 kW electric motors",Ferrari,http://www.ferrari.com/en_us/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,9,340,Blended,"",AWD,"","","","","",309,21.0,6.0,""
+13603,57,351,29,Tucson Plug-in Hybrid,2024,"","",80,35,35,35,SI,1.6L,4,"1.6L I4;
+67 kW electric motor",Hyundai,http://www.hyundaiusa.com/,SUV,PHEV,Plug-in Hybrid Electric,33,420,Blended,"",AWD,7.2,"",4,20,"",360,38.0,13.0,5
+13534,57,275,29,Grand Cherokee 4xe,2024,"","",56,23,24,23,SI,2.0L,4,"2.0L I4;
+100 kW electric motor",Jeep,https://www.jeep.com,SUV,PHEV,Plug-in Hybrid Electric,26,470,Blended,"",4WD,7.7,"",2,13,"",345,50.0,17.0,5
+13533,57,275,29,Wrangler 4dr 4xe,2024,"","",49,20,20,20,SI,2.0L,4,"2.0L I4;
+100 kW electric motor",Jeep,https://www.jeep.com,SUV,PHEV,Plug-in Hybrid Electric,22,370,Blended,"",4WD,7.7,"",2,11,"",355,50.0,17.0,5
+13604,57,361,29,Sorento Plug-in Hybrid,2024,"","",79,35,33,34,SI,1.6L,4,"1.6L I4;
+67 kW electric motor",Kia,http://www.kia.com,SUV,PHEV,Plug-in Hybrid Electric,32,460,Blended,"",AWD,7.2,"",4,22,"",360,38.0,13.0,6
+13605,57,361,29,Sportage Plug-in Hybrid,2024,"","",84,36,35,35,SI,1.6L,4,"1.6L I4;
+67 kW electric motor",Kia,http://www.kia.com,SUV,PHEV,Plug-in Hybrid Electric,34,430,Blended,"",AWD,7.2,"",4,22,"",360,38.0,13.0,5
+13606,57,243,29,NX 450h+ AWD,2024,"","",84,38,33,36,SI,2.5L,4,"2.5L I4;
+40 and 134 kW electric motors",Lexus,"",SUV,PHEV,Plug-in Hybrid Electric,37,550,Blended,"",AWD,3.3-6.6,"",3,16,"",355,51.0,18.0,5
+13607,57,263,29,Outlander PHEV,2024,"","",64,25,27,26,SI,2.4L,4,"2.4L I4;
+85 and 100 kW electric motors",Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,SUV,PHEV,Plug-in Hybrid Electric,38,420,Blended,"",AWD,3.7,22,3,8,33,350,56.0,19.0,7
+13608,57,221,27,Prius Prime/SE,2024,"","",114,"","",48-52,SI,2.0L,4,"2.0L I4;
+120 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,40-45,550-600,Blended,Includes standard and SE models,FWD,3.5,"",5,13,"",266,51.0,13.0,5
+13609,57,221,29,RAV4 Prime AWD,2024,"","",94,40,36,38,SI,2.5L,4,"2.5L I4;
+40 and 134 kW electric motors",Toyota,http://www.toyota.com,SUV,PHEV,Plug-in Hybrid Electric,42,600,Blended,"",AWD,3.3-6.6,"",3,9,"",355,51.0,18.0,5
+13610,57,395,27,S60 T8 AWD Recharge,2024,"","",74,30,33,31,SI,2.0L,4,"2.0L I4;
+34 kW electric motors (x2)",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,40,530,Blended,"",AWD,3.6,"",2,7,"",369,51.0,18.0,5
+13611,57,395,29,XC60 T8 AWD Recharge,2024,"","",63,28,28,28,SI,2.0L,4,"2.0L I4;
+34 kW electric motors (x2)",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,35,560,Blended,"",AWD,3.6,"",2,6,"",369,51.0,18.0,5
+13612,57,395,29,XC90 T8 AWD Recharge,2024,"","",58,26,27,27,SI,2.0L,4,"2.0L I4;
+
+34 and 107 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,32,530,Blended,"",AWD,3.6,"",2,6,"",369,51.0,18.0,7
+13466,57,377,29,Q5 TFSI e,2023,"","",60,25,27,26,SI,2.0L,4,2.0L I4; 105 kW electric motor,Audi,http://progress.audiusa.com/,SUV,PHEV,Plug-in Hybrid Electric,22,400,Blended,"",AWD,7.4,"",2,24,"",374,48.0,17.0,5
+13467,57,355,29,Bentayga Hybrid,2023,"","",47,18,24,20,SI,3.0L,6,3.0L V6; 103 kW electric motor,Bentley Motors,http://www.bentleymotors.com,SUV,PHEV,Plug-in Hybrid Electric,18,420,Blended,"",AWD,"","","","","",374,48.0,17.0,""
+13286,57,355,27,Flying Spur Hybrid,2023,"","",46,17,22,19,SI,2.9L,6,"2.9L V6;
+103 kW electric motor",Bentley Motors,http://www.bentleymotors.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,430,Blended,"",AWD,"","","","","",374,48.0,17.0,""
+13468,57,211,27,330e Sedan,2023,"","",73,24,32,27,SI,2.0L,4,2.0L I4; 80 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,22,310,Blended,"",RWD,3.7,"",3,8,"",354,34.0,12.0,5
+13469,57,211,27,330e xDrive,2023,"","",68,22,32,26,SI,2.0L,4,2.0L I4; 80 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,20,300,Blended,"",AWD,3.7,"",3,8,"",354,34.0,12.0,5
+13287,57,211,27,530e Sedan,2023,"","",64,24,29,26,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,340,Blended,"",RWD,3.7,"",2,8,"",354,34.0,12.0,5
+13288,57,211,27,530e xDrive Sedan,2023,"","",62,22,28,25,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,320,Blended,"",AWD,3.7,"",2,8,"",354,34.0,12.0,5
+13289,57,211,29,X5 xDrive45e,2023,"","",50,19,22,20,SI,3.0L,6,"3.0L V6;
+83 kW electric motor",BMW,https://www.bmwusa.com,SUV,PHEV,Plug-in Hybrid Electric,31,400,Blended,"",AWD,3.7,"",2,5,"",355,68.0,24.0,5
+13343,57,211,29,XM,2023,"","",73,12,17,14,SI,4.4L,8,"4.4L V8;
+145 kW electric motor",BMW,https://www.bmwusa.com,SUV,PHEV,Plug-in Hybrid Electric,31,300,Blended,"",AWD,"","","","","",317,93.0,29.0,""
+13290,57,223,9,Pacifica Hybrid,2023,"","",82,29,30,30,SI,3.6L,6,"3.6L V6;
+89 kW electric motor",Chrysler,http://www.chrysler.com,Van,PHEV,Plug-in Hybrid Electric,32,520,Blended,"",FWD,6.6,"",3,16,"",360,47.0,16.0,7
+13472,57,409,27,296 GTB Spider,2023,"","",47,15,21,18,SI,2.9L,6,2.9L V6; 137 kW electric motor,Ferrari,http://www.ferrari.com/en_us/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,7,320,Blended,"",RWD,"","","","","",294,21.0,6.0,""
+13470,57,409,27,SF90 Spider,2023,"","",44,16,19,17,SI,3.9L,8,"3.9L V8; 99 kW, 99 kW, and 150 kW electric motors",Ferrari,http://www.ferrari.com/en_us/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,8,320,Blended,"",AWD,"","","","","",309,21.0,6.0,""
+13471,57,409,27,SF90 Stradale,2023,"","",51,16,20,18,SI,3.9L,8,"3.9L V8; 99 kW, 99 kW, and 150 kW electric motors",Ferrari,http://www.ferrari.com/en_us/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,9,330,Blended,"",AWD,"","","","","",309,21.0,6.0,""
+13473,57,219,29,Escape FWD PHEV,2023,"","",101,42,37,40,SI,2.5L,4,"2.5L I4;
+78 kW electric motor",Ford,https://www.ford.com,SUV,PHEV,Plug-in Hybrid Electric,37,520,Blended,"",FWD,5,"",4,15,"",302,48.0,14.0,5
+13291,57,351,29,Santa Fe Plug-in Hybrid,2023,"","",76,33,32,33,SI,1.6L,4,"1.6L I4;
+67 kW electric motor",Hyundai,http://www.hyundaiusa.com/,SUV,PHEV,Plug-in Hybrid Electric,31,440,Blended,"",AWD,3.3,"",4,20,"",360,38.0,13.0,5
+13292,57,351,29,Tucson Plug-in Hybrid,2023,"","",80,35,35,35,SI,1.6L,4,"1.6L I4;
+67 kW electric motor",Hyundai,http://www.hyundaiusa.com/,SUV,PHEV,Plug-in Hybrid Electric,33,420,Blended,"",AWD,7.2,"",4,20,"",360,38.0,13.0,5
+13294,57,275,29,Grand Cherokee 4xe,2023,"","",56,23,24,23,SI,2.0L,4,"2.0L I4;
+100 kW electric motor",Jeep,https://www.jeep.com,SUV,PHEV,Plug-in Hybrid Electric,26,470,Blended,"",4WD,7.7,"",2,13,"",345,50.0,17.0,5
+13293,57,275,29,Wrangler 4dr 4xe,2023,"","",49,20,20,20,SI,2.0L,4,"2.0L I4;
+100 kW electric motor",Jeep,https://www.jeep.com,SUV,PHEV,Plug-in Hybrid Electric,22,370,Blended,"",4WD,7.7,"",2,11,"",355,50.0,17.0,5
+13474,57,361,27,Niro Plug-in Hybrid,2023,"","",108,49,47,48,SI,1.6L,4,"1.6L I4;
+62 kW electric motor",Kia,http://www.kia.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,34,510,Blended,"",FWD,3.3,"",4,10,"",360,31.0,11.0,5
+13475,57,361,29,Sorento Plug-in Hybrid,2023,"","",79,35,33,34,SI,1.6L,4,"1.6L I4;
+67 kW electric motor",Kia,http://www.kia.com,SUV,PHEV,Plug-in Hybrid Electric,32,460,Blended,"",AWD,7.2,"",4,22,"",360,38.0,13.0,6
+13476,57,361,29,Sportage Plug-in Hybrid,2023,"","",84,36,35,35,SI,1.6L,4,"1.6L I4;
+67 kW electric motor",Kia,http://www.kia.com,SUV,PHEV,Plug-in Hybrid Electric,34,430,Blended,"",AWD,7.2,"",4,22,"",360,39.0,14.0,5
+13477,57,387,29,New Range Rover/Sport P440 PHEV,2023,"","",51,19,24,21,CI,3.0L,6,"3.0L V6;
+105 kW electric motor",Land Rover,https://www.landroverusa.com/index.html,SUV,PHEV,Plug-in Hybrid Electric,21,450,Blended,Includes standard and Sport models,4WD,"","","","","",398,96.0,38.0,""
+13295,57,243,29,NX 450h+ AWD,2023,"","",84,38,33,36,SI,2.5L,4,"2.5L I4;
+40kW and 134kW electric motors;",Lexus,"",SUV,PHEV,Plug-in Hybrid Electric,37,550,Blended,"",AWD,3.3-6.6,"",3,16,"",355,51.0,18.0,5
+13296,57,227,29,Aviator AWD PHEV,2023,"","",56,22,25,23,SI,3.0L,6,"3.0L V6;
+74 kW electric motor",Lincoln,http://www.lincoln.com,SUV,PHEV,Plug-in Hybrid Electric,21,460,Blended,"",Part-Time 4WD,6.6,"",2,11,"",347,36.0,12.0,7
+13478,57,227,29,Corsair AWD PHEV,2023,"","",78,34,32,33,SI,2.5L,4,"2.5L I4;
+50 kW and 96 kW electric motors",Lincoln,http://www.lincoln.com,SUV,PHEV,Plug-in Hybrid Electric,27,430,Blended,"",Part-Time 4WD,6.6,"",3,15,"",302,48.0,14.0,5
+13121,57,389,27,Artura,2023,"","",39,17,21,18,SI,3.0L,6,"3.0L V6;
+71 kW electric motor",McLaren,http://www.mclaren.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,11,330,Blended,"",RWD,"","","","","",296,34.0,10.0,""
+13613,57,239,27,S 580 e 4MATIC,2023,"","",49,20,29,23,SI,3.0L,6,"3.0L V6;
+110 kW electric motor",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,56,470,Blended,"",AWD,"","","","","",394,58.0,22.0,""
+13122,57,425,27,Cooper SE Countryman ALL4,2023,"","",73,29,30,29,SI,1.5L,3,1.5L I3,Mini,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,18,300,Blended,"",AWD,"","","","","",295,34.0,10.0,""
+13614,57,263,29,Outlander PHEV,2023,"","",64,25,27,26,SI,2.4L,4,"2.4L I4;
+85 and 100 kW electric motors",Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,SUV,PHEV,Plug-in Hybrid Electric,38,420,Blended,"",AWD,3.7,22,3,8,33,350,56.0,19.0,7
+13297,57,391,29,Cayenne Turbo S e-Hybrid/Coupe,2023,"","",42,17,20,18,SI,4.0L,8,"4.0L V8;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,15,370,Blended,"",AWD,3.6-7.3,"",2,10,"",374,48.0,17.0,5
+13298,57,391,27,Panamera 4/4S E-Hybrid,2023,"","",50-52,"","",22,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,480,Blended,"",AWD,3.6-7.2,"",2,11,"",382,48.0,18.0,2
+13299,57,391,27,Panamera Turbo S E-Hybrid,2023,"","",48,18,22,19,SI,4.0L,8,"4.0L V8;
+100 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,17,430,Blended,"",AWD,"","","","","",374,48.0,17.0,""
+13479,57,383,29,Crosstrek Hybrid AWD,2023,"","",90,36,35,35,"",2.0L,4,"2.0L I4;
+88 kW electric motor",Subaru,http://www.subaru.com/,SUV,PHEV,Plug-in Hybrid Electric,17,480,Blended,"",AWD,"","","","","",352,25.0,8.0,""
+13480,57,221,27,Prius Prime/SE,2023,"","",114-127,"","",48-52,SI,2.0L,4,"2.0L I4;
+120 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,40-45,550-600,Blended,Includes standard and SE models,FWD,3.5,"",5,13,"",266,51.0,13.0,5
+13481,57,221,29,RAV4 Prime AWD,2023,"","",94,40,36,38,SI,2.5L,4,"2.5L I4;
+40 & 134 kW electric motors",Toyota,http://www.toyota.com,SUV,PHEV,Plug-in Hybrid Electric,42,600,Blended,"",AWD,3.3-6.6,"",3,9,"",355,51.0,18.0,5
+13344,57,395,27,S60 T8 AWD Recharge,2023,"","",74,30,33,31,SI,2.0L,4,"2.0L I4;
+34 kW electric motor",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,40,530,Blended,"",AWD,3.6,"",2,7,"",369,51.0,18.0,5
+13300,57,395,27,S90 T8 AWD Recharge ext. Range,2023,"","",66,28,33,30,SI,2.0L,4,"2.0L I4;
+34 &107 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,38,500,Blended,"",AWD,3.6,"",2,6,"",369,51.0,18.0,5
+13301,57,395,27,V60 T8 AWD Recharge ext. Range,2023,"","",74,30,33,31,SI,2.0L,4,"2.0L I4;
+34 &107 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,40,530,Blended,"",AWD,3.6,"",2,7,"",369,51.0,18.0,5
+13345,57,395,29,XC60 T8 AWD Recharge,2023,"","",63,28,28,28,SI,2.0L,4,"2.0L I4;
+34 kW electric motor",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,36,560,Blended,"",AWD,3.6,"",2,6,"",369,51.0,18.0,5
+13346,57,395,29,XC90 T8 AWD Recharge,2023,"","",58,26,27,27,SI,2.0L,4,"2.0L I4;
+34 & 107 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,33,530,Blended,"",AWD,3.6,"",2,6,"",369,51.0,18.0,7
+12831,57,377,27,A7 TFSI e quattro,2022,"","",70,25,31,27,SI,2.0L,4,"2.0L I4;
+105 kW electric motor",Audi,http://progress.audiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,26,410,Blended,"",AWD,"","","","","","","","",""
+12832,57,377,27,Q5 TFSI e quattro,2022,"","",61,25,27,26,SI,2.0L,4,"2.0L I4;
+105 kW electric motor",Audi,http://progress.audiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,23,390,Blended,"",AWD,"","","","","","","","",""
+13090,57,355,27,Flying Spur Hybrid,2022,"","",46,17,22,19,SI,2.9L,6,"2.9L V6;
+103 kW electric motor",Bentley Motors,http://www.bentleymotors.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,430,Blended,"",AWD,"","","","","","","","",""
+13067,57,211,27,330e Sedan,2022,"","",75,25,33,28,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,23,320,Blended,"",RWD,"","","","","","","","",""
+13068,57,211,27,330e xDrive,2022,"","",67,22,30,25,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,20,290,Blended,"",AWD,"","","","","","","","",""
+13069,57,211,27,530e Sedan,2022,"","",64,24,29,26,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,340,Blended,"",RWD,"","","","","","","","",""
+13070,57,211,27,530e xDrive Sedan,2022,"","",62,22,28,25,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,320,Blended,"",AWD,"","","","","","","","",""
+13071,57,211,27,745e xDrive,2022,"","",56,19,26,22,SI,3.0L,6,"3.0L V6;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,17,290,Blended,"",AWD,"","","","","","","","",""
+13072,57,211,29,X5 xDrive45e,2022,"","",50,19,22,20,SI,3.0L,6,"3.0L I6;
+83 kW electric motor",BMW,https://www.bmwusa.com,SUV,PHEV,Plug-in Hybrid Electric,31,400,Blended,"",AWD,"","","","","","","","",""
+13035,57,223,9,Pacifica Hybrid,2022,"","",82,29,30,30,SI,3.6L,6,"3.6L V6;
+89 kW electric motor",Chrysler,http://www.chrysler.com,Van,PHEV,Plug-in Hybrid Electric,32,520,Blended,"",FWD,"","","","","","","","",""
+13089,57,409,27,SF90 Spyder,2022,"","",44,16,19,17,SI,3.9L,8,"3.9L V8;
+99kW, 99kW, and 150kW electric motors",Ferrari,http://www.ferrari.com/en_us/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,8,320,Blended,"",AWD,"","","","","","","","",""
+13036,57,409,27,SF90 Stradale ,2022,"","",51,16,20,18,SI,3.9L,8,"3.9L V8;
+99kW, 99kW, and 150kW electric motors",Ferrari,http://www.ferrari.com/en_us/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,9,330,Blended,"",AWD,"","","","","","","","",""
+13037,57,219,29,Escape FWD PHEV,2022,"","",105,43,38,41,SI,2.5L,4,"2.5L I4;
+96 kW electric motor",Ford,https://www.ford.com,SUV,PHEV,Plug-in Hybrid Electric,37,520,Blended,"",FWD,"","","","","","","","",""
+12833,57,351,27,Ioniq Plug-in Hybrid,2022,"","",119,52,51,52,SI,1.6L,4,"1.6L I4;
+45 kW electric motor",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,29,620,Blended,"",FWD,"","","","","","","","",""
+12834,57,351,29,Santa Fe Plug-in Hybrid,2022,"","",76,33,32,33,SI,1.6L,4,"1.6L I4;
+45 kW electric motor",Hyundai,http://www.hyundaiusa.com/,SUV,PHEV,Plug-in Hybrid Electric,31,440,Blended,"",AWD,"","","","","","","","",""
+12888,57,351,29,Tucson Plug-in Hybrid,2022,"","",80,35,35,35,SI,1.6L,4,"1.6L I4;
+67 kW electric motor",Hyundai,http://www.hyundaiusa.com/,SUV,PHEV,Plug-in Hybrid Electric,33,420,Blended,"",AWD,"","","","","","","","",""
+13073,57,275,29,Grand Cherokee 4xe,2022,"","",56,23,24,23,SI,2.0L,4,"2.0L I4;
+50 kW electric motor",Jeep,https://www.jeep.com,SUV,PHEV,Plug-in Hybrid Electric,26,470,Blended,"",4WD,"","","","","","","","",""
+13038,57,275,29,Wrangler 4dr 4xe,2022,"","",49,20,20,20,SI,2.0L,4,"2.0L I4;
+100 kW electric motor",Jeep,https://www.jeep.com,SUV,PHEV,Plug-in Hybrid Electric,22,370,Blended,"",4WD,"","","","","","","","",""
+12835,57,361,27,Niro Plug-in Hybrid,2022,"","",105,48,44,46,SI,1.6L,4,"1.6L I4;
+45 kW electric motor",Kia,http://www.kia.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,26,560,Blended,"",FWD,"","","","","","","","",""
+12889,57,361,29,Sorento Plug-in Hybrid,2022,"","",79,35,33,34,SI,1.6L,4,"1.6L I4;
+67 kW electric motor",Kia,http://www.kia.com,SUV,PHEV,Plug-in Hybrid Electric,32,460,Blended,"",AWD,"","","","","","","","",""
+12836,57,387,29,Range Rover Sport PHEV,2022,"","",42,18,21,19,CI,2.0L,4,"2.0L I4;
+105 kW electric motor",Land Rover,https://www.landroverusa.com/index.html,SUV,PHEV,Plug-in Hybrid Electric,19,480,Blended,"",4WD,"","","","","","","","",""
+13039,57,243,29,NX 450+ AWD,2022,"","",84,38,33,36,SI,2.5L,4,"2.5L I4;
+40kW and 134kW electric motors;",Lexus,"",SUV,PHEV,Plug-in Hybrid Electric,37,550,Blended,"",AWD,"","","","","","","","",""
+12903,57,227,29,Aviator AWD PHEV,2022,"","",56,22,25,23,SI,3.0L,6,"3.0L V6;
+74 kW electric motor",Lincoln,http://www.lincoln.com,SUV,PHEV,Plug-in Hybrid Electric,21,460,Blended,"",AWD,"","","","","","","","",""
+13040,57,227,29,Corsair AWD PHEV,2022,"","",78,34,32,33,SI,2.5L,4,"2.5L I4;
+50 kW and 96 kW electric motors",Lincoln,http://www.lincoln.com,SUV,PHEV,Plug-in Hybrid Electric,28,430,Blended,"",Part-Time 4WD,"","","","","","","","",""
+12837,57,425,27,Cooper SE Countryman ALL4,2022,"","",73,29,30,29,SI,1.5L,3,"1.5L I3;
+65 kW electric motor",Mini,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,18,300,Blended,"",AWD,"","","","","","","","",""
+12904,57,263,29,Outlander PHEV,2022,"","",74,26,26,26,SI,2.4L,4,"2.4L I4;
+60 kW and 70 kW electric motors",Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,SUV,PHEV,Plug-in Hybrid Electric,24,320,Blended,"",AWD,"","","","","","","","",""
+12891,57,391,29,Cayenne/Coupe/Platinum e-Hybrid,2022,"","",46,20,22,21,SI,3.0L ,6,"3.0L V6;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,17,430,Blended,"",AWD,"","","","","","","","",""
+12890,57,391,29,Cayenne Turbo S/Coupe e-Hybrid ,2022,"","",42,17,20,18,SI,4.0L,8,"4.0L V8;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,15,370,Blended,"",AWD,"","","","","","","","",""
+12947,57,391,27,Panamera 4 E-Hybrid Executive,2022,"","",52,21,24,22,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,480,Blended,"",AWD,"","","","","","","","",""
+12948,57,391,27,Panamera 4S E-Hybrid Executive,2022,"","",50,21,23,22,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,480,Blended,"",AWD,"","","","","","","","",""
+12992,57,391,27,Panamera Turbo S E-Hybrid Executive/ST,2022,"","",48,18,22,19,SI,4.0L,8,"4.0L V8;
+100 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,17,430,Blended,"",AWD,"","","","","","","","",""
+12892,57,221,27,Prius Prime,2022,"","",133,55,53,54,SI,1.8L,4,"1.8L I4;
+23 & 53 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,25,640,Blended,"",FWD,"","","","","","","","",""
+13041,57,221,29,RAV4 Prime AWD,2022,"","",94,40,36,38,SI,2.5L,4,"2.5L I4;
+40 & 134 kW electric motors",Toyota,http://www.toyota.com,SUV,PHEV,Plug-in Hybrid Electric,42,600,Blended,"",AWD,"","","","","","","","",""
+12845,57,395,27,S60 T8 AWD Recharge,2022,"","",69,28,33,30,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,22,510,Blended,"",AWD,"","","","","","","","",""
+13076,57,395,27,S60 T8 AWD Recharge ext. Range,2022,"","",74,30,33,31,SI,2.0L,4,"2.0L I4;
+34 &107 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,40,530,Blended,"",AWD,"","","","","","","","",""
+12846,57,395,27,S90 T8 AWD Recharge,2022,"","",63,28,31,30,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,490,Blended,"",AWD,"","","","","","","","",""
+13077,57,395,27,S90 T8 AWD Recharge ext. Range,2022,"","",66,28,31,29,SI,2.0L,4,"2.0L I4;
+34 &107 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,38,500,Blended,"",AWD,"","","","","","","","",""
+12893,57,395,27,V60 T8 AWD Recharge,2022,"","",69,28,33,30,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,22,510,Blended,"",AWD,"","","","","","","","",""
+13078,57,395,27,V60 T8 AWD Recharge ext. Range,2022,"","",74,30,33,31,SI,2.0L,4,"2.0L I4;
+34 &107 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,40,530,Blended,"",AWD,"","","","","","","","",""
+12847,57,395,29,XC60 T8 AWD Recharge,2022,"","",57,24,27,25,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,19,500,Blended,"",AWD,"","","","","","","","",""
+13079,57,395,29,XC60 T8 AWD Recharge ext. Range,2022,"","",63,28,28,28,SI,2.0L,4,"2.0L I4;
+34 &107 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,36,560,Blended,"",AWD,"","","","","","","","",""
+12848,57,395,29,XC90 T8 AWD Recharge,2022,"","",55,26,28,27,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,18,520,Blended,"",AWD,"","","","","","","","",""
+13080,57,395,29,XC90 T8 AWD Recharge ext. Range,2022,"","",66,25,27,26,SI,2.0L,4,"2.0L I4;
+34 &107 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,36,530,Blended,"",AWD,"","","","","","","","",""
+12611,57,377,27,A7 quattro,2021,"","",68,26,34,29,SI,2.0L,4,"2.0L I4;
+105 kW electric motor",Audi,http://progress.audiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,24,"",Blended,"","","","","","","","","","",""
+12612,57,377,27,A8L,2021,"","",53,21,26,23,SI,3.0L,6,"3.0L V6;
+100 kW electric motor",Audi,http://progress.audiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12659,57,377,29,Q5,2021,"","",50,25,29,27,SI,2.0L,4,"2.0L I4;
+105 kW electric motor",Audi,http://progress.audiusa.com/,SUV,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12719,57,355,29,Bentayga,2021,"","",46,17,21,19,SI,3.0L,6,"3.0L V6;
+100 kW electric motor",Bentley Motors,http://www.bentleymotors.com,SUV,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12546,57,211,27,330e,2021,"","",75,25,33,28,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,23,"",Blended,"","","","","","","","","","",""
+12547,57,211,27,330e xDrive,2021,"","",67,22,30,25,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,20,"",Blended,"","","","","","","","","","",""
+12722,57,211,27,530e,2021,"","",64,24,29,26,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,"",Blended,"","","","","","","","","","",""
+12723,57,211,27,530e xDrive,2021,"","",62,22,28,25,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12548,57,211,27,745e xDrive,2021,"","",56,19,26,22,SI,3.0L,6,"3.0L V6;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12730,57,211,27,i3s with Range Extender,2021,"","",100,30,31,31,SI,135 kW,"","0.6L I2;
+135 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,126,"",Non-Blended,"","","","","","","","","","",""
+12729,57,211,27,i3 with Range Extender,2021,"","",100,30,31,31,SI,125 kW,"","0.6L I2;
+125 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,126,"",Non-Blended,"","","","","","","","","","",""
+12724,57,211,29,X3 xDrive30e,2021,"","",60,21,27,24,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,SUV,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12549,57,211,29,X5 xDrive45e,2021,"","",50,19,22,20,SI,3.0L,6,"3.0L V6;
+83 kW electric motor",BMW,https://www.bmwusa.com,SUV,PHEV,Plug-in Hybrid Electric,31,"",Blended,"","","","","","","","","","",""
+12660,57,223,9,Pacifica Hybrid,2021,"","",82,29,30,30,SI,3.6L,6,"3.6L V6;
+89 kW electric motor",Chrysler,http://www.chrysler.com,Van,PHEV,Plug-in Hybrid Electric,32,"",Blended,"","","","","","","","","","",""
+12613,57,409,27,SF90 Stradale Coupe,2021,"","",51,16,20,18,SI,3.9L,8,"3.9L V8;
+150 kW electric motor",Ferrari,http://www.ferrari.com/en_us/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,8,"",Blended,"","","","","","","","","","",""
+12764,57,219,29,Escape FWD PHEV,2021,"","",105,43,38,40,SI,2.5L,4,"2.5L I4;
+62 kW electric motor",Ford,https://www.ford.com,SUV,PHEV,Plug-in Hybrid Electric,37,"",Blended,"","","","","","","","","","",""
+12550,57,209,27,Clarity PHEV,2021,"","",110,44,40,42,SI,1.5L,4,"1.5L I4;
+135 kW electric motor",Honda,http://automobiles.honda.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,48,"",Blended,"","","","","","","","","","",""
+12720,57,351,27,Ioniq Plug-in Hybrid,2021,"","",119,52,51,52,SI,1.6L,4,"1.6L I4;
+45 kW electric motor",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,29,"",Blended,"","","","","","","","","","",""
+12747,57,275,29,Wrangler 4dr 4xe,2021,"","",49,20,20,20,SI,2.0L,4,"2.0L I4;
+100 kW electric motor",Jeep,https://www.jeep.com,SUV,PHEV,Plug-in Hybrid Electric,22,"",Blended,"",4WD,"","","","","","","","",""
+12682,57,424,27,"GS-6 (21"" wheels)",2021,"","",70,27,25,26,SI,1.5L,3,"1.5L I3;
+175 kW electric motors (x2)",Karma,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,61,"",Non-Blended,"This model is also available with 22"" wheels, at reduced fuel economy and all-electric range.","","","","","","","","","",""
+12661,57,424,27,"Revero GT (21"" wheels)",2021,"","",70,27,25,26,SI,1.5L,3,"1.5L I3;
+175 kW electric motors (x2)",Karma,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,61,"",Non-Blended,"This model is also available with 22"" wheels, at reduced fuel economy and all-electric range.","","","","","","","","","",""
+12712,57,361,27,Niro Plug-in Hybrid,2021,"","",105,48,44,46,SI,1.6L,4,"1.6L I4;
+45 kW electric motor",Kia,http://www.kia.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,26,"",Blended,"","","","","","","","","","",""
+12614,57,387,29,Range Rover PHEV,2021,"","",42,18,21,19,CI,2.0L,4,"2.0L I4;
+105 kW electric motor",Land Rover,https://www.landroverusa.com/index.html,SUV,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12615,57,387,29,Range Rover Sport PHEV,2021,"","",42,18,21,20,CI,2.0L,4,"2.0L I4;
+105 kW electric motor",Land Rover,https://www.landroverusa.com/index.html,SUV,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12616,57,227,29,Aviator AWD PHEV,2021,"","",56,22,25,23,CI,3.0L,6,"3.0L V6;
+74 kW electric motor",Lincoln,http://www.lincoln.com,SUV,PHEV,Plug-in Hybrid Electric,21,"",Blended,"","","","","","","","","","",""
+12731,57,227,29,Corsair AWD PHEV,2021,"","",78,34,32,33,CI,2.5L,4,"2.5L I4;
+36 kW and  50 kW electric motors",Lincoln,http://www.lincoln.com,SUV,PHEV,Plug-in Hybrid Electric,28,"",Blended,"","","","","","","","","","",""
+12587,57,425,27,Cooper SE Countryman ALL4,2021,"","",73,29,30,29,SI,1.5L,3,"1.5L I3;
+65 kW electric motor",Mini,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12721,57,263,29,Outlander PHEV,2021,"","",74,26,26,26,SI,2.4L,4,"2.4L I4;
+60 kW and 70 kW electric motors",Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,SUV,PHEV,Plug-in Hybrid Electric,24,"",Blended,"","","","","","","","","","",""
+12588,57,462,27,Polestar I,2021,"","",58,22,31,26,SI,2.0L,4,"2.0L I4; 
+52, 85, 85kW 3-phase Sync. electric motor",Polestar Automotive USA,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,52,"",Blended,"","","","","","","","","","",""
+12734,57,391,29,Cayenne e-Hybrid,2021,"","",46,20,22,21,SI,3.0L ,6,"3.0L V6;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12735,57,391,29,Cayenne e-Hybrid Coupe,2021,"","",46,20,22,21,SI,3.0L ,6,"3.0L V6;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12732,57,391,29,Cayenne Turbo S e-Hybrid,2021,"","",42,17,20,18,SI,4.0L,8,"4.0L V8;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,15,"",Blended,"","","","","","","","","","",""
+12733,57,391,29,Cayenne Turbo S e-Hybrid Coupe,2021,"","",42,17,20,18,SI,4.0L,8,"4.0L V8;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,15,"",Blended,"","","","","","","","","","",""
+12765,57,391,27,Panamera 4 E-Hybrid,2021,"","",52,21,24,22,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12768,57,391,27,Panamera 4 E-Hybrid Executive,2021,"","",52,21,24,22,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12767,57,391,27,Panamera 4 E-Hybrid ST,2021,"","",52,21,24,22,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12766,57,391,27,Panamera 4S E-Hybrid,2021,"","",50,21,23,22,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12769,57,391,27,Panamera 4S E-Hybrid Executive,2021,"","",50,21,23,22,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12770,57,391,27,Panamera 4S E-Hybrid ST,2021,"","",50,21,23,22,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12771,57,391,27,Panamera Turbo S E-Hybrid,2021,"","",48,18,22,19,SI,4.0L,8,"4.0L V8;
+100 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12772,57,391,27,Panamera Turbo S E-Hybrid Executive,2021,"","",48,18,22,19,SI,4.0L,8,"4.0L V8;
+100 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12773,57,391,27,Panamera Turbo S E-Hybrid ST,2021,"","",48,18,22,19,SI,4.0L,8,"4.0L V8;
+100 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12713,57,383,29,Crosstrek Hybrid AWD,2021,"","",90,36,35,35,"",2.0L,4,"2.0L I4;
+88 kW electric motor",Subaru,http://www.subaru.com/,SUV,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12551,57,221,27,Prius Prime,2021,"","",133,55,53,54,"",1.8L,4,"1.8L I4;
+23 & 53 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,25,"",Blended,"","","","","","","","","","",""
+12552,57,221,27,RAV4 Prime AWD,2021,"","",94,40,36,38,"",2.5L,4,"2.5L I4;
+40 & 134 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,42,"",Blended,"","","","","","","","","","",""
+12662,57,395,27,S60 AWD,2021,"","",69,28,33,30,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,22,"",Blended,"","","","","","","","","","",""
+12553,57,395,27,S90 AWD,2021,"","",60,28,31,30,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,"",Blended,"","","","","","","","","","",""
+12554,57,395,29,V60 AWD,2021,"","",69,28,33,30,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,22,"",Blended,"","","","","","","","","","",""
+12589,57,395,29,XC60 AWD,2021,"","",57,26,28,27,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12555,57,395,29,XC90 AWD,2021,"","",55,26,28,27,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12419,57,377,27,A8L,2020,"","",54,21,27,23,SI,3.0L,6,"3.0L V6;
+100 kW electric motor",Audi,http://progress.audiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12420,57,377,27,Q5,2020,"","",65,25,29,27,SI,2.0L,4,"2.0L I4;
+105 kW electric motor",Audi,http://progress.audiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,20,"",Blended,"","","","","","","","","","",""
+12475,57,355,29,Bentayga,2020,"","",45,17,21,19,SI,3.0L,6,"3.0L V6;
+100 kW electric motor",Bentley Motors,http://www.bentleymotors.com,SUV,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12333,57,211,27,530e,2020,"","",69,25,31,27,SI,2.0L,4,"2.0L I4;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,"",Blended,"","","","","","","","","","",""
+12334,57,211,27,530e xDrive,2020,"","",65,23,29,25,SI,2.0L,4,"2.0L I4;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12294,57,211,27,745e xDrive,2020,"","",56,19,26,22,SI,3.0L,6,"3.0L V6;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,16,"",Blended,"","","","","","","","","","",""
+12448,57,211,27,i3s with Range Extender,2020,"","",100,30,31,31,SI,135 kW,"","0.6L I2;
+135 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,126,"",Non-Blended,"","","","","","","","","","",""
+12447,57,211,27,i3 with Range Extender,2020,"","",100,30,31,31,SI,125 kW,"","0.6L I2;
+125 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,126,"",Non-Blended,"","","","","","","","","","",""
+12408,57,211,27,i8 Coupe,2020,"","",69,26,29,27,SI,1.5L,3,"1.5L I3; 
+105 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12409,57,211,27,i8 Roadster,2020,"","",69,26,29,27,SI,1.5L,3,"1.5L I3; 
+105 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12442,57,211,29,X3 xDrive30e,2020,"","",60,21,27,24,SI,2.0L,4,"2.0L I4;
+80 kW electric motor",BMW,https://www.bmwusa.com,SUV,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12335,57,223,9,Pacifica Hybrid,2020,82,"",82,29,30,30,SI,3.6L,6,"3.6L V6;
+89 kW electric motor",Chrysler,http://www.chrysler.com,Van,PHEV,Plug-in Hybrid Electric,32,"",Blended,"","","","","","","","","","",""
+12455,57,219,29,Escape FWD PHEV,2020,"","",100,43,38,41,SI,2.5L,4,"2.5L I4;
+36 kW electric motor",Ford,https://www.ford.com,SUV,PHEV,Plug-in Hybrid Electric,38,"",Blended,"","","","","","","","","","",""
+12476,57,219,25,F-150 2WD/4WD,2020,"","","","","","","","2.7L, 3.3L",6,"2.7L V6, 3.3L V6;
+XL XLP Plug-in Hybrid Electric System",Ford,https://www.ford.com,Pickup,PHEV,Plug-in Hybrid Electric,"","",Blended,"This vehicle is available with a plug-in hybrid electric power train developed and installed by XL, an approved qualified vehicle modifier (QVM). It is available for delivery through select Ford dealerships, without impacting OEM warranties or service agreements.","","","","","","","","","",""
+12337,57,219,27,Fusion Energi Plug in Hybrid FWD,2020,"","",103,43,40,42,SI,2.0L,4,"2.0L I4;
+68 kW electric motor",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,26,"",Blended,"","","","","","","","","","",""
+12336,57,219,27,Fusion Special Service PHEV,2020,"","",102,43,40,42,SI,2.0L,4,"2.0L I4;
+68 kW electric motor",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,26,"",Blended,"","","","","","","","","","",""
+12477,57,219,25,Super Duty F-250 2WD/4WD,2020,"","","","","","",SI,7.3L,8,"7.3L V8;
+XL XLP Plug-in Hybrid Electric System",Ford,https://www.ford.com,Pickup,PHEV,Plug-in Hybrid Electric,"","",Blended,"This vehicle is available with a plug-in hybrid electric power train developed and installed by XL, an approved qualified vehicle modifier (QVM). It is available for delivery through select Ford dealerships, without impacting OEM warranties or service agreements.","","","","","","","","","",""
+12430,57,209,27,Clarity PHEV,2020,"","",110,44,40,42,SI,1.5L,4,"1.5L I4;
+135 kW electric motor",Honda,http://automobiles.honda.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,48,"",Blended,"","","","","","","","","","",""
+12397,57,351,27,Ioniq Plug-in Hybrid,2020,"","",119,53,52,52,SI,1.6L,4,"1.6L I4;
+32 kW electric motor",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,29,"",Blended,"","","","","","","","","","",""
+12398,57,424,27,"Revero GT (21"" wheels)",2020,70,"",70,27,25,26,SI,1.5L,3,"1.5L I3;
+175 kW electric motors (x2)",Karma,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,61,"",Non-Blended,"","","","","","","","","","",""
+12410,57,361,27,Niro Plug-in Hybrid,2020,"","",105,48,44,46,SI,1.6L,4,"1.6L I4;
+32 kW electric motor",Kia,http://www.kia.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,26,"",Blended,"","","","","","","","","","",""
+12338,57,361,27,Optima Plug-In Hybrid,2020,"","",101,39,40,41,SI,2.0L,4,"2.0L I4;
+50 kW electric motor",Kia,http://www.kia.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,28,"",Blended,"","","","","","","","","","",""
+12421,57,387,29,Range Rover PHEV,2020,"","",42,18,21,19,CI,2.0L,4,"2.0L I4;
+105 kW electric motor",Land Rover,https://www.landroverusa.com/index.html,SUV,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12422,57,387,29,Range Rover Sport PHEV,2020,"","",42,18,21,19,CI,2.0L,4,"2.0L I4;
+105 kW electric motor",Land Rover,https://www.landroverusa.com/index.html,SUV,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12423,57,227,29,Aviator AWD PHEV,2020,"","",56,22,25,23,CI,3.0L,6,"3.0L V6;
+74 kW electric motor",Lincoln,http://www.lincoln.com,SUV,PHEV,Plug-in Hybrid Electric,21,"",Blended,"","","","","","","","","","",""
+12478,57,239,29,GLC 350e 4MATIC,2020,"","",68,23,28,25,SI,2.0L ,4,"2.0L I4;
+90 kW electric motor",Mercedes-Benz,https://www.mbusa.com,SUV,PHEV,Plug-in Hybrid Electric,22,"",Blended,"","","","","","","","","","",""
+12443,57,239,29,S 560e,2020,64,"",64,21,26,23,SI,3.0L,6,"3.0L V6;
+90 kW electric motor",Mercedes-Benz,https://www.mbusa.com,SUV,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12411,57,425,27,Cooper SE Countryman ALL4,2020,"","",73,29,30,29,SI,1.5L,3,"1.5L I3;
+65 kW electric motor",Mini,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12339,57,263,29,Outlander PHEV,2020,"","",74,25,26,25,SI,2.0L,4,"2.0L I4;
+60 kW electric motor",Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,SUV,PHEV,Plug-in Hybrid Electric,22,"",Blended,"","","","","","","","","","",""
+12456,57,462,27,Polestar I,2020,"","",58,22,31,26,SI,2.0L,4,"2.0L I4; 
+52, 85, 86kW 3-phase Sync. electric motor",Polestar Automotive USA,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,52,"",Blended,"","","","","","","","","","",""
+12449,57,391,29,Cayenne e-Hybrid,2020,41,"",41,20,22,21,SI,3.0L ,6,"3.0L V6;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,14,"",Blended,"","","","","","","","","","",""
+12450,57,391,29,Cayenne e-Hybrid Coupe,2020,41,"",41,20,22,21,SI,3.0L ,6,"3.0L V6;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,14,"",Blended,"","","","","","","","","","",""
+12482,57,391,29,Cayenne Turbo S e-Hybrid,2020,39,"",39,16,20,18,SI,4.0L,8,"4.0L V8;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,12,"",Blended,"","","","","","","","","","",""
+12483,57,391,29,Cayenne Turbo S e-Hybrid Coupe,2020,39,"",39,16,20,18,SI,4.0L,8,"4.0L V8;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,12,"",Blended,"","","","","","","","","","",""
+12412,57,391,27,Panamera 4 e-Hybrid,2020,"","",51,21,24,23,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Blended,"","","","","","","","","","",""
+12414,57,391,27,Panamera 4 e-Hybrid Executive,2020,"","",51,21,24,23,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Blended,"","","","","","","","","","",""
+12413,57,391,27,Panamera 4 e-Hybrid ST,2020,"","",51,21,24,23,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Blended,"","","","","","","","","","",""
+12340,57,391,27,Panamera Turbo S e-Hybrid,2020,"","",48,19,22,20,SI,4.0L,8,"4.0L V8;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Blended,"","","","","","","","","","",""
+12341,57,391,27,Panamera Turbo S e-Hybrid Executive,2020,"","",48,19,22,20,SI,4.0L,8,"4.0L V8;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Blended,"","","","","","","","","","",""
+12342,57,391,27,Panamera Turbo S e-Hybrid ST,2020,"","",48,19,22,20,SI,4.0L,8,"4.0L V8;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Blended,"","","","","","","","","","",""
+12399,57,383,29,Crosstrek Hybrid AWD,2020,"","",90,36,35,35,"",2.0L,4,"2.0L I4;
+88 kW electric motor",Subaru,http://www.subaru.com/,SUV,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12343,57,221,27,Prius Prime,2020,"","",133,55,53,54,"",1.8L,4,"1.8L I4;
+23 & 53 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,25,"",Blended,"","","","","","","","","","",""
+12344,57,395,27,S60 AWD,2020,"","",69,28,33,30,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,22,"",Blended,"","","","","","","","","","",""
+12345,57,395,27,S90 AWD,2020,"","",60,28,31,30,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,"",Blended,"","","","","","","","","","",""
+12346,57,395,29,V60 AWD,2020,"","",69,28,33,30,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,22,"",Blended,"","","","","","","","","","",""
+12347,57,395,29,XC60 AWD,2020,"","",57,26,28,27,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12348,57,395,29,XC90 AWD,2020,"","",55,26,28,27,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12162,57,211,27,530e,2019,"","",72,27,30,29,SI,2.0L,4,"2.0L I4;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,16,"",Blended,"","","","","","","","","","",""
+12163,57,211,27,530e xDrive,2019,"","",67,27,31,28,SI,2.0L,4,"2.0L I4;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,15,"",Blended,"","","","","","","","","","",""
+12164,57,211,27,740e xDrive,2019,"","",64,25,29,27,SI,2.0L,4,"2.0L I4;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Blended,"","","","","","","","","","",""
+12201,57,211,27,i3s with Range Extender,2019,"","",100,30,31,31,SI,135 kW,"","0.6L I2;
+135 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,126,"",Non-Blended,"","","","","","","","","","",""
+12200,57,211,27,i3 with Range Extender,2019,"","",100,30,31,31,SI,125 kW,"","0.6L I2;
+125 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,126,"",Non-Blended,"","","","","","","","","","",""
+12052,57,211,27,i8 Coupe,2019,"","",69,26,29,26,SI,1.5L,3,"1.5L I3; 
+96 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12053,57,211,27,i8 Roadster,2019,"","",69,26,29,26,SI,1.5L,3,"1.5L I3; 
+96 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,18,"",Blended,"","","","","","","","","","",""
+12165,57,215,27,Volt,2019,"","",110,43,42,42,SI,1.5L,4,"1.5L I4;
+48 kW & 87 kW electric motor",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,53,"",Non-Blended,"","","","","","","","","","",""
+12087,57,223,9,Pacifica Hybrid,2019,"","",82,29,30,30,SI,3.6L,6,"3.6L V6;
+89 kW electric motor",Chrysler,http://www.chrysler.com,Van,PHEV,Plug-in Hybrid Electric,32,"",Blended,"","","","","","","","","","",""
+12234,57,219,25,F-150,2019,"","","","","","","","2.7L, 3.3L",6,"2.7L V6, 3.3L V6;
+XL XLP Plug-in Hybrid Electric System",Ford,https://www.ford.com,Pickup,PHEV,Plug-in Hybrid Electric,"","",Blended,"This vehicle is available with a plug-in hybrid electric power train developed and installed by XL, an approved qualified vehicle modifier (QVM). It is available for delivery through select Ford dealerships, without impacting OEM warranties or service agreements.","","","","","","","","","",""
+12088,57,219,27,Fusion Energi Plug in Hybrid FWD,2019,"","",103,43,40,42,SI,2.0L,4,"2.0L I4;
+68 kW electric motor",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,26,"",Blended,"","","","","","","","","","",""
+12213,57,219,27,Fusion Special Service Vehicle PHEV,2019,"","",102,43,40,42,SI,2.0L,4,"2.0L I4;
+68 kW electric motor",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,26,"",Blended,"","","","","","","","","","",""
+12235,57,219,25,Super Duty F-250 2WD/4WD,2019,"","","","","","",SI,6.2L,8,"6.2L V8;
+XL XLP Plug-in Hybrid Electric System",Ford,https://www.ford.com,Pickup,PHEV,Plug-in Hybrid Electric,"","",Blended,"This vehicle is available with a plug-in hybrid electric power train developed and installed by XL, an approved qualified vehicle modifier (QVM). It is available for delivery through select Ford dealerships, without impacting OEM warranties or service agreements.","","","","","","","","","",""
+12194,57,209,27,Clarity PHEV,2019,"","",110,44,40,42,SI,1.5L,4,"1.5L I4;
+135 kW electric motor",Honda,http://automobiles.honda.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,48,"",Blended,"","","","","","","","","","",""
+12089,57,351,27,Ioniq Plug-in Hybrid,2019,"","",119,53,52,52,SI,1.6L,4,"1.6L I4;
+32 kW electric motor",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,29,"",Blended,"","","","","","","","","","",""
+12400,57,424,27,Revero,2019,60,"",60,19,21,20,SI,2.0L,4,"2.0L I4;
+150 kW electric motors (x2)",Karma,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,37,"",Non-Blended,"","","","","","","","","","",""
+12166,57,361,27,Niro Plug-in Hybrid,2019,"","",105,48,44,46,SI,1.6L,4,"1.6L I4;
+32 kW electric motor",Kia,http://www.kia.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,26,"",Blended,"","","","","","","","","","",""
+12090,57,361,27,Optima Plug-In Hybrid,2019,"","",103,38,43,40,SI,2.0L,4,"2.0L I4;
+50 kW electric motor",Kia,http://www.kia.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,29,"",Blended,"","","","","","","","","","",""
+12167,57,239,29,GLC 350e 4MATIC,2019,"","",56,24,27,25,SI,2.0L ,4,"2.0L I4;
+85 kW electric motor",Mercedes-Benz,https://www.mbusa.com,SUV,PHEV,Plug-in Hybrid Electric,10,"",Blended,"","","","","","","","","","",""
+12401,57,239,29,S 560e,2019,64,"",64,21,26,23,SI,3.0L,4,"3.0L I4;
+90 kW electric motor",Mercedes-Benz,https://www.mbusa.com,SUV,PHEV,Plug-in Hybrid Electric,19,"",Blended,"","","","","","","","","","",""
+12054,57,425,27,Cooper SE Countryman ALL4,2019,"","",65,28,27,27,SI,1.5L,3,"1.5L I3;
+65 kW electric motor",Mini,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,12,"",Blended,"","","","","","","","","","",""
+12168,57,263,29,Outlander PHEV,2019,"","",74,25,26,25,SI,2.0L,4,"2.0L I4;
+60 kW electric motor",Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,SUV,PHEV,Plug-in Hybrid Electric,22,"",Blended,"","","","","","","","","","",""
+12402,57,391,29,Cayenne e-Hybrid,2019,46,"",46,20,22,21,SI,3.0L ,6,"3.0L V6;
+99 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,13,"",Blended,"","","","","","","","","","",""
+12236,57,391,27,Panamera 4 e-Hybrid,2019,"","",51,21,24,23,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Non-Blended,"","","","","","","","","","",""
+12238,57,391,27,Panamera 4 e-Hybrid Executive,2019,"","",51,21,24,23,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Non-Blended,"","","","","","","","","","",""
+12237,57,391,27,Panamera 4 e-Hybrid ST,2019,"","",51,21,24,23,SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Non-Blended,"","","","","","","","","","",""
+12240,57,391,27,Panamera Turbo S e-Hybrid,2019,"","",48,19,22,20,SI,4.0L,8,"4.0L V8;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Non-Blended,"","","","","","","","","","",""
+12239,57,391,27,Panamera Turbo S e-Hybrid Executive,2019,"","",48,19,22,20,SI,4.0L,8,"4.0L V8;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Non-Blended,"","","","","","","","","","",""
+12241,57,391,27,Panamera Turbo S e-Hybrid ST,2019,"","",48,19,22,20,SI,4.0L,8,"4.0L V8;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,14,"",Non-Blended,"","","","","","","","","","",""
+12212,57,383,29,Crosstrek Hybrid AWD,2019,"","",90,36,35,35,"",2.0L,4,"2.0L I4;
+88 kW electric motor",Subaru,http://www.subaru.com/,SUV,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12195,57,221,27,Prius Prime,2019,"","",133,55,53,54,"",1.8L,4,"1.8L I4;
+23 & 53 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,25,"",Blended,"","","","","","","","","","",""
+12242,57,395,27,S60 AWD,2019,"","",74,29,34,31,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,22,"",Blended,"","","","","","","","","","",""
+12071,57,395,27,S90 AWD,2019,"","",71,26,33,29,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,21,"",Blended,"","","","","","","","","","",""
+12072,57,395,29,XC60 AWD,2019,"","",58,25,28,26,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+12073,57,395,29,XC90 AWD,2019,"","",58,24,27,25,SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motors",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,17,"",Blended,"","","","","","","","","","",""
+11936,57,377,27,A3 e-tron,2018,83,"","",34,39,"",SI,1.4L,4,"1.4L I4;
+80 kW electric motor",Audi,http://progress.audiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11937,57,211,27,330e,2018,71,"","",28,34,"",SI,2.0L,4,"2.0L I4;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11938,57,211,27,530e,2018,72,"","",28,34,"",SI,2.0L,4,"2.0L I4;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11939,57,211,27,530e xDrive,2018,67,"","",27,31,"",SI,2.0L,4,"2.0L I4;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11940,57,211,27,740e xDrive,2018,64,"","",25,29,"",SI,2.0L,4,"2.0L I4;
+83 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11969,57,211,27,I3 (94Ah) with Range Extender,2018,109,"","",36,33,"",SI,0.6L,"","0.6L I2;
+125 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11970,57,211,27,I3s (94Ah) with Range Extender,2018,109,"","",36,33,"",SI,0.6L,"","0.6L I2;
+125 kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11941,57,211,29,X5 xDrive40e,2018,56,"","",23,25,"",SI,2.0L,4,"2.0L I4;
+83 kW electric motor",BMW,https://www.bmwusa.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11942,57,231,27,CT6 Plug-In,2018,62,"","",23,29,"",SI,2.0L,4,"2.0L I4;
+59 kW & 61 kW electric motor",Cadillac,http://www.cadillac.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11943,57,215,27,Volt,2018,106,"","",43,42,"",SI,1.5L,4,"1.5L I4;
+48 kW & 87 kW electric motor",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11944,57,223,9,Pacifica PHEV,2018,84,"","",32,33,"",SI,3.6L,6,"3.6L V6;
+89 kW electric motor",Chrysler,http://www.chrysler.com,Van,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11996,57,219,25,F-150,2018,"","","","","","","","2.7L, 3.3L",6,"2.7L V6, 3.3L V6;
+XL Hybrids drive system",Ford,https://www.ford.com,Pickup,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11945,57,219,27,Fusion Energi Plug in Hybrid,2018,97,"","",43,41,"",SI,2.0L,4,"2.0L I4;
+68 kW electric motor",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11946,57,209,27,Clarity PHEV,2018,110,"","",44,40,"",SI,1.5L,4,"1.5L I4;
+135 kW electric motor",Honda,http://automobiles.honda.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11947,57,351,27,Ioniq Plug-in Hybrid,2018,119,"","",53,52,"",SI,1.6L,4,"1.6L I4;
+32 kW electric motor",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+12026,57,351,27,Sonata Plug-in Hybrid,2018,99,"","",37,42,"",SI,2.0L,4,"2.0L I4;
+50 kW electric motor",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11949,57,424,27,Revero,2018,60,"","",20,21,"",SI,2.0L,4,"2.0L I4;
+150 kW & 150 kW electric motor",Karma,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11971,57,361,27,Niro Plug-in Hybrid,2018,105,"","",48,44,"",SI,1.6L,4,"1.6L I4;
+32 kW electric motor",Kia,http://www.kia.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11948,57,361,27,Optima Plug-In Hybrid,2018,103,"","",38,43,"",SI,2.0L,4,"2.0L I4;
+50 kW electric motor",Kia,http://www.kia.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11973,57,239,27,C350e,2018,56,"","",28,32,"",SI,2.0L ,4,"2.0L I4;
+60 kW electric motor",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11984,57,239,29,GLC 350e 4MATIC,2018,74,"","",24,27,"",SI,2.0L ,4,"2.0L I4;
+60 kW electric motor",Mercedes-Benz,https://www.mbusa.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11950,57,239,29,GLE550e,2018,69,"","",20,23,"",SI,3.0L,6,"3.0L V6;
+85 kW electric motor",Mercedes-Benz,https://www.mbusa.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11951,57,425,27,Cooper SE Countryman ALL4,2018,65,"","",28,27,"",SI,1.5L,3,"1.5L I3;
+65 kW electric motor",Mini,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11972,57,263,29,Outlander PHEV,2018,74,"","",25,26,"",SI,2.0L,4,"2.0L I4;
+60 kW electric motor",Mitsubishi,http://www.mitsubishicars.com/MMNA/jsp/find.do?loc=en-us,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11997,57,391,29,Cayenne S e-Hybrid,2018,47,"","",21,24,"",SI,3.0L ,6,"3.0L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+12027,57,391,27,Panamera 4 e-Hybrid,2018,46,"","",20,25,"",SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+12028,57,391,27,Panamera 4 e-Hybrid Executive,2018,46,"","",20,25,"",SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11998,57,391,27,Panamera 4 e-Hybrid ST,2018,46,"","",20,25,"",SI,2.9L,6,"2.9L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11999,57,391,27,Panamera Turbo S e-Hybrid,2018,49,"","",19,23,"",SI,4.0L,6,"4.0L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+12000,57,391,27,Panamera Turbo S e-Hybrid Executive,2018,49,"","",19,23,"",SI,4.0L,6,"4.0L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+12001,57,391,27,Panamera Turbo S e-Hybrid ST,2018,49,"","",19,23,"",SI,4.0L,6,"4.0L V6;
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11985,57,221,27,Prius Prime,2018,"","",133,55,53,54,"",1.8L,4,"1.8L I4;
+53 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,25,"",Blended,"","","","","","","","","","",""
+11952,57,395,27,S90 AWD,2018,71,"","",26,33,"",SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motor",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11953,57,395,29,XC60 AWD,2018,59,"","",26,28,"",SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motor",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11954,57,395,29,XC90 AWD,2018,62,"","",26,30,"",SI,2.0L,4,"2.0L I4;
+34 & 65 kW electric motor",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11715,57,377,27,A3 e-tron,2017,83,"","","","","",e-motor,1.4L,"",1.4L I4 80 kW electric motor,Audi,http://progress.audiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11716,57,211,27,330e,2017,71,"","","","","",e-motor,2.0L,"",2.0L I4 83 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11717,57,211,27,740e xDrive,2017,64,"","",25,29,"",e-motor,2.0L,"",2.0L I4 83 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11718,57,211,27,I3 REX,2017,111,"","","","","",e-motor,0.6L,"",0.6L I2 125 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11719,57,211,27,I8,2017,"","","","","","",e-motor,1.5L,"",1.5L I3 96 kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11720,57,211,29,X5 xDrive40e,2017,"","","","","","",e-motor,2.0L,"",2.0L I4 83 kW electric motor,BMW,https://www.bmwusa.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11784,57,231,27,CT6 PHEV,2017,"","","",23,29,"",SI,2.0L,4,2.0L I4,Cadillac,http://www.cadillac.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11721,57,215,27,Volt,2017,106,"","","","","",e-motor,1.5L,"",1.5L I4 48 kW & 87 kW electric motor,Chevrolet,http://www.chevrolet.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11816,57,223,27,Pacifica PHEV,2017,"","","","","","",SI,3.6L,"",3.6L V6 / 89 kW electric motor,Chrysler,http://www.chrysler.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11787,57,219,27,C-Max Energi,2017,"","","","","","",SI,2.0L,4,"2.0L I4
+7.6 kW electric motor",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11722,57,219,27,Fusion Energi Plug in Hybrid,2017,97,"","","","","",e-motor,2.0L ,"",2.0L I4 68 kW electric motor,Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11788,57,351,27,Ioniq,2017,"","","","","","",SI,1.6L,4,"1.6L I4
+45 kW electric motor",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11723,57,351,27,Sonata Plug-in Hybrid,2017,99,"","","","","",SI,2.0L,"",2.0L I4 50 kW electric motor,Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11797,57,361,27,Optima Plug-In Hybrid,2017,103,"","",38,43,"",SI,2.0L,4,"2.0L I4;
+50 kW electric motor",Kia,http://www.kia.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11799,57,239,27,C350e,2017,"","","","","","",SI,3.0L,6,"3.0L V6
+60 kW electric motor",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11798,57,239,29,GLE550e,2017,43,"","",20,23,"",SI,3.0L,6,"3.0L V6
+85 kW electric motor",Mercedes-Benz,https://www.mbusa.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11800,57,239,27,S550e,2017,58,"","",24,30,"",SI,3.0L,6,"3.0L V6
+85 kW electric motor",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11769,57,391,27,918 Spyder,2017,"","","","","","",SI,4.6L,8,4.6L V8,Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11801,57,391,29,Cayenne S e-Hybrid,2017,46,"","",21,24,"",SI,3.0L,6,"3.0L V6
+70 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11724,57,391,29,Cayenne S e-Hybrid,2017,"","","","","","",e-motor,3.0L,"",3.0L V6 70 kW electric motor,Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11770,57,391,27,Panamera 4 e-Hybrid,2017,"","","","","","",SI,3.0L,6,"3.0L V6
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11810,57,221,27,Prius Prime,2017,133,"","","","","","",1.8L,4,"1.8L I4
+53 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11725,57,395,29,XC90 T8 Plug-in Hybrid,2017,"","","","","","",e-motor,2.0L,"",2.0L I4 34 & 65 kW electric motor,Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11811,57,395,29,XC90 T8 Plug-in Hybrid,2017,54,"","",24,27,"",SI,2.0L,4,"2.0L I4
+34 & 65 kW electric motor",Volvo,"",SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11612,57,377,27,A3 Sportback e-tron,2016,"","","","","","",SI,1.4L,"","1.4L I4
+75 kW electric drive",Audi,http://progress.audiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11613,57,211,27,i3 REX,2016,117,"","",41,37,"",SI,0.6L,"",0.6L I2 125kW electric motor,BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11614,57,211,27,i8 Plug-in Hybrid,2016,76,"","",28,29,"",SI,1.5L,"","1.5L I3
+96kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11615,57,211,29,X5 xDrive40e Plug-in Hybrid,2016,56,"","",21,24,"",SI,2.0L,"","2.0L I4
+83 kW electric motor",BMW,https://www.bmwusa.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11616,57,231,27,ELR,2016,85,"","",31,33,"",SI,1.4L,"","1.4L I4
+111 kW electric drive",Cadillac,http://www.cadillac.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11617,57,215,27,Volt,2016,106,"","",42,42,"",SI,1.4L,"","1.4L I4
+111 kW electric drive",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11618,57,219,27,C-MAX Energi,2016,88,"","",40,36,"",SI,2.0L,"","2.0L I4
+68 kW electric drive",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11619,57,219,27,Fusion Energi,2016,88,"","",40,36,"",SI,2.0L,"","2.0L I4
+68 kW electric drive",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11620,57,351,27,Sonata Plug-in Hybrid,2016,99,"","",38,41,"",SI,2.4L,"","2.4L I4
+50 kW electric motor",Hyundai,http://www.hyundaiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11621,57,389,27,P1,2016,18,"","",16,20,"",SI,3.8L,"","3.8L V8
+132 kW electric motor",McLaren,http://www.mclaren.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11622,57,239,27,C350e Plug-in Hybrid,2016,"","","","","","",SI,2.0L,"","2.0L I4
+60 kW electric motor",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11623,57,239,27,S550e Plug-in Hybrid,2016,58,"","",24,30,"",SI,3.0L,"","3.0L V6
+85 kW electric motor",Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11624,57,391,29,Cayenne S E-Hybrid,2016,47,"","",21,24,"",SI,3.0L,"","3.0L V6
+70 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11625,57,391,27,Panamera S E-Hybrid,2016,51,"","",23,29,"",SI,3.0L,"","3.0L V6
+70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11626,57,221,27,Prius Plug-in,2016,"","","","","","",SI,1.8L,"","1.8L I4
+38 kW electric drive",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11627,57,395,27,XC90 T8 Plug-in Hybrid,2016,"","","","","","",SI,2.0L,"","2.0L I4
+65 kW electric motor",Volvo,"",Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11329,57,377,27,A3 e-tron,2015,"","","","","","","",1.4,4,"1.4L I4, 75 kW electric drive",Audi,http://progress.audiusa.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11331,57,211,27,i3 w/Range Extender,2015,117,"","","","","","",0.6L,"","0.6L I2, 125kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11330,57,211,27,i8,2015,76,"","","","","","",1.5,3,"1.5L I3, 96 kW electric drive",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11332,57,231,27,ELR,2015,82,"","",31,35,"","",1.4L,"","1.4L I4, 111 kW electric motor",Cadillac,http://www.cadillac.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11333,57,215,27,Volt,2015,98,"","",35,40,"","",1.4L,"","1.4L I4, 111 kW electric motor",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11334,57,219,27,C-MAX Energi,2015,88,"","",40,36,"","",2.0L,4,"2.0L I4, 68 kW electric motor",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11335,57,219,27,Fusion Energi,2015,88,"","",40,36,"","",2.0L,4,"2.0L I4, 68 kW electric motor",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11336,57,209,27,Accord Plug-in Hybrid,2015,115,"","",47,46,"","",2.0L,4,2.0L I4,Honda,http://automobiles.honda.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11337,57,389,27,P1,2015,"","","",16,20,"",SI,3.8L,8,"3.8L V8, 132 kW electric motor",McLaren,http://www.mclaren.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11340,57,239,27,S550 Plug-in Hybrid,2015,"","","","","","","",3.0,6,3.0L V6,Mercedes-Benz,https://www.mbusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11357,57,391,27,918 Spyder,2015,67,"","",20,24,"",SI,4.6L,8,"4.6L V8, 95 kW electric motor front, 115 kW electric motor rear",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11342,57,391,29,Cayenne S E-Hybrid,2015,47,"","",21,24,"",SI,3.0L,6,"3.0L V6, 70 kW electric motor",Porsche,http://www.porsche.com,SUV,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11341,57,391,27,Panamera S E-Hybrid,2015,50,"","",23,29,"",SI,3.0L,6,"3.0L V6, 70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11343,57,221,27,Prius Plug-in,2015,95,"","",51,49,"",SI,1.8L,4,"1.8L I4, 38 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11274,57,211,27,i3 w/Range Extender,2014,"","","","","","","",0.6L,"","0.6L I2, 125kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11273,57,211,27,i8 Plug-in Hybrid,2014,"","","","","","","",1.5L,"","1.5L I3, 96kW electric motor",BMW,https://www.bmwusa.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11275,57,231,27,ELR,2014,"","","","","","","",1.4L,"","1.4L I4, 111 kW electric motor",Cadillac,http://www.cadillac.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11276,57,215,27,Volt,2014,98,"","",35,40,"","",1.4L,"","1.4L I4, 111 kW electric motor",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11278,57,219,27,C-MAX Energi,2014,100,"","",44,41,"","",2.0L,"","2.0L I4, 68 kW electric motor",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11277,57,219,27,Fusion Energi,2014,100,"","",44,41,"","",2.0L,"","2.0L I4, 68 kW electric motor",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11279,57,209,27,Accord Plug-in Hybrid,2014,115,"","",47,46,"","",2.0L,"","2.0L I4, 124 kW electric motor",Honda,http://automobiles.honda.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11280,57,389,27,P1,2014,"","","","","","","",3.8L,"","3.8L V8, 132 kW electric motor",McLaren,http://www.mclaren.com/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11281,57,391,27,Panamera S E-Hybrid,2014,"","","","","","","",3.0L,"","3.0L V6, 70 kW electric motor",Porsche,http://www.porsche.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+11282,57,221,27,Prius Plug-in,2014,95,95,"",51,49,"","",1.8L,"","1.8L I4, 38 kW electric motor",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+10562,57,215,27,Volt,2013,101,93,"",35,40,"","",1.4L,4,"",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+10493,57,219,27,C-MAX ENERGI,2013,"","","",44,41,"","",2.0L,4,"",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+10494,57,219,27,Fusion ENERGI,2013,"","","","","","","",2.0L,4,"",Ford,https://www.ford.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+10553,57,221,27,Prius Plug-in,2013,"","","",51,49,"","",1.8L,4,"",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+10351,57,215,27,Volt,2012,95,93,"",35,40,"",111 kW e-motor,1.4L,4,"",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+10660,57,367,27,Karma,2012,62,63,"",20,21,"",Gasoline,2.0L,4,"",Fisker Automotive,http://www.fiskerautomotive.com/en-ca/,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+10385,57,221,27,Prius Plug-in Hybrid,2012,95,"","",51,49,"",60 kW e-motor,1.8L,4,"",Toyota,http://www.toyota.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""
+10126,57,215,27,Volt,2011,0.360,0.370,"",35,40,"","",1.4L,4,"",Chevrolet,http://www.chevrolet.com,Sedan/Wagon,PHEV,Plug-in Hybrid Electric,"","","","","","","","","","","","","",""

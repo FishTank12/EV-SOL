@@ -1,0 +1,122 @@
+Vehicle ID,Model,Manufacturer,Transmission Make,Num Passengers,Power System Ids,Fuels,Application Categories,Transmission Types
+11283,Enviro500EV,Alexander Dennis,"",82,[10623],Electric,Transit Bus,Automatic
+11209,E-ACTT,Autocar,Vorza,"",[10562],Electric,Tractor,Automatic
+11210,LOW ENTRY TILT 2,Battle Motors,"","","[10563, 10606]",Electric,Vocational/Cab Chassis,Automatic
+11211,LOW NARROW TILT ,Battle Motors,"","","[10563, 10606]",Electric,Vocational/Cab Chassis,Automatic
+10942,All American RE Electric,Blue Bird,"",84,[10525],Electric,School Bus,Automatic
+11103,All American RE Electric Activity,Blue Bird,"",84,[10525],Electric,Passenger Van/Shuttle Bus,Automatic
+11102,Micro Bird Activity G5 Electric,Blue Bird,"",30,[],Electric,Passenger Van/Shuttle Bus,""
+11018,Micro Bird G5 Electric,Blue Bird,"",30,[],Electric,School Bus,""
+11017,Vision Electric,Blue Bird,"",77,[10525],Electric,School Bus,Automatic
+11104,Vision Electric Activity,Blue Bird,"",77,[10525],Electric,Passenger Van/Shuttle Bus,Automatic
+11065,6R,BYD,BYD,"",[],Electric,Refuse,""
+10883,8R/ER,BYD,BYD,"",[],Electric,Refuse,""
+11080,8TT/ER Tandem Axle,BYD,BYD,"",[],Electric,Tractor,Automatic
+10779,8Y Terminal Tractor,BYD,BYD,"",[],Electric,Tractor,""
+10785,C10M (45'),BYD,BYD,57,[10409],Electric,Passenger Van/Shuttle Bus,""
+11108,C10MS (45' double decker),BYD,BYD,77,[10409],Electric,Transit Bus,""
+10783,C6M (23'),BYD,BYD,18,[10554],Electric,Passenger Van/Shuttle Bus,""
+11106,C8M (35'),BYD,BYD,41,[10409],Electric,Passenger Van/Shuttle Bus,""
+11107,C8MS (35' double decker),BYD,BYD,51,[10409],Electric,Transit Bus,""
+10784,C9M (40'),BYD,BYD,49,[10409],Electric,Passenger Van/Shuttle Bus,""
+10776,Class 6F Cab & Chassis,BYD,BYD,"",[],Electric,Vocational/Cab Chassis,""
+11105,K11M (60'),BYD,BYD,55,[10609],Electric,Transit Bus,""
+10781,K7M (30'),BYD,BYD,22,[10607],Electric,Transit Bus,""
+11213,K7M ER (30'),BYD,BYD,22,[10608],Electric,Transit Bus,""
+10782,K8M (35'),BYD,BYD,32,[10610],Electric,Transit Bus,""
+10767,K9M (40'),BYD,BYD,37,[10610],Electric,Transit Bus,""
+11214,K9MD (40'),BYD,BYD,42,[10610],Electric,Transit Bus,""
+11250,Type A (26'),BYD,"",30,[10592],Electric,School Bus,Automatic
+11239,Type D (36'),BYD,"",84,[10410],Electric,School Bus,Automatic
+11178,e.COBUS 2700,COBUS Industries,"",96,[10062],Electric,Transit Bus,""
+11177,e.COBUS 2700S,COBUS Industries,"",77,[10062],Electric,Transit Bus,""
+10502,e.COBUS 3000,COBUS Industries,"",110,[10062],Electric,Transit Bus,""
+11143,DE516,Collins Bus Corp.,Motiv,24,[10477],Electric,School Bus,""
+11144,DE516WF,Collins Bus Corp.,Motiv,16 + 1 wheelchair,[10477],Electric,School Bus,""
+11251,Ford E-Transit,Collins Bus Corp.,"",16 + 1 wheelchair,[],Electric,School Bus,""
+11252,Broom Bear Electric,Elgin,"","",[10593],Electric,Street Sweeper,Automatic
+11220,Axess EVO-BEB 32',ENC,.,.27,[10594],Electric,Transit Bus,""
+11221,Axess EVO-BEB 35',ENC,.,.35,[10594],Electric,Transit Bus,""
+11222,Axess EVO-BEB 40',ENC,.,.43,[10594],Electric,Transit Bus,""
+11246,Cutaway Van,Envirotech,"","",[10587],Electric,Vocational/Cab Chassis,Automatic
+11248,Logistics Van,Envirotech,"","",[10587],Electric,Van,Automatic
+11247,Urban Truck,Envirotech,"","",[10587],Electric,Vocational/Cab Chassis,Automatic
+11235,E-Transit Cargo Van,Ford,"","",[10579],Electric,Van,Automatic
+11236,E-Transit Cutaway/Chassis Cab,Ford,"","",[10579],Electric,Vocational/Cab Chassis,Automatic
+11241,eCascadia,Freightliner,Detroit ePowertrain,"",[10582],Electric,Tractor,""
+11253,eM2,Freightliner,Detroit ePowertrain,"",[10582],Electric,Vocational/Cab Chassis,""
+11224,MT-50e,Freightliner Custom Chassis,Dana,"","[10565, 10566]",Electric,Vocational/Cab Chassis,Automatic
+11069,Low Floor Plus,Gillig,"","",[10525],Electric,Transit Bus,""
+11054,M3EV - Class 7,Global,Global,"",[10568],Electric,Street Sweeper,""
+11053,M4EV - Class 7,Global,Global,"",[10568],Electric,Street Sweeper,""
+11229,Zevo 600,GM BrightDrop,"","",[10576],Electric,Van,""
+11131,AV Star,GreenPower Motor Company,"",21,[10551],Electric,Passenger Van/Shuttle Bus,""
+11024,BEAST/Mega BEAST,GreenPower Motor Company,"",90,[10583],Electric,School Bus,Automatic
+10901,EV250,GreenPower Motor Company,"",21 + 2 wheelchair,[10549],Electric,Transit Bus,""
+10903,EV350,GreenPower Motor Company,"",40 + 2 wheelchair,[10550],Electric,Transit Bus,""
+10907,EV500/EV550,GreenPower Motor Company,"",Up to 99,[10459],Electric,Transit Bus,""
+11000,EV Star,GreenPower Motor Company,"",20,[10551],Electric,Passenger Van/Shuttle Bus,""
+11130,EV Star+,GreenPower Motor Company,"",24,[10551],Electric,Passenger Van/Shuttle Bus,""
+11170,EV Star Cab & Chassis,GreenPower Motor Company,"","",[10551],Electric,Vocational/Cab Chassis,""
+11171,EV Star Cargo,GreenPower Motor Company,"","",[10551],Electric,Van,""
+11172,EV Star Cargo+,GreenPower Motor Company,"","",[10551],Electric,Van|Vocational/Cab Chassis,""
+11242,Nano BEAST,GreenPower Motor Company,"",24,[10551],Electric,School Bus,Automatic
+11280,"Rear Loader: PT1100, PowerTrak Commercial, DuraPack 5000, DuraPack 4060 Split Body, PT1000",Heil Environmental,"","",[],Electric,Refuse,""
+11281,"Side Loader: DuraPack Python, DuraPack Rapid Rail, Liberty, Rapid Rail",Heil Environmental,"","",[],Electric,Refuse,""
+11268,Side Loader: RevAMP fully electric,Heil Environmental,"","",[],Electric,Refuse,""
+11183,Commuter,Hometown Manufacturing,"",42,[],Electric,Transit Bus,Automatic
+11189,Low-Floor Urban,Hometown Manufacturing,"",40,[],Electric,Transit Bus,""
+11185,Mainstreet,Hometown Manufacturing,"",40,[],Electric,Passenger Van/Shuttle Bus,""
+11187,Streetcar,Hometown Manufacturing,"",40,[],Electric,Passenger Van/Shuttle Bus,""
+11181,View,Hometown Manufacturing,"",42,"[10565, 10566]",Electric,Transit Bus,""
+11180,Villager,Hometown Manufacturing,"",45,"[10565, 10566]",Electric,Passenger Van/Shuttle Bus,""
+11225,Electric CE Series,IC Bus,"",77,[10567],Electric,School Bus,Automatic
+11230,eMV,International,"","",[10577],Electric,Vocational/Cab Chassis,Automatic
+11141,TX Electric Terminal Tractor,Kalmar,"","",[10569],Electric,Tractor,""
+11226,K270/K370,Kenworth,"","","[10570, 10571]",Electric,Vocational/Cab Chassis,""
+11227,T680E,Kenworth,"","",[10552],Electric,Tractor,""
+11258,LION5,Lion Electric,"","",[10597],Electric,Vocational/Cab Chassis,Automatic
+11152,LION6,Lion Electric,"","",[10463],Electric,Vocational/Cab Chassis,Automatic
+11084,LION8 - Class 8,Lion Electric,"","",[10445],Electric,Vocational/Cab Chassis,Automatic
+11151,LION8 - Class 8,Lion Electric,"","",[10573],Electric,Tractor,Automatic
+10873,LIONC,Lion Electric,"",77,[10463],Electric,School Bus,Automatic
+11083,LIOND,Lion Electric,"",83,[10463],Electric,School Bus,Automatic
+11155,LR Electric,Mack,Mack Powershift 2-speed ,"",[10598],Electric,Refuse,""
+11259,MD Electric,Mack,"","",[10599],Electric,Vocational/Cab Chassis,""
+11190,D45 CRT CHARGE/LE CHARGE,MCI,"",57,[10611],Electric,Transit Bus,Automatic
+11156,J4500 CHARGE,MCI,"",60,[10611],Electric,Transit Bus,Automatic
+11256,Volterra ZSL,McNeilus,"","",[],Electric,Refuse,""
+11282,eSprinter,Mercedez-Benz,"","",[10622],Electric,Van,Automatic
+11231,(various models),Morgan-Olson,"","",[],CNG - Compressed Natural Gas|Propane|Hydrogen Fuel Cell|Electric,Step Van,Automatic
+11269,Mullen Three,Mullen Automotive,"","",[10612],Electric,Vocational/Cab Chassis,""
+11270,Xcelsior AV,New Flyer,"",40,"[10557, 10613]",Electric,Transit Bus,""
+10837,Xcelsior CHARGE NG 35',New Flyer,Siemens,32,"[10557, 10613]",Electric,Transit Bus,""
+11026,Xcelsior CHARGE NG 40',New Flyer,"",40,"[10557, 10613]",Electric,Transit Bus,""
+11027,Xcelsior CHARGE NG 60',New Flyer,"",61,[10614],Electric,Transit Bus,""
+11249,Tre BEV - Class 8,Nikola,"","",[10590],Electric,Tractor,Automatic
+10872,LFSe,Nova Bus,"",37,[10574],Electric,Transit Bus,""
+11076,LFSe+,Nova Bus,"",41,[10475],Electric,Transit Bus,""
+11232,E1 Cutaway Chassis,Optimal-EV,"","",[10578],Electric,Vocational/Cab Chassis,Automatic
+11233,S1 LF Low Floor,Optimal-EV,"",Up to 20,[10578],Electric,Passenger Van/Shuttle Bus,Automatic
+10840,e-TRIEVER,Orange EV,"","",[10600],Electric,Tractor,""
+11261,HUSK-e Rail and Port,Orange EV,"","",[],Electric,Tractor,""
+11145,220EV Class 6/7,Peterbilt,"","","[10618, 10619]",Electric,Vocational/Cab Chassis,Automatic
+11173,520EV - Class 8,Peterbilt,"","",[10620],Electric,Refuse,Automatic
+11159,579EV - Class 8,Peterbilt,"","",[10621],Electric,Tractor,Automatic
+11266,e16L,Rizon,"","",[10595],Electric,Vocational/Cab Chassis,Automatic
+11191,Allstar 22,Starcraft,"",23,[10615],Electric,Passenger Van/Shuttle Bus,""
+11169,E-Quest,Starcraft,"",23,[10561],Electric,School Bus,""
+11166,E-Quest XL,Starcraft,"",47 or 8 wheelchairs,[10616],Electric,School Bus,""
+11262,Semi,Tesla,"","",[10601],Electric,Tractor,Automatic
+11055,Saf-T-Liner C2 Jouley,Thomas Built,"",81,[],Electric,School Bus,Automatic
+11263,Pro Spotter Electric,TICO,"","",[10602],Electric,Tractor,Automatic
+11271,(various models),Utilimaster,"","",[],CNG - Compressed Natural Gas|Electric|Propane,Step Van,Automatic
+11168,CX45E,Van Hool,"",Up to 60,[10575],Electric,Transit Bus,""
+11264,TDX25E,Van Hool,"",Up to 75,[10575],Electric,Transit Bus,Automatic
+11192,VNR Electric,Volvo,Volvo Two-speed I-Shift,"",[],Electric,Tractor,""
+11237,VNR Electric - Class 7,Volvo,Volvo Two-speed I-Shift,"",[],Electric,Vocational/Cab Chassis,""
+10848,W4 CC,Workhorse,"","",[10589],Electric,Vocational/Cab Chassis,Automatic
+11265,W750,Workhorse,"","",[10589],Electric,Step Van,Automatic
+11243,HDXT - Class 8,Xos,"","",[10603],Electric,Tractor,Automatic
+11244,MDXT,Xos,"","",[10603],Electric,Vocational/Cab Chassis,Automatic
+11245,SV,Xos,"","",[10617],Electric,Step Van,Automatic
