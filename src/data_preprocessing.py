@@ -68,14 +68,8 @@ combined_df['Access_Days_Time'].fillna('Unknown', inplace=True)
 # Convert Timestamps to datetime
 combined_df['Timestamps'] = pd.to_datetime(combined_df['Timestamps'], errors='coerce')
 
-# Validate latitude and longitude values
-valid_geo_data = combined_df[
-    (combined_df['Latitude'].between(-90, 90)) & 
-    (combined_df['Longitude'].between(-180, 180))
-]
-
 # Drop rows with missing critical data
-cleaned_combined_df = valid_geo_data.dropna(subset=['City', 'Street_Address', 'Station_Name', 'Latitude', 'Longitude'])
+cleaned_combined_df = combined_df.dropna(subset=required_columns)
 
 # Verify how many rows are left after dropping
 print(f"Rows remaining after dropping rows with missing critical data: {len(cleaned_combined_df)}")
@@ -142,6 +136,9 @@ if 'Dollars_Spent' in cleaned_combined_df.columns:
 if 'Latitude' in cleaned_combined_df.columns and 'Longitude' in cleaned_combined_df.columns:
     gdf = gpd.GeoDataFrame(
         cleaned_combined_df, geometry=gpd.points_from_xy(cleaned_combined_df.Longitude, cleaned_combined_df.Latitude))
+
+    # Filter out invalid latitude and longitude values
+    gdf = gdf[np.isfinite(gdf['Latitude']) & np.isfinite(gdf['Longitude'])]
 
     # Plotting charging stations
     world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
