@@ -64,8 +64,10 @@ for col in ['EV_Level1_EVSE_Num', 'EV_Level2_EVSE_Num', 'EV_DC_Fast_Count', 'Tot
 # Fill missing text data with a default value
 combined_df['Access_Days_Time'].fillna('Unknown', inplace=True)
 
-# Convert Timestamps to datetime and drop rows with missing critical data
+# Convert Timestamps to datetime
 combined_df['Timestamps'] = pd.to_datetime(combined_df['Timestamps'], errors='coerce')
+
+# Drop rows with missing critical data
 cleaned_combined_df = combined_df.dropna(subset=['City', 'Street_Address', 'Station_Name', 'Latitude', 'Longitude'])
 
 # Verify how many rows are left after dropping
@@ -109,7 +111,7 @@ plt.title('Correlation Matrix')
 plt.savefig("../results/Correlation_Matrix.png")
 
 # Time Series Analysis
-if 'Timestamps' in cleaned_combined_df.columns:
+if 'Total_kWh' in cleaned_combined_df.columns:
     cleaned_combined_df.set_index('Timestamps', inplace=True)
 
     # Plotting total kWh over time
@@ -120,6 +122,7 @@ if 'Timestamps' in cleaned_combined_df.columns:
     plt.ylabel('Total kWh')
     plt.savefig("../results/Total_kWh_Usage_Over_Time.png")
 
+if 'Dollars_Spent' in cleaned_combined_df.columns:
     # Plotting total dollars spent over time
     plt.figure(figsize=(12, 6))
     cleaned_combined_df['Dollars_Spent'].resample('M').sum().plot()
