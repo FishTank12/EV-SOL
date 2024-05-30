@@ -1,148 +1,90 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import geopandas as gpd
-from shapely.geometry import Point
-import numpy as np
-
-# Define file paths
-file_paths = [
-    "../data/alt_fuel_stations (May 30 2024) (1).csv",
-    "../data/alt_fuel_stations (May 30 2024).csv",
-    "../data/Electric_Vehicle_Charging_Stations.csv",
-    "../data/EVChargingStationUsage.csv",
-    "../data/light-duty-vehicles-2024-05-30 (1).csv",
-    "../data/light-duty-vehicles-2024-05-30 (2).csv",
-    "../data/light-duty-vehicles-2024-05-30.csv",
-    "../data/medium-and-heavy-duty-vehicles-2024-05-30.csv",
-    "../data/station_data_dataverse.csv"
-]
+import os
 
 # Load datasets
-dfs = [pd.read_csv(file_path, low_memory=False) for file_path in file_paths]
+data_path = "../data/"
 
-# Define columns mapping
-columns_mapping = {
-    "Station Name": "Station_Name",
-    "Street Address": "Street_Address",
-    "City": "City",
-    "State": "State",
-    "ZIP": "ZIP",
-    "Latitude": "Latitude",
-    "Longitude": "Longitude",
-    "Access Days Time": "Access_Days_Time",
-    "EV Level1 EVSE Num": "EV_Level1_EVSE_Num",
-    "EV Level2 EVSE Num": "EV_Level2_EVSE_Num",
-    "EV DC Fast Count": "EV_DC_Fast_Count",
-    "Total kWh": "Total_kWh",
-    "Dollars Spent": "Dollars_Spent",
-    "Start Date": "Timestamps",  # Assuming Start Date is used as Timestamps
-    "Customer Usage History": "Customer_Usage_History",
-    "Historical Charging Rates": "Historical_Charging_Rates"
+alt_fuel_stations_1 = pd.read_csv(os.path.join(data_path, "alt_fuel_stations (May 30 2024) (1).csv"))
+alt_fuel_stations_2 = pd.read_csv(os.path.join(data_path, "alt_fuel_stations (May 30 2024).csv"))
+ev_charging_stations = pd.read_csv(os.path.join(data_path, "Electric_Vehicle_Charging_Stations.csv"))
+ev_population = pd.read_csv(os.path.join(data_path, "Electric_Vehicle_Population_Data.csv"))
+ev_usage = pd.read_csv(os.path.join(data_path, "EVChargingStationUsage.csv"))
+light_duty_vehicles_1 = pd.read_csv(os.path.join(data_path, "light-duty-vehicles-2024-05-30 (1).csv"))
+light_duty_vehicles_2 = pd.read_csv(os.path.join(data_path, "light-duty-vehicles-2024-05-30 (2).csv"))
+light_duty_vehicles_3 = pd.read_csv(os.path.join(data_path, "light-duty-vehicles-2024-05-30.csv"))
+medium_heavy_vehicles = pd.read_csv(os.path.join(data_path, "medium-and-heavy-duty-vehicles-2024-05-30.csv"))
+station_data = pd.read_csv(os.path.join(data_path, "station_data_dataverse.csv"))
+
+datasets = {
+    "alt_fuel_stations_1": alt_fuel_stations_1,
+    "alt_fuel_stations_2": alt_fuel_stations_2,
+    "ev_charging_stations": ev_charging_stations,
+    "ev_population": ev_population,
+    "ev_usage": ev_usage,
+    "light_duty_vehicles_1": light_duty_vehicles_1,
+    "light_duty_vehicles_2": light_duty_vehicles_2,
+    "light_duty_vehicles_3": light_duty_vehicles_3,
+    "medium_heavy_vehicles": medium_heavy_vehicles,
+    "station_data": station_data
 }
 
-# Clean and combine datasets
-combined_df = pd.DataFrame()
-for df in dfs:
-    df = df.rename(columns=columns_mapping)
-    common_columns = set(columns_mapping.values()).intersection(df.columns)
-    df = df[list(common_columns)]
-    combined_df = pd.concat([combined_df, df], ignore_index=True)
+for name, df in datasets.items():
+    print(f"{name} shape: {df.shape}")
+    print(f"{name} columns: {df.columns.tolist()}\n")
 
-# Ensure necessary columns are in the final dataset
-required_columns = ['City', 'Street_Address', 'Station_Name', 'Latitude', 'Longitude', 'Timestamps']
+for name, df in datasets.items():
+    print(f"{name} info:")
+    print(df.info())
+    print(f"{name} description:")
+    print(df.describe(include='all'))
+    print(f"{name} missing values:")
+    print(df.isnull().sum())
+    print("\n")
 
-# Check for missing values
-missing_values = combined_df.isnull().sum()
-print("Missing values before any processing:")
-print(missing_values[missing_values > 0])
+def plot_distributions(df, title):
+    df.hist(figsize=(15, 10))
+    plt.suptitle(title)
+    plt.savefig(f"../results/{title}.png")
 
-# Fill missing numerical data with zeros
-for col in ['EV_Level1_EVSE_Num', 'EV_Level2_EVSE_Num', 'EV_DC_Fast_Count', 'Total_kWh', 'Dollars_Spent']:
-    if col in combined_df.columns:
-        combined_df[col].fillna(0, inplace=True)
+def plot_correlations(df, title):
+    corr = df.corr()
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(corr, annot=True, cmap='coolwarm', vmin=-1, vmax=1)
+    plt.title(title)
+    plt.savefig(f"../results/{title}.png")
 
-# Fill missing text data with a default value
-combined_df['Access_Days_Time'].fillna('Unknown', inplace=True)
+# Plot distributions and correlations for selected datasets
+plot_distributions(alt_fuel_stations_1, "Alt Fuel Stations (1)")
+plot_distributions(ev_charging_stations, "EV Charging Stations")
+plot_distributions(ev_population, "EV Population")
 
-# Convert Timestamps to datetime
-combined_df['Timestamps'] = pd.to_datetime(combined_df['Timestamps'], errors='coerce')
+plot_correlations(alt_fuel_stations_1, "Alt Fuel Stations (1) Correlations")
+plot_correlations(ev_charging_stations, "EV Charging Stations Correlations")
+plot_correlations(ev_population, "EV Population Correlations")
 
-# Drop rows with missing critical data
-cleaned_combined_df = combined_df.dropna(subset=required_columns)
+# Analyze EV Usage
+ev_usage['Start Date'] = pd.to_datetime(ev_usage['Start Date'])
+ev_usage['End Date'] = pd.to_datetime(ev_usage['End Date'])
+ev_usage['Total Duration (minutes)'] = ev_usage['Total Duration (hh:mm:ss)'].apply(lambda x: int(x.split(':')[0])*60 + int(x.split(':')[1]))
+ev_usage['Energy (kWh)'] = ev_usage['Energy (kWh)'].astype(float)
 
-# Verify how many rows are left after dropping
-print(f"Rows remaining after dropping rows with missing critical data: {len(cleaned_combined_df)}")
+# Plot total energy consumption over time
+ev_usage.set_index('Start Date')['Energy (kWh)'].resample('D').sum().plot(figsize=(15, 6), title='Total Energy Consumption Over Time')
+plt.savefig("../results/Total Energy Consumption Over Time.png")
 
-# Display the first few rows of the cleaned dataset
-print(cleaned_combined_df.head())
+# Analyze EV Population
+ev_population['Vehicle Location'] = ev_population['Vehicle Location'].apply(lambda x: eval(x.replace('POINT (', '').replace(')', '').replace(' ', ',')))
 
-# Plot distribution of charging stations by city
-plt.figure(figsize=(12, 6))
-sns.countplot(y=cleaned_combined_df['City'], order=cleaned_combined_df['City'].value_counts().index)
-plt.title('Distribution of Charging Stations by City')
-plt.xlabel('Number of Charging Stations')
-plt.ylabel('City')
-plt.savefig("../results/Distribution_of_Charging_Stations_by_City.png")
+# Extract latitude and longitude
+ev_population['Latitude'] = ev_population['Vehicle Location'].apply(lambda x: x[1])
+ev_population['Longitude'] = ev_population['Vehicle Location'].apply(lambda x: x[0])
 
-# Plot distribution of EV Level 1, Level 2, and DC Fast chargers
-plt.figure(figsize=(12, 6))
-sns.histplot(cleaned_combined_df['EV_Level1_EVSE_Num'], bins=20, label='Level 1', color='blue', kde=True)
-sns.histplot(cleaned_combined_df['EV_Level2_EVSE_Num'], bins=20, label='Level 2', color='green', kde=True)
-sns.histplot(cleaned_combined_df['EV_DC_Fast_Count'], bins=20, label='DC Fast', color='red', kde=True)
-plt.title('Distribution of EVSE Numbers')
-plt.xlabel('Number of EVSE')
-plt.ylabel('Frequency')
-plt.legend()
-plt.savefig("../results/Distribution_of_EVSE_Numbers.png")
+# Plot EV distribution
+plt.figure(figsize=(10, 6))
+sns.scatterplot(data=ev_population, x='Longitude', y='Latitude', hue='Electric Vehicle Type', palette='viridis')
+plt.title('EV Ownership Distribution')
+plt.savefig("../results/EV Ownership Distribution.png")
 
-# Plot distribution of access days and times
-plt.figure(figsize=(12, 6))
-sns.countplot(y=cleaned_combined_df['Access_Days_Time'], order=cleaned_combined_df['Access_Days_Time'].value_counts().index)
-plt.title('Distribution of Access Days and Times')
-plt.xlabel('Number of Charging Stations')
-plt.ylabel('Access Days and Times')
-plt.savefig("../results/Distribution_of_Access_Days_and_Times.png")
 
-# Plot correlation matrix
-plt.figure(figsize=(12, 8))
-corr_matrix = cleaned_combined_df.corr(numeric_only=True)
-sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
-plt.title('Correlation Matrix')
-plt.savefig("../results/Correlation_Matrix.png")
-
-# Time Series Analysis
-if 'Total_kWh' in cleaned_combined_df.columns:
-    cleaned_combined_df.set_index('Timestamps', inplace=True)
-
-    # Plotting total kWh over time
-    plt.figure(figsize=(12, 6))
-    cleaned_combined_df['Total_kWh'].resample('M').sum().plot()
-    plt.title('Total kWh Usage Over Time')
-    plt.xlabel('Time')
-    plt.ylabel('Total kWh')
-    plt.savefig("../results/Total_kWh_Usage_Over_Time.png")
-
-if 'Dollars_Spent' in cleaned_combined_df.columns:
-    # Plotting total dollars spent over time
-    plt.figure(figsize=(12, 6))
-    cleaned_combined_df['Dollars_Spent'].resample('M').sum().plot()
-    plt.title('Total Dollars Spent Over Time')
-    plt.xlabel('Time')
-    plt.ylabel('Dollars Spent')
-    plt.savefig("../results/Total_Dollars_Spent_Over_Time.png")
-
-# Geospatial Analysis (requires geopandas)
-if 'Latitude' in cleaned_combined_df.columns and 'Longitude' in cleaned_combined_df.columns:
-    gdf = gpd.GeoDataFrame(
-        cleaned_combined_df, geometry=gpd.points_from_xy(cleaned_combined_df.Longitude, cleaned_combined_df.Latitude))
-
-    # Filter out invalid latitude and longitude values
-    gdf = gdf[np.isfinite(gdf['Latitude']) & np.isfinite(gdf['Longitude'])]
-
-    # Plotting charging stations
-    world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
-    ax = world[world.name == "United States"].plot(color='white', edgecolor='black')
-    gdf.plot(ax=ax, color='red', markersize=5)
-    plt.title('Geographic Distribution of Charging Stations')
-    plt.savefig("../results/Geographic_Distribution_of_Charging_Stations.png")
