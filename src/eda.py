@@ -69,4 +69,3 @@ print(power_lines.columns)
 
 # Display the columns of the supplier_locations dataset to verify the correct column names
 print(supplier_locations.columns)
-
