@@ -4,12 +4,12 @@ import seaborn as sns
 
 # Define file paths
 file_paths = [
-    "./data/Electric_Vehicle_Charging_Stations.csv",
-    "./data/light-duty-vehicles-2024-05-30 (1).csv",
-    "./data/light-duty-vehicles-2024-05-30 (2).csv",
-    "./data/light-duty-vehicles-2024-05-30.csv",
-    "./data/medium-and-heavy-duty-vehicles-2024-05-30.csv",
-    "./data/station_data_dataverse.csv"
+    "../data/Electric_Vehicle_Charging_Stations.csv",
+    "../data/light-duty-vehicles-2024-05-30 (1).csv",
+    "../data/light-duty-vehicles-2024-05-30 (2).csv",
+    "../data/light-duty-vehicles-2024-05-30.csv",
+    "../data/medium-and-heavy-duty-vehicles-2024-05-30.csv",
+    "../data/station_data_dataverse.csv"
 ]
 
 # Load datasets

@@ -1,0 +1,386 @@
+Station_Name,Street_Address,EV_Level2_EVSE_Num,EV_DC_Fast_Count,Access_Days_Time,City,EV_Level1_EVSE_Num
+BMW OF DARIEN,138-142 Ledge Rd,2,NONE,24 hours daily,Darien,NONE
+Dunkin’ - Tesla Supercharger,893 E Main St,NONE,8,24 hours daily; for Tesla use only,Meriden,NONE
+Town of Beacon Falls - Commuter Lot,105 N Main St,1,NONE,24 hours daily,Beacon Falls,NONE
+OLD SAYBROOK VW,319 Middlesex Turnpike,2,NONE,24 hours daily,Old Saybrook,NONE
+Fairfield Rail Station,80 Mill Plain Rd,2,NONE,24 hours daily,Fairfield,NONE
+FOUNDRY66,50 Franklin St,2,NONE,24 hours daily,Norwich,NONE
+Corbins Corner Shopping Center - Tesla Supercharger,1445 New Britain Ave.,NONE,8,24 hours daily; for Tesla use only,West Hartford,NONE
+GLASTONBURYEV,2327-2333 Main St,2,NONE,24 hours daily,Glastonbury,NONE
+Whole Foods Market,150 Ledge Rd,NONE,NONE,8am-10pm daily; for customer use only,Darien,4
+Mystic Marriott Hotel and Spa,625 North Rd,1,NONE,24 hours daily; guest use only; see front desk for access,Groton,NONE
+Brass Mill Center - Shoppers World,495 Union St,2,NONE,6am-12am daily,Waterbury,NONE
+University of Connecticut Health - Center Garage,263 Farmington Ave,4,NONE,24 hours daily,Farmington,NONE
+D'Addario Nissan,329 Bridgeport Ave,1,1,Dealership business hours,Shelton,NONE
+CT RAIL,198 N Cherry St,2,NONE,24 hours daily,Wallingford,NONE
+Hampton Inn & Suites Rocky Hill - Hartford South - Tesla Destination,685 Cromwell Ave,2,NONE,24 hours daily; for customer use only; see front desk for access,Rocky Hill,NONE
+Goodwives Shopping Center,25 Old Kings Hwy,NONE,1,24 hours daily,Darien,NONE
+City of New Haven - Union Station Garage,50 Union Ave,3,NONE,24 hours daily; pay lot,New Haven,NONE
+Easton Public Library,691 Morehouse Rd,2,NONE,24 hours daily,Easton,NONE
+The Plaza at Buckland Hills - Tesla Supercharger,1470 Pleasant Valley Road,NONE,16,24 hours daily; for Tesla use only,Manchester,NONE
+Greenlots - 92367,204 Stillman Hill Rd,2,NONE,24 hours daily,Colebrook,NONE
+Mystic Diner Restaurant - Tesla Destination,253 Greenmanville  Ave,1,NONE,24 hours daily; for customer use only,Mystic,NONE
+Connecticut Airport Authority - Bradley Airport,Cell Phone Lot,4,NONE,24 hours daily,Windsor Locks,NONE
+University of Connecticut - Motor Pool,9 Discovery Dr,1,NONE,8am-3pm M-F,Storrs,NONE
+Hammonasset Beach State Park - South,1288 Boston Post Rd,4,NONE,24 hours daily,Madison,NONE
+Schaller Mitsubishi,25 Veterans Dr,1,NONE,Dealership business hours,New Britain,NONE
+Mansfield Public Library,54 Warrenville Rd,1,NONE,24 hours daily,Mansfield,NONE
+WESTLODGE,811 Burr Mountain Rd,2,NONE,24 hours daily,Torrington,NONE
+TOWNHALL,100 Bentley Dr,2,NONE,24 hours daily,Harwinton,NONE
+University of Connecticut - Avery Point,1084 Shennecossett Rd,2,NONE,24 hours daily,Groton,NONE
+Middletown School District - Lawrence Elementary School,Kaplan Dr,2,NONE,24 hours daily,Middletown,NONE
+Fairfield Mitsubishi,421 Tunxis Hill Rd,1,NONE,Dealership business hours,Fairfield,NONE
+Gates Nissan,143 Boston Post Rd,1,NONE,Dealership business hours,North Windham,NONE
+Water's Edge Resort and Spa - Tesla Destination,1525 Boston Post Rd,3,NONE,24 hours daily,Westbrook,NONE
+North Haven PaviIion,100 Universal Dr,NONE,6,24 hours daily,North Haven,NONE
+UNION STATION,Union Ave and Union Station,10,NONE,24 hours daily,New Haven,NONE
+Torrington Town Hall,140 Main St,1,NONE,24 hours daily,Torrington,NONE
+Crowley Nissan,1451 Farmington Ave,2,1,Dealership business hours,Bristol,NONE
+Parthenon Diner Restaurant - Tesla Destination,374 E Main St,1,NONE,24 hours daily; for customer use only,Branford,NONE
+Town of Mansfield - Community Center,10 S Eagleville Rd,1,NONE,24 hours daily,Mansfield,NONE
+Manchester City Nissan,30 Tolland Turnpike,2,NONE,Dealership business hours,Manchester,NONE
+City of Meriden - City Hall,142 E Main St,4,NONE,24 hours daily,Meriden,NONE
+City of New Haven - Sherman Tyler Lot,60 N Frontage Rd,2,NONE,24 hours daily; permit lot,New Haven,NONE
+City of Meriden - Meriden Public Library,105 Miller St,2,NONE,24 hours daily,Meriden,NONE
+Blogoslawski Parking Garage,10 Franklin Square,2,NONE,24 hours daily,New Britain,NONE
+Comfort Inn Guilford - Tesla Destination,300 Boston Post Rd,2,NONE,24 hours daily; for customer use only; see front desk for access,Guilford,NONE
+Brass Mill Center - Entrance 5,495 Union St,2,NONE,6am-12pm daily,Waterbury,NONE
+Town of Simsbury - Town Hall,933 Hopmeadow St,2,NONE,24 hours daily,Simsbury,NONE
+Connecticut Legislative Parking Garage,240 Capitol Ave,5,NONE,7am-7pm M-F,Hartford,NONE
+Middletown School District - Moody School,300 Country Club Rd,2,NONE,24 hours daily,Middletown,NONE
+Barberino Nissan,505 N Colony St,1,NONE,Dealership business hours,Wallingford,NONE
+CityPlace Garage,185 Asylum St,2,NONE,Garage business hours,Hartford,NONE
+CURRAN VOLKSWAG,2774-2788 CT-113,2,NONE,24 hours daily,Stratford,NONE
+"Inn at Stonington, a Select Registry Property - Tesla Destination",60 Water St,3,NONE,24 hours daily; for customer use only,Stonington,NONE
+"Westport Town Hall 110 Myrtle Ave Westport, CT 06880",110 Myrtle Avenue,2,NONE,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,Westport,NONE
+STARWOOD,1 Star Point,2,NONE,24 hours daily,Stamford,NONE
+Popeyes Kitchen - Fairfield Pizza,200 E Main St,NONE,1,24 hours daily,Stratford,NONE
+Dunkin' Donuts - Tesla Supercharger,160 Kukas Lane,NONE,8,24 hours daily; for Tesla use only,Waterbury,NONE
+Crest Ford,218 Flanders Rd,1,NONE,24 hours daily,Niantic,NONE
+Central Connecticut State University - Sheridan Dorm Lot,65 Wells St,1,NONE,24 hours daily,New Britain,NONE
+LIBRARY KIOSK,24 Main St,1,NONE,24 hours daily,New Milford,NONE
+Hotel HiHo - Tesla Destination,4180 Black Rock Tpke,3,NONE,24 hours daily; for customer use only,Fairfield,NONE
+Summer Street Garage,100 Summer St,3,NONE,Restricted to garage hours; pay lot,Stamford,NONE
+MUNICIP STATION,3 Primrose St,2,NONE,24 hours daily,Newtown,NONE
+PURDUE PHARMA,201 Tresser Blvd,4,NONE,24 hours daily,Stamford,NONE
+Hartford High School,55 Forest St,2,NONE,24 hours daily,Hartford,NONE
+Bloomfield Town Hall,800 Bloomfield Avenue,2,NONE,MO: 12:00am-12:00am; TU: 12:00am-12:00am; WE: 12:00am-12:00am; TH: 12:00am-12:00am; FR: 12:00am-12:00am; SA: 12:00am-12:00am; SU: 12:00am-12:00am,Bloomfield,NONE
+GUNNERY,16 Kirby Rd,2,NONE,24 hours daily,Washington,NONE
+University of Connecticut - Storrs Center Garage,33 Royce Cir,4,NONE,24 hours daily,Storrs,NONE
+JAGLRNH,521 Washington Ave,2,NONE,24 hours daily,North Haven,NONE
+Town of Stafford - Town Hall,1 Main St,4,NONE,24 hours daily,Stafford Springs,NONE
+Charter Oak International Academy,425 Oakwood Ave,2,NONE,24 hours daily,West Hartford,NONE
+Town of Newington - Market Square,90 Market Square,4,NONE,24 hours daily,Newington,NONE
+Riverfield School,1625 Mill Plain Rd,2,NONE,School hours,Fairfield,NONE
+Capital Regional Development Authority (CRDA),105 Columbus Blvd,2,NONE,6am-12am daily,Hartford,NONE
+The SoNo Collection,100 N Water St,10,NONE,6am-12am,Norwalk,NONE
+City of New Haven - Whalley Blake Parking Lot,919 Whalley Ave,2,NONE,24 hours daily; pay lot,New Haven,NONE
+Riverview Cinemas 8 and Playhouse - Tesla Destination,690 Main St S,4,NONE,24 hours daily; for customer use only,Southbury,NONE
+The Ridgefield Playhouse,80 E Ridge Rd,2,NONE,24 hours daily,Ridgefield,NONE
+Meriden Station Garage,24 Colony St,3,NONE,24 hours daily,Meriden,NONE
+HONDA WESTPORT,1372 Post Rd E,3,NONE,24 hours daily,Westport,NONE
+FOXWOODS,350 Trolley Line Blvd,2,NONE,24 hours daily,Mashantucket,NONE
+TOWN HALL LOT,740 Main St,2,NONE,24 hours daily,East Hartford,NONE
+FOXWOODS,350 Trolley Line Blvd,2,NONE,24 hours daily,Ledyard,NONE
+Plainville High School,47 Robert Holcomb Way,1,NONE,24 hours daily,Plainville,NONE
+Connecticut Welcome Center - Tesla Supercharger,1 West Ave.,NONE,4,24 hours daily; for Tesla use only,Darien,NONE
+Whole Foods Market,350 Grasmere Ave,1,NONE,8am-10pm daily; for customer use only; see inside for access,Fairfield,NONE
+Tamarack Country Club - Tesla Destination,55 Locust Rd,3,NONE,24 hours daily; for member use only; see valet for access,Greenwich,NONE
+Madison Beach Hotel - Tesla Destination,94 W Wharf Rd,2,NONE,24 hours daily; overnight valet fee,Madison,NONE
+Newington Electric,72 Pane Rd,3,NONE,24 hours daily,Newington,NONE
+Premier Kia,205 N Main St,1,NONE,24 hours daily; priority for customer use,Branford,NONE
+The Shoppes at Fox Run 1,25 Welles St # 55,NONE,2,24 hours daily,Glastonbury,NONE
+NBCSG,98 Maher Rd,14,NONE,24 hours daily,Stamford,NONE
+EDENS BISHOPS,345 N Main St,2,NONE,24 hours daily,West Hartford,NONE
+Propark - Water Street Garage,161 Water St,4,NONE,Restricted to garage hours; pay lot,New London,8
+Connecticut Post Mall - Tesla Supercharger,1201 Boston Post Road,NONE,14,24 hours daily; for Tesla use only,Milford,NONE
+Manchester Honda,24 Adams St,1,NONE,Dealership business hours,Manchester,NONE
+New London Mall - Tesla Supercharger,369 N Frontage Rd,NONE,8,24 hours daily; for Tesla use only,New London,NONE
+Plainville Municipal Center,1 Central Square,1,NONE,24 hours daily,Plainville,NONE
+The Study at Yale - Tesla Destination,1157 Chapel St,2,NONE,24 hours daily; see valet for access,New Haven,NONE
+Connecticut Science Center,250 Columbus Blvd,2,NONE,6am-6pm daily,Hartford,NONE
+Windham High School,355 High St,2,NONE,24 hours daily,Windham,NONE
+BIG Y FOODS,401 Bridgeport Ave,2,NONE,24 hours daily,Shelton,NONE
+WHOLE FOODS MKT,5 Sugar Hollow Rd,1,NONE,24 hours daily,Danbury,NONE
+I-95 Madison NB Service Plaza - Tesla Supercharger,I-95 North Ave,NONE,10,24 hours daily; Tesla users only,Madison,NONE
+Canton Town Hall,4 Market St,2,NONE,24 hours daily,Canton,NONE
+UNION STATION,50 Union Ave,2,NONE,24 hours daily,New Haven,NONE
+TOD,120 Main St,2,NONE,24 hours daily,Durham,NONE
+Delamar Southport - Tesla Destination,275 Old Post Rd,3,NONE,24 hours daily; for customer use only; see valet for access,Fairfield,NONE
+Andrew Ward School,755 Melville Ave,2,NONE,School hours,Fairfield,NONE
+Connecticut Department of Energy and Environmental Protection,79 Elm St,2,NONE,8:30am-4:30pm M-F,Hartford,NONE
+Arapahoe Parking Lot,105 LaSalle Rd,1,NONE,Garage business hours; pay lot,West Hartford,NONE
+Southington Public Library,255 Main St,2,NONE,24 hours daily,Southington,NONE
+NBCSG,84 Maher Rd,2,NONE,24 hours daily,Stamford,NONE
+Paul Miller Nissan,930 Kings Hwy E,1,1,Dealership business hours,Fairfield,NONE
+Town of New Fairfield - Town Hall,4 Brush Hill Rd,1,NONE,24 hours daily,New Fairfield,NONE
+Chip's Family Restaurant - Tesla Destination,321  Boston Post Rd,2,NONE,24 hours daily; for customer use only,Orange,NONE
+George Harte Nissan,426 Derby Ave,2,1,Dealership business hours,West Haven,NONE
+STOP SHOP,148 Heights Rd,NONE,1,24 hours daily,Darien,NONE
+East Shore District Health Department,688 E Main St,6,NONE,24 hours daily; 2 hour limit,Branford,NONE
+Ridgefield BMW,746 Danbury Rd,2,NONE,Dealership business hours; for customer use only,Ridgefield,NONE
+Big Y,22 Spencer Plain Rd,1,NONE,24 hours daily,Old Saybrook,NONE
+Green Farms Plaza,1460 Post Rd E,NONE,1,24 hours daily,Westport,NONE
+Bridgeport Hospital,267 Grant St,2,NONE,24 hours daily,Bridgeport,NONE
+Town of Stafford - Community Center,3 Buckley Hwy,1,NONE,24 hours daily,Stafford Springs,NONE
+Constitution Plaza - South,109 Constitution Plaza,1,NONE,MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours,Hartford,NONE
+Coventry Town Hall,1712 Main St,2,NONE,24 hours daily,Coventry,NONE
+Curran Volkswagen,2785 Main St,1,NONE,Dealership business hours,Stratford,NONE
+644 West Putnam,644 West Putnam Avenue,3,NONE,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,Greenwich,NONE
+Grove Street Parking Garage,65 Grove Street,2,NONE,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,New Haven,NONE
+Mohegan Sun - Tesla Destination,1 Mohegan Sun Blvd,5,NONE,24 hours daily; for customer use only; see valet for access,Uncasville,NONE
+CVS West Haven,355 Campbell Ave,NONE,1,24 hours daily,West Haven,NONE
+Central Connecticut State University - Vance Garage,150 Paul Manafort Sr. Dr,2,NONE,After 5pm daily,New Britain,NONE
+City of New Haven - Crown Street Parking Garage,213 Crown St,2,NONE,24 hours daily; pay lot,New Haven,NONE
+Figaro Restaurant,90 Elm St,1,NONE,Restaurant business hours; for guest use only,Enfield,NONE
+Middletown School District - Board of Education,311 Hunting Hill Ave,2,NONE,24 hours daily,Middletown,NONE
+Mansfield Parking Garage,9 Dog Ln,4,NONE,Garage business hours; pay lot,Storrs,NONE
+Brass Mill Center - Entrance 6,495 Union St,2,NONE,6am-12pm daily,Waterbury,NONE
+Ellington Town Hall,55 Main St,2,NONE,24 hours daily,Ellington,NONE
+Fairfield Tennis Center,210 Old Dam Rd,2,NONE,24 hours daily,Fairfield,NONE
+Trinity College,18-60 Crescent St,4,NONE,24 hours daily,Hartford,NONE
+Saugatuck Fire Station,Railroad Place,7,NONE,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,Westport,NONE
+COMCAST,222 New Park Dr,4,NONE,24 hours daily,Berlin,NONE
+Kent Town Hall,41 Kent Green Blvd,2,NONE,24 hours daily,Kent,NONE
+Dunkin' Donuts,1205 Tolland Tpke,NONE,1,24 hours daily,Manchester,NONE
+County Line Nissan - North,522 Winsted Rd,1,NONE,Dealership business hours,Torrington,NONE
+TOWN OF MADISON,761 Boston Post Rd,2,NONE,24 hours daily,Madison,NONE
+Rocky Neck State Park,244 W Main St,2,NONE,Dawn to dusk,Niantic,NONE
+ELEMENT STATION,111 Morgan St,2,NONE,24 hours daily,Stamford,NONE
+Saybrook Point Marina,2 Bridge St,1,NONE,24 hours daily,Old Saybrook,NONE
+Town of Groton - Town Hall,45 Fort Hill Rd,2,NONE,24 hours daily,Groton,NONE
+Harte Nissan,165 W Service Rd,1,1,Dealership business hours,Hartford,NONE
+Highland Park Market,317 Highland St,2,NONE,24 hours daily,Manchester,NONE
+Nissan - Norwich,691 W Thames St,1,NONE,Dealership business hours; contact 860-892-6000 for more information,Norwich,NONE
+Wesleyan University,56 Hamlin Ct,NONE,NONE,24 hours daily,MIddletown,2
+HAMPTON INN,129 Plains Rd,NONE,4,24 hours daily,Milford,NONE
+Aitoro Appliance,401 Westport Ave,1,NONE,Store business hours; see inside for access,Norwalk,NONE
+Putnam Downtown Municipal Parking Lot,165 Kennedy Dr,1,NONE,24 hours daily,Putnam,NONE
+NYALA GAR 3,400 Nyala Farms Rd,2,NONE,24 hours daily,Westport,NONE
+WHOLE FOODS MKT,5c Sugar Hollow Rd,2,NONE,24 hours daily,Danbury,NONE
+East Norwalk Library,51 Van Zant St,4,NONE,24 hours daily,Norwalk,NONE
+Greenwich Southbound Travel Plaza - Tesla Supercharger,2000 Merritt Parkway,NONE,4,24 hours daily; for Tesla use only,Greenwich,NONE
+Propark America - Omni Hotel Chapel Square Garage,155 Temple St,2,NONE,24 hours daily; pay lot,New Haven,2
+Mystic Marriott Hotel and Spa - Tesla Destination,625 North Rd,2,NONE,24 hours daily; for customer use only; see front desk for access,Groton,NONE
+Connecticut Post Mall - Target,1201 Boston Post Rd,2,NONE,6am-12pm daily,Milford,NONE
+SPIREP,1 N Water St,2,NONE,24 hours daily,Norwalk,NONE
+Town of Norfolk - Town Clerk,19 Maple Ave,2,NONE,24 hours daily,Norfolk,NONE
+Waterford Commons,915 Hartford Turnpike,NONE,6,24 hours daily,Waterford,NONE
+Clinton Town Hall,54 E Main St,2,NONE,24 hours daily,Clinton,NONE
+Cargill Chevrolet,23 Livery St,3,NONE,24 hours daily,Putnam,NONE
+Bedford Street Garage,17 Forest St,4,NONE,Restricted to garage hours; pay lot,Stamford,NONE
+Pomfret Town Hall,5 Haven Rd,2,NONE,24 hours daily,Pomfret,NONE
+Delamar Greenwich Harbor - Tesla Destination,500 Steamboat Rd,3,NONE,24 hours daily; for customer use only; see valet for access,Greenwich,NONE
+East Hartford Public Schools - Department of Facilities,734 Tolland St,2,NONE,24 hours daily,East Hartford,NONE
+Windham Municipal Parking Lot,48 Church St,2,NONE,24 hours daily,Willimantic,NONE
+Heritage Hotel - Tesla Destination,522 Heritage Rd,2,NONE,24 hours daily; for customer use only; see front desk for access,Southbury,NONE
+Tri-Town Teachers Federal Credit Union,61 Jessup Rd,2,NONE,24 hours daily,Westport,NONE
+Morgan Street Garage,155 Morgan St,4,NONE,24 hours daily,Hartford,NONE
+NBCSG,Unnamed Road,8,NONE,24 hours daily,Stamford,NONE
+Napoli Nissan,688 Bridgeport Ave,1,NONE,Dealership business hours,Milford,NONE
+Congregational Church of Somersville,22 Maple St,2,NONE,24 hours daily,Somersville,NONE
+I-95 Darien NB Service Plaza - Tesla Supercharger,1 E Trail,NONE,10,24 hours daily; Tesla users only,Darien,NONE
+Town of Hamden - Spring Glen Municipal Parking Lot,1665 Whitney Ave,2,NONE,24 hours daily,Hamden,NONE
+City of Milford - Parsons Government Center,70 W River St,1,NONE,24 hours daily,Milford,NONE
+Hoffman Nissan,46 Albany Turnpike,1,NONE,Dealership business hours,West Simsbury,NONE
+Premier Chevrolet,512 Providence Rd,1,NONE,Dealership business hours,Brooklyn,NONE
+The Wallingford Victorian Inn - Tesla Destination,245 N Main St,2,NONE,24 hours daily; for customer use only,Wallingford,NONE
+HONDADANBURY,102 Federal Rd,2,NONE,24 hours daily,Danbury,NONE
+Village Center,87 Main St,1,NONE,24 hours daily,East Hampton,NONE
+Connecticut Department of Corrections,38 Wolcott Hill Rd,2,NONE,24 hours daily,Wethersfield,NONE
+Stamford Marriott Hotel - Tesla Destination,243 Tresser Blvd,3,NONE,24 hours daily; for customer use only,Stamford,NONE
+Woodbridge Town Library,10 Newton Rd,2,NONE,24 hours daily,Woodbridge,NONE
+Waterworks - Tesla Destination,60 Backus Ave,2,NONE,24 hours daily; for customer use only,Danbury,NONE
+Town of East Haven,250 Main St,1,NONE,24 hours daily,East Haven,NONE
+DECORMIER NISS,30 Tolland Turnpike,NONE,1,24 hours daily,Manchester,NONE
+Lia Nissan - Enfield,10 Palomba Dr,1,NONE,Dealership business hours,Enfield,NONE
+North Canaan Shopping Center - Tesla Supercharger,11 E Main St,NONE,8,24 hours daily; for Tesla use only,North Canaan,NONE
+Lombard Ford,385 New Hartford Rd,2,NONE,Dealership business hours; customer use only,Barkhamsted,NONE
+Danbury Fair Mall,7 Backus Ave,NONE,2,24 hours daily,Danbury,NONE
+City of Milford - Public Library,57 New Haven Ave,2,NONE,24 hours daily,Milford,NONE
+Public Parking Lot,1 Morse Ct,1,NONE,Parking lot hours,New Canaan,NONE
+Milford Travel Plaza - Tesla Supercharger,I-95 Milford,NONE,2,24 hours daily; for Tesla use only,Milford,NONE
+TS,1 American Ln,2,NONE,24 hours daily,Greenwich,NONE
+Russell Mercier Senior Center,14 Stonecroft Dr,2,NONE,24 hours daily,Hebron,NONE
+Roger Ludlowe School,689 Unquowa Rd,2,NONE,School hours,Fairfield,NONE
+Town of Hebron,15 Gilead St,2,NONE,24 hours daily,Hebron,NONE
+Southington Municipal Center,200 N Main St,2,NONE,24 hours daily,Southington,NONE
+Middletown School District - Middletown High School,200 LaRosa Ln,2,NONE,24 hours daily,Middletown,NONE
+Town of Groton - Town Hall Annex,134 Groton Long Point Rd,2,NONE,24 hours daily,Groton,NONE
+TOWN HALL,31 Park Street,2,NONE,24 hours daily,Guilford,NONE
+TRUMBULL MALL,5065 Main Street,2,NONE,24 hours daily,Trumbull,NONE
+Parthenon Diner of Old Saybrook - Tesla Destination,809 Boston Post Rd,1,NONE,24 hours daily; for customer use only,Old Saybrook,NONE
+Western Connecticut State University,43 Lake Ave Extension,1,NONE,24 hours daily,Danbury,NONE
+BIG Y FOODS,224 Salem Turnpike,2,NONE,24 hours daily,Norwich,NONE
+Ridgeway Shopping Center,2202 Bedford St,NONE,1,24 hours daily,Stamford,NONE
+Clark Memorial Library,538 Amity Rd,2,NONE,24 hours daily,Bethany,NONE
+City of New Haven - Orchard Sherman Parking Lot,102 N Frontage Rd,2,NONE,24 hours daily; pay lot,New Haven,NONE
+Town of Westport - Westport Metro North,1 Railroad Pl,1,NONE,24 hours daily; pay lot,Westport,1
+Greenwich Northbound Travel Plaza - Tesla Supercharger,3000 Merritt Parkway,NONE,4,24 hours daily; for Tesla use only,Greenwich,NONE
+Central Connecticut State University- Welte Garage,39 Ella Grasso Blvd,3,NONE,24 hours daily,New Britain,NONE
+Isham Garage,17 Isham Rd,1,NONE,Garage business hours; pay lot,West Hartford,NONE
+GENE LANGAN VW,816 New London Turnpike,2,NONE,24 hours daily,Glastonbury,NONE
+I-91 Tech Park,845 Brook St,2,NONE,24 hours daily; priority for Connecticut Green Bank employees,Rocky Hill,NONE
+Homestead Inn - Tesla Destination,5 Elm St,2,NONE,24 hours daily; for customer use only; see front desk for access,New Milford,NONE
+Western Connecticut State University,179 White St,2,NONE,24 hours daily,Danbury,NONE
+Grace Mayflower Inn and Spa - Tesla Destination,118 Woodbury Rd,3,NONE,24 hours daily; for customer use only; see front desk for access,"Rte 47, Washington",NONE
+I-95 Madison SB Service Plaza - Tesla Supercharger,I-95 South Bound,NONE,10,24 hours daily; Tesla users only,Madison,NONE
+Bishop's Orchards Farm Market,1355 Boston Post Rd,2,NONE,24 hours daily,Guilford,NONE
+Campus at Greenhill,108 Leigus Road,4,NONE,MO: 12:00am-12:00am; TU: 12:00am-12:00am; WE: 12:00am-12:00am; TH: 12:00am-12:00am; FR: 12:00am-12:00am; SA: 12:00am-12:00am; SU: 12:00am-12:00am,Wallingford,NONE
+Connecticut Department of Motor Vehicles,1365 Highland Ave,1,NONE,9am-5pm M-F,Cheshire,NONE
+Town of Glastonbury - Town Hall,2155 Main St,1,NONE,24 hours daily,Glastonbury,NONE
+Green’s Farms Railroad Station,2 Post Office Ln,1,NONE,24 hours daily,Westport,NONE
+Connecticut Insurance Exchange of Southington,1133 Meriden-Waterbury Turnpike,1,NONE,24 hours daily,Plantsville,NONE
+HOFFMAN HONDA 1,40 Albany Turnpike,4,NONE,24 hours daily,Simsbury,NONE
+CT RAIL,51 Depot Rd,2,NONE,24 hours daily,Berlin,NONE
+Three Rivers Community College,574 New London Turnpike,2,NONE,24 hours daily,Norwich,NONE
+Town of Stafford - Public Works Garage,210 E St,1,NONE,24 hours daily,Stafford Springs,NONE
+Woodbridge Town Hall,11 Meetinghouse Ln,2,NONE,24 hours daily,Woodbridge,NONE
+Steelpointe Harbor,255 East Main Street,4,NONE,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,Bridgeport,NONE
+COMM LOT STA 1,5 Depot Pl,2,NONE,24 hours daily,Bethel,NONE
+The Promenade Shops at Evergreen Walk - Tesla Destination,401 Evergreen Wy,2,NONE,24 hours daily,South Windsor,NONE
+TOWN OF PUTNAM,1-73 Canal St,2,NONE,24 hours daily,Putnam,NONE
+Maritime Garage,11 North Water Street,1,NONE,MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours,Norwalk,NONE
+GE WS - Price Chopper #243 Storrs CT 2,1220  Storrs Rd,1,NONE,24 hours daily,Mansfield,NONE
+Stratford Square,411 Barnum Ave Cutoff,NONE,8,24 hours daily,Stratford,NONE
+Cumberland Farms,471 New Park Ave,NONE,1,24 hours daily,West Hartford,NONE
+City of New Haven - Air Rights Garage,60 York St,5,NONE,24 hours daily; pay lot,New Haven,NONE
+Lime Rock Park - Tesla Destination,60 White Hollow Rd,11,NONE,24 hours daily; for customer use only,Lakeville,NONE
+Danbury Fair Mall - Tesla Supercharger,7 Backus Ave,NONE,10,24 hours daily; for Tesla use only,Danbury,NONE
+Western Connecticut State University,198 White St,4,NONE,24 hours daily,Danbury,NONE
+Coventry High School,78 Ripley Hill Rd,2,NONE,24 hours daily,Coventry,NONE
+Bell Street Garage,28 Bell St,3,NONE,Restricted to garage hours; pay lot,Stamford,NONE
+Groton New London Airport,155 Tower Ave,2,NONE,24 hours daily,Groton,NONE
+TEN TEN WASH,1010 Washington Blvd,2,NONE,24 hours daily,Stamford,NONE
+RSI EAST,1115 West St,2,NONE,24 hours daily,Southington,NONE
+University of Connecticut - School of Law,55 Elizabeth St,2,NONE,Lot business hours,Hartford,NONE
+CROWLEY VW,245 New Britain Ave,2,NONE,24 hours daily,Plainville,NONE
+Homewood Suites,99 Marsh Hill Rd,8,NONE,For guest use only,Orange,NONE
+Asnuntuck Community College,170 Elm St,3,NONE,24 hours daily,Enfield,NONE
+Fairfield NB - Tesla Supercharger,165 Round Hill Road,NONE,12,24 hours daily; for Tesla use only,Fairfield,NONE
+Connecticut Department of Energy and Environmental Protection - Marine Headquarters,333 Ferry Rd,2,NONE,24 hours daily,Old Lyme,NONE
+Precision Motors of Mystic,2400 Gold Star Hwy,2,NONE,24 hours daily,Mystic,NONE
+Wesleyan University,161 Cross St,4,NONE,24 hours daily,Middletown,NONE
+BMW BRIDGEPORT,43 North Ave,2,NONE,24 hours daily,Bridgeport,NONE
+Connecticut State Capitol,210 Capitol Ave,2,NONE,24 hours daily,Hartford,NONE
+Executive Nissan,900 Universal Dr N,1,1,Dealership business hours,North Haven,NONE
+Propark Harbor Point Gateway Garage - Tesla Destination,406-424 Washington Blvd,2,NONE,24 hours daily,Stamford,NONE
+Wallingford Shopping Center,930 N Colony Rd,2,NONE,24 hours daily,Wallingford,NONE
+Fairfield Parks and Recreation Center,75 Mill Plain Rd,2,NONE,24 hours daily,Fairfield,NONE
+The Westport Library,20 Jesup Road,2,NONE,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,Westport,NONE
+Homestead Inn - Thomas Henkelmann - Tesla Destination,420 Field Point Rd,3,NONE,24 hours daily; for customer use only; see front desk for access,Greenwich,NONE
+MORSCHES FF,95 Reef Rd,2,NONE,24 hours daily,Fairfield,NONE
+Panera Bread,1129 Silas Deane Hwy,1,NONE,24 hours daily,Wethersfield,NONE
+Hoffman Toyota,36 Albany Turnpike,1,NONE,Dealership business hours,West Simsbury,NONE
+Ferguson Library - Harry Bennett Branch,115 Vine Rd,2,NONE,24 hours daily,Stamford,NONE
+City of Hartford - Department of Public Works,50 Jennings Rd,1,NONE,24 hours daily,Hartford,NONE
+Hammonasset Beach State Park - North,1288 Boston Post Rd,4,NONE,24 hours daily,Madison,NONE
+Metro Center Garage,1 Station Place,1,NONE,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,Stamford,NONE
+Middletown Nissan,1153 Newfield St,3,1,Dealership business hours,Middletown,NONE
+Wesleyan University,Lawn Ave & High St,2,NONE,24 hours daily,Middletown,1
+Newington Town Center - Municipal Parking Lot,83 Market Square,2,NONE,24 hours daily,Newington,NONE
+Ridgeway Shopping Center - Tesla Supercharger,2233 Summer Street,NONE,12,24 hours daily; for Tesla use only,Stamford,NONE
+Connecticut Post Mall - NW Entrance,1201 Boston Post Rd,2,NONE,6am-12pm daily,Milford,NONE
+Girard Nissan,425 Gold Star Hwy,1,NONE,Dealership business hours,Groton,NONE
+Milford Travel Plaza - Tesla Supercharger,I-95 Milford,NONE,2,24 hours daily; for Tesla use only,Milford,NONE
+Goodwin University,211 Riverside Dr,2,NONE,24 hours daily,East Hartford,NONE
+Greater Hartford Transit District - Spruce Street Lot,1 Union Pl,1,NONE,24 hours daily; pay lot,Hartford,1
+Illiano's Restaurant,257 W Town St,1,NONE,11am-10pm daily,Yantic,NONE
+Town of Hamden - Police Department,2900 Dixwell Ave,2,NONE,24 hours daily,Hamden,NONE
+Fairfield Senior Center,100 Mona Terrace,2,NONE,24 hours daily,Fairfield,NONE
+Butler Street Parking Lot,30 Butler St,2,NONE,24 hours daily,Meriden,NONE
+Propark - 777 Main,777 Main St,17,1,Restricted to garage hours; pay lot,Hartford,NONE
+JOHN ST CHARGER,234 John St,2,NONE,24 hours daily,Bridgeport,NONE
+Peck Lane Plaza Shopping Center,550 Boston Post Rd,NONE,1,24 hours daily,Orange,NONE
+PRESTIGE VW,42-46 W Broad St,2,NONE,24 hours daily,Stamford,NONE
+Fairfield Recreation Center,75 Mill Plain Rd,2,NONE,24 hours daily,Fairfield,NONE
+Norwalk Community College,188 Richards Ave,2,NONE,"7am-10pm M-F, 8am-5pm Sat",Norwalk,NONE
+LAZ Fly Airport Parking,24 Ella Grasso Turnpike,2,NONE,24 hours daily,Windsor Locks,NONE
+CT RAIL,60 State St,2,NONE,24 hours daily,Meriden,NONE
+Killingly Town Hall,172 Main St,1,NONE,24 hours daily,Killingly,NONE
+Central Connecticut State University - Welte Hall Parking Lot,105 Ella Grasso Blvd,3,NONE,24 hours daily,New Britain,NONE
+The Inn at Woodstock Hill,94 Plaine Hill Rd,1,NONE,24 hours daily,Woodstock,1
+Wilton Public Library,137 Old Ridgefield Rd,1,NONE,"10am-8pm M-Th, 10am-6pm F, 10am-5pm Sat, 1pm-5pm Sun (Sunday hours in winter only)",Wilton,NONE
+HAJJAR,213 Court St,2,NONE,24 hours daily,Middletown,NONE
+Goodwin University,403 Main St,2,NONE,24 hours daily,East Hartford,NONE
+Stony Creek Brewery - Tesla Destination,5 Indian Neck Ave,1,NONE,24 hours daily,Branford,NONE
+Big Y,1021 Main St,2,NONE,24 hours daily,Cheshire,NONE
+Connecticut Post Mall - Dave & Buster's,1201 Boston Post Rd,2,NONE,6am-12am daily,Milford,NONE
+City of Middletown - Mellili Plaza Public Parking,245 DeKoven Dr,12,NONE,24 hours daily,Middletown,NONE
+Ford of Branford,301 E Main St,2,NONE,Dealership business hours; Ford use only,Branford,NONE
+Morton Government Center,239 John St,1,NONE,24 hours daily,Bridgeport,NONE
+Town of Groton - Public Library,52 Newtown Rd,2,NONE,24 hours daily,Groton,NONE
+Burlington Library,34 Library Ln,2,NONE,24 hours daily,Burlington,NONE
+Bruce Bennett Nissan,978 Danbury Rd,1,1,Dealership business hours,Wilton,NONE
+Park 'N Fly - Bradley International Airport,1186 South St,2,NONE,24 hours daily; pay lot; see attendant for access,Suffield,NONE
+Van Wilgen's Garden Center,51 Valley Rd,1,NONE,9am-5pm M-F,North Branford,NONE
+REYNOLDS SUBARU,272 Hamburg Rd,2,NONE,24 hours daily,Lyme,NONE
+Tingue Dam Bypass Channel - Wakeley Street Parking Lot,37 Wakeley St,2,NONE,24 hours daily,Seymour,NONE
+Mohegan Sun,1 Mohegan Sun Blvd,4,NONE,24 hours daily,Uncasville,NONE
+COMCAST,90 Phoenix Ave,4,NONE,24 hours daily,Enfield,NONE
+Greenlots - 92143,665 Commerce Dr,2,NONE,24 hours daily,Fairfield,NONE
+777 Main Street - Tesla Supercharger,777 Main Street,NONE,6,24 hours daily; for Tesla use only,Hartford,NONE
+BMW RIDGEFIELD,746 Danbury Rd,NONE,1,24 hours daily,Ridgefield,NONE
+"DoubleTree by Hilton - Norwalk, CT - Tesla Destination",789 Connecticut Ave,1,NONE,24 hours daily; see front desk for access,Norwalk,NONE
+BIG Y FOODS,140 suit A West Rd,2,NONE,24 hours daily,Ellington,NONE
+Wrap N Shine Auto Spa - Tesla Destination,97 Bridgeport Ave #10,1,NONE,24 hours daily; for customer use only,Shelton,NONE
+Western Connecticut State University,190 White St,3,NONE,24 hours daily,Danbury,NONE
+MINI OF FFD CTY,154 US-1 154 post rd,2,NONE,24 hours daily,Darien,NONE
+Delamar West Hartford - Tesla Destination,1 Memorial Rd,3,NONE,24 hours daily; for customer use only,West Hartford,NONE
+Connecticut Department of Motor Vehicles,60 State St,1,NONE,8am-5pm M-F,Wethersfield,NONE
+Mill Plain Diner - Tesla Destination,14 Mill Plain Rd,1,NONE,24 hours daily; for customer use only,Danbury,NONE
+Sherman Green,1451 Post Rd,1,NONE,24 hours daily,Fairfield,NONE
+Stamford Government Center Garage,888 Washington Blvd,3,NONE,24 hours daily,Stamford,NONE
+Z Airport Parking,3 International Dr,1,NONE,24 hours daily,East Granby,NONE
+Hyatt Regency Greenwich - Tesla Destination,1800 E Putnam Ave,2,NONE,24 hours daily; for customer use only,Greenwich,NONE
+Surface Parking Lot,121 Main St,2,NONE,24 hours daily,New Britain,NONE
+Deep River Library,150 Main St,1,NONE,24 hours daily; see code on the face of charger or ask librarian to initiate charge,Deep River,1
+State House Square,10-90 State House Square,1,NONE,24 hours daily,Hartford,NONE
+City of Milford - Train Station Parking,1 Railroad Ave,2,NONE,24 hours daily,Milford,NONE
+Hammonasset Beach State Park - Meig's Point Nature Center,1288 Boston Post Rd,4,NONE,24 hours daily,Madison,NONE
+Grossman Nissan,295 Middlesex Turnpike,1,1,Dealership business hours,Old Saybrook,NONE
+"Saybrook Point Inn, Spa & Marina - Tesla Destination",2 Bridge St,4,NONE,24 hours daily; for customer use only,Old Saybrook,NONE
+Fairfield Train Station Overflow Lot,140 Mill Plain Rd,1,NONE,24 hours daily; pay lot,Fairfield,NONE
+Metro Center 1,One Station Place,1,NONE,MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours,Stamford,NONE
+Dinosaur State Park and Arboretum,400 West St,2,NONE,Park business hours,Rockyhill,NONE
+Staples High School,70 North Avenue,2,NONE,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,Westport,NONE
+Windham Town Hall,979 Main St,2,NONE,24 hours daily,Windham,NONE
+West Hartford - Town Hall,50 S Main St,2,NONE,Parking lot business hours,West Hartford,NONE
+Connecticut Welcome Center - Tesla Supercharger,1 E Trail,NONE,4,24 hours daily; for Tesla use only,Darien,NONE
+City of New Haven - Temple Street Garage,1 Temple St,3,NONE,24 hours daily; pay lot,New Haven,NONE
+Minor Memorial Library,23 South St,1,NONE,24 hours daily,Roxbury,NONE
+Szczesny Parking Garage,31 Bank St,2,NONE,24 hours daily,New Britain,NONE
+GE WS - Price Chopper #243 Storrs CT 1,1220  Storrs Rd,1,NONE,24 hours daily,Mansfield,NONE
+AAMCO EV,133 Pitkin St,2,NONE,24 hours daily,East Hartford,NONE
+Winvian Farm - Tesla Destination,155 Alain White Rd,3,NONE,24 hours daily; for customer use only; see front desk for access,Morris,NONE
+Brass Mill Center - Entrance 3,495 Union St,4,NONE,6am-12pm daily,Waterbury,NONE
+COMM LOT STA 1,13 Durant Ave.,2,NONE,24 hours daily,Bethel,NONE
+Waterbury-Oxford Airport,300 Christian St,2,NONE,24 hours daily,Oxford,NONE
+Shagbark Lumber and Farm Supply,1 Mt Parnassus Millington Rd,1,NONE,24 hours daily,East Haddam,NONE
+Metro Green Residential Parking - Tesla Destination,717  Atlantic St,3,NONE,24 hours daily,Stamford,NONE
+Hartford Road Henny Penny,969 Hartford Road,2,NONE,MO: 12:00am-12:00am; TU: 12:00am-12:00am; WE: 12:00am-12:00am; TH: 12:00am-12:00am; FR: 12:00am-12:00am; SA: 12:00am-12:00am; SU: 12:00am-12:00am,Waterford,NONE
+FOXWOODS,101 Trolley Line Blvd,2,NONE,24 hours daily,Mashantucket,NONE
+Convention Center - Hartford,100 Columbus Blvd,6,NONE,24 hours daily; pay lot,Hartford,NONE
+County Line Buick-Nissan,2191 Straits Turnpike,1,NONE,Dealership business hours,Middlebury,NONE
+MYSTIC AQUARIUM,55 Coogan Blvd,NONE,1,24 hours daily,Mystic,NONE
+University of Connecticut - Waterbury,99 E Main St,2,NONE,24 hours daily,Waterbury,NONE
+Danbury Parking Authority,21 Delay St,2,NONE,Garage business hours,Danbury,NONE
+INFINITYGREEN,201 Commons Park S,2,NONE,24 hours daily,Stamford,NONE
+City of Hartford - City Hall,35 Arch St,1,NONE,24 hours daily,Hartford,NONE
+White Hart Inn - Tesla Destination,15 Undermountain Rd,1,NONE,24 hours daily; for customer use only,Salisbury,NONE
+Premier Subaru,155 N Main St,2,NONE,24 hours daily,Branford,NONE
+Central Connecticut State University - Student Center Parking Garage,165 Ella Grasso Blvd,3,NONE,24 hours daily,New Britain,NONE
+University of Connecticut - South Parking Garage,505 Jim Calhoun Way,2,NONE,Garage business hours,Storrs,NONE
+Carter Chevrolet,175 Hartford Turnpike,2,1,Dealership business hours,Vernon,NONE
+Dunkin' Donuts,189 Forbes Ave,NONE,1,24 hours daily,New Haven,NONE
+Bloomfield Human Services Center,330 Park Avenue,2,NONE,MO: Not Specified; TU: Not Specified; WE: Not Specified; TH: Not Specified; FR: Not Specified; SA: Not Specified; SU: Not Specified,Bloomfield,NONE
+Grand Central Fashion Plaza Shopping Center - Tesla Supercharger,1145 High Ridge Rd,NONE,8,24 hours daily; for Tesla use only,North Stamford,NONE
+University of Connecticut - North Parking Garage,103 N Eagleville Rd,2,NONE,Garage business hours,Storrs,NONE
+Fairfield SB - Tesla Supercharger,267 Round Hill Road,NONE,8,24 hours daily; for Tesla use only,Fairfield,NONE
+Fairfield Woods Library,1147 Fairfield Woods Rd,1,NONE,24 hours daily,Fairfield,NONE
+Yankee Doodle,10 Burnell Boulevard,1,NONE,MON: 24 hours | TUE: 24 hours | WED: 24 hours | THU: 24 hours | FRI: 24 hours | SAT: 24 hours | SUN: 24 hours,Norwalk,NONE
+Lee Partyka Chevrolet Mazda Isuzu,200 Skiff St,3,NONE,Dealership business hours,Hamden,NONE
+777 MAIN ST,71 Asylum St,10,1,24 hours daily,Hartford,NONE
+Norwich Public Utilities,173 N Main St,4,NONE,24 hours daily,Norwich,NONE
+Fairfield Plaza,116 Danbury Rd,NONE,1,24 hours daily,New Milford,NONE
+Eastern Connecticut State University - Shakespeare Parking Garage,24 Charger Oak Dr,4,NONE,24 hours daily,Willimantic,NONE
