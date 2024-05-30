@@ -1,0 +1,7 @@
+geopandas==0.14.4
+matplotlib==3.8.2
+pandas==1.5.3
+scikit_learn==1.4.2
+seaborn==0.13.2
+Shapely==2.0.4
+statsmodels==0.14.2
