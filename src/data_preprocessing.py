@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import geopandas as gpd
 from shapely.geometry import Point
+import numpy as np
 
 # Define file paths
 file_paths = [
@@ -67,8 +68,14 @@ combined_df['Access_Days_Time'].fillna('Unknown', inplace=True)
 # Convert Timestamps to datetime
 combined_df['Timestamps'] = pd.to_datetime(combined_df['Timestamps'], errors='coerce')
 
+# Validate latitude and longitude values
+valid_geo_data = combined_df[
+    (combined_df['Latitude'].between(-90, 90)) & 
+    (combined_df['Longitude'].between(-180, 180))
+]
+
 # Drop rows with missing critical data
-cleaned_combined_df = combined_df.dropna(subset=['City', 'Street_Address', 'Station_Name', 'Latitude', 'Longitude'])
+cleaned_combined_df = valid_geo_data.dropna(subset=['City', 'Street_Address', 'Station_Name', 'Latitude', 'Longitude'])
 
 # Verify how many rows are left after dropping
 print(f"Rows remaining after dropping rows with missing critical data: {len(cleaned_combined_df)}")
