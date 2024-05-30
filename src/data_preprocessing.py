@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import geopandas as gpd
+from shapely.geometry import Point
 
 # Define file paths
 file_paths = [
@@ -92,3 +94,42 @@ plt.title('Distribution of Access Days and Times')
 plt.xlabel('Number of Charging Stations')
 plt.ylabel('Access Days and Times')
 plt.savefig("../results/Distribution_of_Access_Days_and_Times.png")
+
+plt.figure(figsize=(12, 8))
+corr_matrix = cleaned_combined_df.corr()
+sns.heatmap(corr_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
+plt.title('Correlation Matrix')
+plt.savefig("../results/Correlation_Matrix.png")
+
+# Time Series Analysis
+if 'Timestamps' in cleaned_combined_df.columns:
+    cleaned_combined_df['Timestamps'] = pd.to_datetime(cleaned_combined_df['Timestamps'])
+    cleaned_combined_df.set_index('Timestamps', inplace=True)
+    
+    # Plotting total kWh over time
+    plt.figure(figsize=(12, 6))
+    cleaned_combined_df['Total_kWh'].resample('M').sum().plot()
+    plt.title('Total kWh Usage Over Time')
+    plt.xlabel('Time')
+    plt.ylabel('Total kWh')
+    plt.savefig("../results/Total_kWh_Usage_Over_Time.png")
+
+    # Plotting total dollars spent over time
+    plt.figure(figsize=(12, 6))
+    cleaned_combined_df['Dollars_Spent'].resample('M').sum().plot()
+    plt.title('Total Dollars Spent Over Time')
+    plt.xlabel('Time')
+    plt.ylabel('Dollars Spent')
+    plt.savefig("../results/Total_Dollars_Spent_Over_Time.png")
+
+# Geospatial Analysis (requires geopandas)
+if 'Latitude' in cleaned_combined_df.columns and 'Longitude' in cleaned_combined_df.columns:
+    gdf = gpd.GeoDataFrame(
+        cleaned_combined_df, geometry=gpd.points_from_xy(cleaned_combined_df.Longitude, cleaned_combined_df.Latitude))
+    
+    # Plotting charging stations
+    world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
+    ax = world[world.name == "United States"].plot(color='white', edgecolor='black')
+    gdf.plot(ax=ax, color='red', markersize=5)
+    plt.title('Geographic Distribution of Charging Stations')
+    plt.savefig("../results/Geographic_Distribution_of_Charging_Stations.png")
