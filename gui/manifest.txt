@@ -1,0 +1,2 @@
+Main-Class: PowerGridGUI
+Class-Path: ../libs/json-20230618.jar
