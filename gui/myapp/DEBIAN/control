@@ -1,0 +1,9 @@
+Package: powergridgui
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: default-jre
+Maintainer: Your Name <you@example.com>
+Description: Power Grid GUI Application
+
