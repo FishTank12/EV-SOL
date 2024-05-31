@@ -1,40 +1,31 @@
 # src/preprocess.py
 import pandas as pd
-from sklearn.impute import SimpleImputer
 
-# Load synthetic data
-hourly_trends = pd.read_csv('../data/synthetic_hourly_trends.csv')
-power_lines = pd.read_csv('../data/synthetic_power_lines.csv')
-supplier_locations = pd.read_csv('../data/synthetic_supplier_locations.csv')
-distributor_locations = pd.read_csv('../data/synthetic_distributor_locations.csv')
+# Load data
+distributors = pd.read_csv('../data/distributors.csv')
+suppliers = pd.read_csv('../data/suppliers.csv')
+power_lines = pd.read_csv('../data/power_lines.csv')
+hourly_trends = pd.read_csv('../data/hourly_trends.csv')
 
-# Merge hourly trends with distributor locations
-merged_data = hourly_trends.merge(distributor_locations, on='Distributor_ID')
+# Example preprocessing steps (customize as needed)
+hourly_trends['Timestamp'] = pd.to_datetime(hourly_trends['Timestamp'])
 
-# Merge with power lines data
-merged_data = merged_data.merge(power_lines, left_on='Distributor_ID', right_on='Destination_ID')
+# Merge datasets if needed
+final_data = hourly_trends.merge(distributors, on='Distributor_ID', how='left')
+final_data = final_data.merge(power_lines, left_on='Distributor_ID', right_on='Destination_ID', how='left')
+final_data = final_data.merge(suppliers, left_on='Source_ID', right_on='Supplier_ID', how='left')
 
-# Merge with supplier locations
-merged_data = merged_data.merge(supplier_locations, left_on='Source_ID', right_on='Supplier_ID')
+# Calculate additional features
+final_data['Load_Ratio'] = final_data['Current_Load_kWh'] / final_data['Max_Capacity_kWh']
+final_data['Generation_Ratio'] = final_data['Current_Generation_Rate_kWh'] / final_data['Max_Generation_Rate_kWh']
 
-# Select necessary columns
-final_data = merged_data[['Timestamp', 'Distributor_ID', 'Power_Demand_kWh', 'Max_Capacity_kWh', 'Current_Load_kWh', 
-                          'Max_Generation_Rate_kWh', 'Current_Generation_Rate_kWh', 'Latitude_x', 'Longitude_x', 
-                          'Latitude_y', 'Longitude_y']]
+# Drop any unnecessary columns
+final_data = final_data.drop(columns=['Connected_Lines', 'Source_ID', 'Destination_ID', 'Supplier_ID'])
 
-# Rename columns for clarity
-final_data.columns = ['Timestamp', 'Distributor_ID', 'Power_Demand_kWh', 'Max_Capacity_kWh', 'Current_Load_kWh', 
-                      'Max_Generation_Rate_kWh', 'Current_Generation_Rate_kWh', 'Distributor_Latitude', 
-                      'Distributor_Longitude', 'Supplier_Latitude', 'Supplier_Longitude']
+# Drop rows with any NaN values
+final_data = final_data.dropna()
 
-# Handle missing values
-imputer = SimpleImputer(strategy='mean')
-final_data[['Max_Capacity_kWh', 'Current_Load_kWh', 'Max_Generation_Rate_kWh', 
-            'Current_Generation_Rate_kWh', 'Distributor_Latitude', 'Distributor_Longitude', 
-            'Supplier_Latitude', 'Supplier_Longitude']] = imputer.fit_transform(
-                final_data[['Max_Capacity_kWh', 'Current_Load_kWh', 'Max_Generation_Rate_kWh', 
-                            'Current_Generation_Rate_kWh', 'Distributor_Latitude', 'Distributor_Longitude', 
-                            'Supplier_Latitude', 'Supplier_Longitude']])
+# Save the preprocessed data
+final_data.to_csv('../data/final_data.csv', index=False)
 
-# Save final data for model training
-final_data.to_csv('../data/final_synthetic_data.csv', index=False)
+print("Preprocessed data has been saved to the 'data' directory.")

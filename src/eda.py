@@ -3,77 +3,48 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
-# Load synthetic data
-hourly_trends = pd.read_csv('../data/synthetic_hourly_trends.csv')
-power_lines = pd.read_csv('../data/synthetic_power_lines.csv')
-supplier_locations = pd.read_csv('../data/synthetic_supplier_locations.csv')
-distributor_locations = pd.read_csv('../data/synthetic_distributor_locations.csv')
+# Load preprocessed data
+final_data = pd.read_csv('../data/final_data.csv')
+distributors = pd.read_csv('../data/distributors.csv')
+suppliers = pd.read_csv('../data/suppliers.csv')
 
-datasets = {
-    "Distributor Locations": distributor_locations,
-    "Hourly Trends": hourly_trends,
-    "Power Lines": power_lines,
-    "Supplier Locations": supplier_locations
-}
+# Correlation matrix
+correlation_matrix = final_data.corr()
+plt.figure(figsize=(10, 8))
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
+plt.title('Correlation Matrix')
+plt.savefig('../results/Correlation_Matrix.png')
 
-for name, dataset in datasets.items():
-    print(f"--- {name} ---")
-    print(dataset.head(), "\n")
-    print(dataset.info(), "\n")
-    print(dataset.describe(), "\n")
-
-# EDA on distributor locations
+# Distribution of hourly power demand
 plt.figure(figsize=(10, 6))
-sns.scatterplot(data=distributor_locations, x='Longitude', y='Latitude')
-plt.title('Distributor Locations')
-plt.savefig('../results/Distributor_Locations.png')
-
-# EDA on hourly trends
-plt.figure(figsize=(10, 6))
-sns.histplot(hourly_trends['Power_Demand_kWh'], bins=30, kde=True)
+sns.histplot(final_data['Power_Demand_kWh'], kde=True)
 plt.title('Distribution of Hourly Power Demand')
 plt.xlabel('Power Demand (kWh)')
 plt.ylabel('Frequency')
 plt.savefig('../results/Distribution_of_Hourly_Power_Demand.png')
 
-# EDA on power lines with correct column name
+# Distribution of power line capacity
 plt.figure(figsize=(10, 6))
-sns.histplot(power_lines['Max_Capacity_kWh'], bins=30, kde=True)
+sns.histplot(final_data['Max_Capacity_kWh'], kde=True)
 plt.title('Distribution of Power Line Capacity')
 plt.xlabel('Capacity (kWh)')
 plt.ylabel('Frequency')
 plt.savefig('../results/Distribution_of_Power_Line_Capacity.png')
 
-# Correlation analysis on numerical columns with correct column names
-numeric_cols_corrected = ['Power_Demand_kWh', 'Max_Capacity_kWh', 'Max_Generation_Rate_kWh', 'Current_Generation_Rate_kWh']
-combined_data_corrected = pd.concat([
-    hourly_trends[['Power_Demand_kWh']], 
-    power_lines[['Max_Capacity_kWh']], 
-    supplier_locations[['Max_Generation_Rate_kWh', 'Current_Generation_Rate_kWh']]
-], axis=1)
-
-plt.figure(figsize=(10, 8))
-sns.heatmap(combined_data_corrected.corr(), annot=True, cmap='coolwarm', vmin=-1, vmax=1)
-plt.title('Correlation Matrix')
-plt.savefig('../results/Correlation_Matrix.png')
-
-# EDA on supplier locations
+# Distributor locations
 plt.figure(figsize=(10, 6))
-sns.scatterplot(data=supplier_locations, x='Longitude', y='Latitude', size='Max_Generation_Rate_kWh', legend=False)
+plt.scatter(distributors['Longitude'], distributors['Latitude'])
+plt.title('Distributor Locations')
+plt.xlabel('Longitude')
+plt.ylabel('Latitude')
+plt.savefig('../results/Distributor_Locations.png')
+
+# Supplier locations
+plt.figure(figsize=(10, 6))
+plt.scatter(suppliers['Longitude'], suppliers['Latitude'])
 plt.title('Supplier Locations')
+plt.xlabel('Longitude')
+plt.ylabel('Latitude')
 plt.savefig('../results/Supplier_Locations.png')
 
-# Plot Power Demand over Time
-hourly_trends['Timestamp'] = pd.to_datetime(hourly_trends['Timestamp'])
-hourly_trends.set_index('Timestamp', inplace=True)
-plt.figure(figsize=(14, 7))
-hourly_trends['Power_Demand_kWh'].resample('D').mean().plot()
-plt.title('Daily Average Power Demand')
-plt.ylabel('Power Demand (kWh)')
-plt.savefig('../results/Daily_Average_Power_Demand.png')
-
-# Display the columns of the power_lines dataset
-print(power_lines.columns)
-
-# Display the columns of the supplier_locations dataset to verify the correct column names
-print(supplier_locations.columns)
+print("EDA visualizations have been saved.")

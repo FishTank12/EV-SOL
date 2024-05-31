@@ -1,80 +1,52 @@
 # src/synth_data.py
 import pandas as pd
 import numpy as np
-from faker import Faker
-from datetime import datetime, timedelta
-
-# Initialize Faker
-fake = Faker()
 
 # Number of records to generate
 num_distributors = 50
 num_suppliers = 10
-num_lines = 100
-num_hours = 24 * 30  # 1 month of hourly data
+num_power_lines = 100
+num_hours = 720
 
-# Generate synthetic data for hourly trends of each distributor
-distributor_ids = [f"D{i+1}" for i in range(num_distributors)]
-timestamps = [datetime(2024, 5, 1) + timedelta(hours=i) for i in range(num_hours)]
-
-# Introduce seasonal and hourly patterns in power demand
-def generate_power_demand(timestamps):
-    power_demand = []
-    for timestamp in timestamps:
-        hour = timestamp.hour
-        base_demand = 50 + 30 * np.sin(2 * np.pi * hour / 24)  # Daily pattern
-        noise = np.random.normal(0, 5)
-        demand = base_demand + noise
-        power_demand.append(demand)
-    return power_demand
-
-hourly_trends = pd.DataFrame({
-    'Distributor_ID': np.random.choice(distributor_ids, num_hours),
-    'Timestamp': timestamps,
-    'Power_Demand_kWh': generate_power_demand(timestamps)
+# Generate random distributor data
+distributors = pd.DataFrame({
+    'Distributor_ID': [f'D{i+1}' for i in range(num_distributors)],
+    'Latitude': np.random.uniform(-90, 90, num_distributors),
+    'Longitude': np.random.uniform(-180, 180, num_distributors),
+    'Connected_Lines': [','.join(np.random.choice([f'L{i+1}' for i in range(num_power_lines)], 
+                                                  np.random.randint(1, 5))) for _ in range(num_distributors)]
 })
 
-# Generate synthetic data for power lines strength with realistic relationships
-line_ids = [f"L{i+1}" for i in range(num_lines)]
-source_ids = [f"S{i+1}" for i in range(num_suppliers)]
-destination_ids = np.random.choice(distributor_ids, num_lines)
+# Generate random supplier data
+suppliers = pd.DataFrame({
+    'Supplier_ID': [f'S{i+1}' for i in range(num_suppliers)],
+    'Latitude': np.random.uniform(-90, 90, num_suppliers),
+    'Longitude': np.random.uniform(-180, 180, num_suppliers),
+    'Max_Generation_Rate_kWh': np.random.uniform(500, 1000, num_suppliers),
+    'Current_Generation_Rate_kWh': lambda x: x['Max_Generation_Rate_kWh'] * np.random.uniform(0.5, 0.8)
+}).assign(Current_Generation_Rate_kWh=lambda x: x['Max_Generation_Rate_kWh'] * np.random.uniform(0.5, 0.8))
 
-# Define correlated features
-max_capacity = np.random.uniform(100, 200, num_lines)
-current_load = max_capacity * np.random.uniform(0.7, 0.9)  # Correlated with max_capacity
-
+# Generate random power line data
 power_lines = pd.DataFrame({
-    'Power_Line_ID': line_ids,
-    'Source_ID': np.random.choice(source_ids, num_lines),
-    'Destination_ID': destination_ids,
-    'Max_Capacity_kWh': max_capacity,
-    'Current_Load_kWh': current_load
+    'Power_Line_ID': [f'L{i+1}' for i in range(num_power_lines)],
+    'Source_ID': np.random.choice(suppliers['Supplier_ID'], num_power_lines),
+    'Destination_ID': np.random.choice(distributors['Distributor_ID'], num_power_lines),
+    'Max_Capacity_kWh': np.random.uniform(100, 200, num_power_lines),
+    'Current_Load_kWh': lambda x: x['Max_Capacity_kWh'] * np.random.uniform(0.6, 0.9)
+}).assign(Current_Load_kWh=lambda x: x['Max_Capacity_kWh'] * np.random.uniform(0.6, 0.9))
+
+# Generate random hourly trends data
+timestamps = pd.date_range('2024-05-01', periods=num_hours, freq='H')
+hourly_trends = pd.DataFrame({
+    'Timestamp': np.tile(timestamps, num_distributors),
+    'Distributor_ID': np.repeat(distributors['Distributor_ID'], num_hours),
+    'Power_Demand_kWh': np.random.uniform(10, 80, num_distributors * num_hours)
 })
 
-# Generate synthetic data for power supplier locations and generation rates with realistic ranges
-max_generation_rate = np.random.uniform(500, 1000, num_suppliers)
-current_generation_rate = max_generation_rate * np.random.uniform(0.65, 0.85)  # Correlated with max_generation_rate
-
-supplier_locations = pd.DataFrame({
-    'Supplier_ID': source_ids,
-    'Latitude': [fake.latitude() for _ in range(num_suppliers)],
-    'Longitude': [fake.longitude() for _ in range(num_suppliers)],
-    'Max_Generation_Rate_kWh': max_generation_rate,
-    'Current_Generation_Rate_kWh': current_generation_rate
-})
-
-# Generate synthetic data for power distributor locations and connections
-distributor_locations = pd.DataFrame({
-    'Distributor_ID': distributor_ids,
-    'Latitude': [fake.latitude() for _ in range(num_distributors)],
-    'Longitude': [fake.longitude() for _ in range(num_distributors)],
-    'Connected_Lines': [",".join(np.random.choice(line_ids, np.random.randint(1, 5))) for _ in range(num_distributors)]
-})
-
-# Save synthetic data to CSV files
-hourly_trends.to_csv('../data/synthetic_hourly_trends.csv', index=False)
-power_lines.to_csv('../data/synthetic_power_lines.csv', index=False)
-supplier_locations.to_csv('../data/synthetic_supplier_locations.csv', index=False)
-distributor_locations.to_csv('../data/synthetic_distributor_locations.csv', index=False)
+# Save synthetic data
+distributors.to_csv('../data/distributors.csv', index=False)
+suppliers.to_csv('../data/suppliers.csv', index=False)
+power_lines.to_csv('../data/power_lines.csv', index=False)
+hourly_trends.to_csv('../data/hourly_trends.csv', index=False)
 
 print("Synthetic data has been saved to the 'data' directory.")
