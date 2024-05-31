@@ -27,7 +27,7 @@ public class PowerGridGUI extends JFrame {
         // powerLineDropdown = new JComboBox<>(getPowerLines());
         distributorDropdown.setBounds(50, 50, 200, 30);
         // supplierDropdown.setBounds(50, 100, 200, 30);
-        timeDropdown.setBounds(50, 150, 200, 30);
+        timeDropdown.setBounds(50, 100, 200, 30);
         // powerLineDropdown.setBounds(50, 200, 200, 30);
         add(distributorDropdown);
         // add(supplierDropdown);
