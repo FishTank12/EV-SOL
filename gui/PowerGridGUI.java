@@ -8,9 +8,10 @@ import org.json.JSONObject;
 
 public class PowerGridGUI extends JFrame {
     private JComboBox<String> distributorDropdown;
-    private JComboBox<String> supplierDropdown;
+    // private JComboBox<String> supplierDropdown;
     private JComboBox<String> timeDropdown;
-    private JTextField maxCapacityField, currentLoadField, maxGenerationField, currentGenerationField;
+    // private JComboBox<String> powerLineDropdown;
+    private JTextField maxCapacityField, currentLoadField, maxGenerationField, currentGenerationField, loadRatioField, generationRatioField;
     private JButton manualInputButton, dropdownInputButton;
     private JLabel predictionLabel;
 
@@ -21,14 +22,17 @@ public class PowerGridGUI extends JFrame {
         setLayout(null);
 
         distributorDropdown = new JComboBox<>(getDistributors());
-        supplierDropdown = new JComboBox<>(getSuppliers());
+        // supplierDropdown = new JComboBox<>(getSuppliers());
         timeDropdown = new JComboBox<>(getTimes());
+        // powerLineDropdown = new JComboBox<>(getPowerLines());
         distributorDropdown.setBounds(50, 50, 200, 30);
-        supplierDropdown.setBounds(50, 100, 200, 30);
+        // supplierDropdown.setBounds(50, 100, 200, 30);
         timeDropdown.setBounds(50, 150, 200, 30);
+        // powerLineDropdown.setBounds(50, 200, 200, 30);
         add(distributorDropdown);
-        add(supplierDropdown);
+        // add(supplierDropdown);
         add(timeDropdown);
+        // add(powerLineDropdown);
 
         maxCapacityField = new JTextField("Max Capacity (kWh)");
         maxCapacityField.setBounds(300, 50, 200, 30);
@@ -71,26 +75,32 @@ public class PowerGridGUI extends JFrame {
     }
 
     private String[] getDistributors() {
-        return new String[]{"D1", "D2", "D3"};
+        // Fetch distributor data and return as array
+        return new String[]{"D1", "D2", "D3"}; // Placeholder, load actual data if available
     }
 
     private String[] getSuppliers() {
-        return new String[]{"S1", "S2", "S3"};
+        // Fetch supplier data and return as array
+        return new String[]{"S1", "S2", "S3"}; // Placeholder, load actual data if available
     }
 
     private String[] getTimes() {
-        return new String[]{"2024-05-01 00:00:00", "2024-05-01 01:00:00", "2024-05-01 02:00:00"};
+        // Fetch time data and return as array
+        return new String[]{"2024-05-01 00:00:00", "2024-05-01 01:00:00", "2024-05-01 02:00:00"}; // Placeholder, load actual data if available
+    }
+
+    private String[] getPowerLines() {
+        // Fetch power line data and return as array
+        return new String[]{"L1", "L2", "L3"}; // Placeholder, load actual data if available
     }
 
     private void predictWithManualInput() {
         try {
             JSONObject input = new JSONObject();
             input.put("Max_Capacity_kWh", Double.parseDouble(maxCapacityField.getText()));
-            input.put("Current_Load_kWh", Double.parseDouble(currentLoadField.getText()));
+            input.put("Current_Load_KWh", Double.parseDouble(currentLoadField.getText()));
             input.put("Max_Generation_Rate_kWh", Double.parseDouble(maxGenerationField.getText()));
             input.put("Current_Generation_Rate_kWh", Double.parseDouble(currentGenerationField.getText()));
-
-            System.out.println("Input Data (Manual): " + input.toString());
 
             String prediction = callPythonScript(input.toString());
             predictionLabel.setText("Predicted Demand: " + prediction);
@@ -102,12 +112,11 @@ public class PowerGridGUI extends JFrame {
     private void predictWithDropdownInput() {
         try {
             String distributorID = (String) distributorDropdown.getSelectedItem();
-            String supplierID = (String) supplierDropdown.getSelectedItem();
+            // String supplierID = (String) supplierDropdown.getSelectedItem();
             String time = (String) timeDropdown.getSelectedItem();
+            // String powerLineID = (String) powerLineDropdown.getSelectedItem();
 
-            JSONObject input = queryData(distributorID, supplierID, time);
-
-            System.out.println("Input Data (Dropdown): " + input.toString());
+            JSONObject input = queryData(distributorID, time);
 
             String prediction = callPythonScript(input.toString());
             predictionLabel.setText("Predicted Demand: " + prediction);
@@ -116,24 +125,32 @@ public class PowerGridGUI extends JFrame {
         }
     }
 
-    private JSONObject queryData(String distributorID, String supplierID, String time) {
+    private JSONObject queryData(String distributorID, String time) {
         JSONObject data = new JSONObject();
         try {
             BufferedReader br = new BufferedReader(new FileReader("../data/final_data.csv"));
             String line;
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
-                if (values[0].equals(time) && values[1].equals(distributorID) && values[8].equals(supplierID)) {
+                if (values[0].equals(time) && values[1].equals(distributorID)) {
                     data.put("Max_Capacity_kWh", Double.parseDouble(values[6]));
                     data.put("Current_Load_kWh", Double.parseDouble(values[7]));
-                    data.put("Max_Generation_Rate_kWh", Double.parseDouble(values[10]));
-                    data.put("Current_Generation_Rate_kWh", Double.parseDouble(values[11]));
-                    data.put("Load_Ratio", Double.parseDouble(values[12]));
-                    data.put("Generation_Ratio", Double.parseDouble(values[13]));
+                    data.put("Max_Generation_Rate_kWh", Double.parseDouble(values[9]));
+                    data.put("Current_Generation_Rate_kWh", Double.parseDouble(values[10]));
                     break;
                 }
             }
             br.close();
+            // br = new BufferedReader(new FileReader("../data/suppliers.csv"));
+            // while ((line = br.readLine()) != null) {
+            //     String[] values = line.split(",");
+            //     if (values[0].equals(supplierID)) {
+            //         data.put("Max_Generation_Rate_kWh", Double.parseDouble(values[3]));
+            //         data.put("Current_Generation_Rate_kWh", Double.parseDouble(values[4]));
+            //         break;
+            //     }
+            // }
+            // br.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -141,7 +158,7 @@ public class PowerGridGUI extends JFrame {
     }
 
     private String callPythonScript(String input) throws Exception {
-        ProcessBuilder processBuilder = new ProcessBuilder("python3", "script.py", input);
+        ProcessBuilder processBuilder = new ProcessBuilder("python3", "./script.py", input);
         processBuilder.redirectErrorStream(true);
         Process process = processBuilder.start();
 
@@ -151,7 +168,7 @@ public class PowerGridGUI extends JFrame {
         while ((line = reader.readLine()) != null) {
             result.append(line);
         }
-        System.out.println("Python Script Output: " + result.toString());
+        System.out.println(result.toString());
         return result.toString();
     }
 
