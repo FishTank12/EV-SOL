@@ -35,12 +35,15 @@ power_lines = pd.DataFrame({
     'Current_Load_kWh': lambda x: x['Max_Capacity_kWh'] * np.random.uniform(0.6, 0.9)
 }).assign(Current_Load_kWh=lambda x: x['Max_Capacity_kWh'] * np.random.uniform(0.6, 0.9))
 
-# Generate random hourly trends data
+# Generate random hourly trends data with more correlation
 timestamps = pd.date_range('2024-05-01', periods=num_hours, freq='H')
+base_demand = np.random.uniform(30, 50, num_distributors)  # Base demand per distributor
+hourly_variation = np.sin(np.linspace(0, 2 * np.pi, num_hours)) * 10  # Sinusoidal variation
+
 hourly_trends = pd.DataFrame({
     'Timestamp': np.tile(timestamps, num_distributors),
     'Distributor_ID': np.repeat(distributors['Distributor_ID'], num_hours),
-    'Power_Demand_kWh': np.random.uniform(10, 80, num_distributors * num_hours)
+    'Power_Demand_kWh': np.repeat(base_demand, num_hours) + np.tile(hourly_variation, num_distributors) + np.random.uniform(-5, 5, num_distributors * num_hours)
 })
 
 # Save synthetic data

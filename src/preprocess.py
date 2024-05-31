@@ -28,4 +28,9 @@ final_data = final_data.dropna()
 # Save the preprocessed data
 final_data.to_csv('../data/final_data.csv', index=False)
 
+# Print the correlation matrix
+correlation_matrix = final_data.corr(numeric_only=True)
+print("Correlation Matrix:")
+print(correlation_matrix)
+
 print("Preprocessed data has been saved to the 'data' directory.")

@@ -9,7 +9,7 @@ distributors = pd.read_csv('../data/distributors.csv')
 suppliers = pd.read_csv('../data/suppliers.csv')
 
 # Correlation matrix
-correlation_matrix = final_data.corr()
+correlation_matrix = final_data.corr(numeric_only=True)
 plt.figure(figsize=(10, 8))
 sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
 plt.title('Correlation Matrix')

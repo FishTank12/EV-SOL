@@ -6,6 +6,8 @@ from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from keras.models import Sequential
 from keras.layers import Dense
+from keras.wrappers.scikit_learn import KerasRegressor
+import numpy as np
 
 # Load preprocessed data
 final_data = pd.read_csv('../data/final_data.csv')
@@ -47,18 +49,29 @@ print(f"Mean Absolute Error: {mean_absolute_error(y_test, y_pred_gb)}")
 print(f"R-squared: {r2_score(y_test, y_pred_gb)}")
 print(f"Cross-Validation MAE Scores: {cross_val_score(gb_model, X, y, cv=5, scoring='neg_mean_absolute_error').mean()}")
 
-# Neural Network
-nn_model = Sequential()
-nn_model.add(Dense(64, activation='relu', input_shape=(X_train.shape[1],)))
-nn_model.add(Dense(64, activation='relu'))
-nn_model.add(Dense(1))
+# Define a function to create the neural network model
+def create_nn_model():
+    model = Sequential()
+    model.add(Dense(64, activation='relu', input_shape=(X_train.shape[1],)))
+    model.add(Dense(64, activation='relu'))
+    model.add(Dense(1))
+    model.compile(optimizer='adam', loss='mse')
+    return model
 
-nn_model.compile(optimizer='adam', loss='mse')
-nn_model.fit(X_train, y_train, epochs=100, batch_size=32, verbose=1)
+# Wrap the Keras model for use with scikit-learn
+nn_model = KerasRegressor(build_fn=create_nn_model, epochs=10, batch_size=32, verbose=1)
 
-y_pred_nn = nn_model.predict(X_test).flatten()
+# Train the neural network model
+nn_model.fit(X_train, y_train)
+
+y_pred_nn = nn_model.predict(X_test)
 print("\n--- Neural Network ---")
 print(f"Mean Squared Error: {mean_squared_error(y_test, y_pred_nn)}")
 print(f"Mean Absolute Error: {mean_absolute_error(y_test, y_pred_nn)}")
 print(f"R-squared: {r2_score(y_test, y_pred_nn)}")
-print(f"Cross-Validation MAE Scores for Neural Network: {cross_val_score(nn_model, X, y, cv=5, scoring='neg_mean_absolute_error').mean()}")
+
+# Cross-validation for the neural network model
+from sklearn.model_selection import KFold
+kf = KFold(n_splits=5)
+cv_scores = cross_val_score(nn_model, X, y, cv=kf, scoring='neg_mean_absolute_error')
+print(f"Cross-Validation MAE Scores for Neural Network: {np.mean(cv_scores)}")
