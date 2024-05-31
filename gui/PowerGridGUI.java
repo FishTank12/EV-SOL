@@ -141,16 +141,6 @@ public class PowerGridGUI extends JFrame {
                 }
             }
             br.close();
-            // br = new BufferedReader(new FileReader("../data/suppliers.csv"));
-            // while ((line = br.readLine()) != null) {
-            //     String[] values = line.split(",");
-            //     if (values[0].equals(supplierID)) {
-            //         data.put("Max_Generation_Rate_kWh", Double.parseDouble(values[3]));
-            //         data.put("Current_Generation_Rate_kWh", Double.parseDouble(values[4]));
-            //         break;
-            //     }
-            // }
-            // br.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
