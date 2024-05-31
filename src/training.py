@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from keras.models import Sequential
-from keras.layers import Dense
+from keras.layers import Dense, Dropout, BatchNormalization
 from keras.wrappers.scikit_learn import KerasRegressor
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -67,17 +67,24 @@ joblib.dump(gb_model, '../models/gb_model.pkl')
 # Define a function to create the neural network model
 def create_nn_model():
     model = Sequential()
-    model.add(Dense(64, activation='relu', input_shape=(X_train.shape[1],)))
-    model.add(Dense(32, activation='linear'))
+    model.add(Dense(128, activation='relu', input_shape=(X_train.shape[1],)))
+    model.add(BatchNormalization())
+    model.add(Dropout(0.2))
+    model.add(Dense(64, activation='relu'))
+    model.add(BatchNormalization())
+    model.add(Dropout(0.2))
+    model.add(Dense(32, activation='relu'))
+    model.add(BatchNormalization())
     model.add(Dense(1))
     model.compile(optimizer='adam', loss='mse')
     return model
 
 # Wrap the Keras model for use with scikit-learn
-nn_model = KerasRegressor(build_fn=create_nn_model, epochs=10, batch_size=32, verbose=1)
+nn_model = KerasRegressor(build_fn=create_nn_model, epochs=50, batch_size=32, verbose=1)
 
 # Train the neural network model
 history = nn_model.fit(X_train, y_train)
+
 
 y_pred_nn = nn_model.predict(X_test)
 print("\n--- Neural Network ---")
