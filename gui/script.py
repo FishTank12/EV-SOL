@@ -14,9 +14,12 @@ def preprocess(data):
 
 def predict(data):
     features = pd.DataFrame([data])
+    print("Features before preprocessing:", features)  # Add this line
     features = preprocess(features)  # Preprocess the features
+    print("Features after preprocessing:", features)  # Add this line
     prediction = model.predict(features)
     return prediction[0]
+
 
 if __name__ == '__main__':
     # Read the input data from the command line

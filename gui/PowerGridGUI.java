@@ -38,16 +38,10 @@ public class PowerGridGUI extends JFrame {
         maxGenerationField.setBounds(300, 150, 200, 30);
         currentGenerationField = new JTextField("Current Generation Rate (kWh)");
         currentGenerationField.setBounds(300, 200, 200, 30);
-        loadRatioField = new JTextField("Load Ratio");
-        loadRatioField.setBounds(300, 250, 200, 30);
-        generationRatioField = new JTextField("Generation Ratio");
-        generationRatioField.setBounds(300, 300, 200, 30);
         add(maxCapacityField);
         add(currentLoadField);
         add(maxGenerationField);
         add(currentGenerationField);
-        add(loadRatioField);
-        add(generationRatioField);
 
         manualInputButton = new JButton("Predict with Manual Input");
         manualInputButton.setBounds(50, 450, 300, 30);
@@ -98,8 +92,8 @@ public class PowerGridGUI extends JFrame {
             input.put("Current_Load_kWh", Double.parseDouble(currentLoadField.getText()));
             input.put("Max_Generation_Rate_kWh", Double.parseDouble(maxGenerationField.getText()));
             input.put("Current_Generation_Rate_kWh", Double.parseDouble(currentGenerationField.getText()));
-            input.put("Load_Ratio", Double.parseDouble(loadRatioField.getText()));
-            input.put("Generation_Ratio", Double.parseDouble(generationRatioField.getText()));
+            // input.put("Load_Ratio", Double.parseDouble(loadRatioField.getText()));
+            // input.put("Generation_Ratio", Double.parseDouble(generationRatioField.getText()));
 
             String prediction = callPythonScript(input.toString());
             predictionLabel.setText("Predicted Demand: " + prediction);
@@ -126,7 +120,7 @@ public class PowerGridGUI extends JFrame {
     private JSONObject queryData(String distributorID, String supplierID, String time) {
         JSONObject data = new JSONObject();
         try {
-            BufferedReader br = new BufferedReader(new FileReader("data/final_data.csv"));
+            BufferedReader br = new BufferedReader(new FileReader("../data/final_data.csv"));
             String line;
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(",");
@@ -148,7 +142,7 @@ public class PowerGridGUI extends JFrame {
     }
 
     private String callPythonScript(String input) throws Exception {
-        ProcessBuilder processBuilder = new ProcessBuilder("python3", "gui/script.py", input);
+        ProcessBuilder processBuilder = new ProcessBuilder("python3", "./script.py", input);
         processBuilder.redirectErrorStream(true);
         Process process = processBuilder.start();
 
@@ -158,6 +152,7 @@ public class PowerGridGUI extends JFrame {
         while ((line = reader.readLine()) != null) {
             result.append(line);
         }
+        System.out.println(result.toString());
         return result.toString();
     }
 
