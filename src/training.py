@@ -68,7 +68,7 @@ joblib.dump(gb_model, '../models/gb_model.pkl')
 def create_nn_model():
     model = Sequential()
     model.add(Dense(64, activation='relu', input_shape=(X_train.shape[1],)))
-    model.add(Dense(64, activation='relu'))
+    model.add(Dense(32, activation='linear'))
     model.add(Dense(1))
     model.compile(optimizer='adam', loss='mse')
     return model
@@ -84,7 +84,7 @@ print("\n--- Neural Network ---")
 print(f"Mean Squared Error: {mean_squared_error(y_test, y_pred_nn)}")
 print(f"Mean Absolute Error: {mean_absolute_error(y_test, y_pred_nn)}")
 print(f"R-squared: {r2_score(y_test, y_pred_nn)}")
-joblib.dump(nn_model, '../models/nn_model.pkl')
+nn_model.model.save('../models/nn_model.h5')
 
 # Cross-validation for the neural network model
 from sklearn.model_selection import KFold
