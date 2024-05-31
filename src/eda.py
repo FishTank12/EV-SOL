@@ -26,7 +26,7 @@ for name, dataset in datasets.items():
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=distributor_locations, x='Longitude', y='Latitude')
 plt.title('Distributor Locations')
-plt.savefig('../results/Distributor Locations.png')
+plt.savefig('../results/Distributor_Locations.png')
 
 # EDA on hourly trends
 plt.figure(figsize=(10, 6))
@@ -34,7 +34,7 @@ sns.histplot(hourly_trends['Power_Demand_kWh'], bins=30, kde=True)
 plt.title('Distribution of Hourly Power Demand')
 plt.xlabel('Power Demand (kWh)')
 plt.ylabel('Frequency')
-plt.savefig('../results/Distribution of Hourly Power Demand.png')
+plt.savefig('../results/Distribution_of_Hourly_Power_Demand.png')
 
 # EDA on power lines with correct column name
 plt.figure(figsize=(10, 6))
@@ -42,7 +42,7 @@ sns.histplot(power_lines['Max_Capacity_kWh'], bins=30, kde=True)
 plt.title('Distribution of Power Line Capacity')
 plt.xlabel('Capacity (kWh)')
 plt.ylabel('Frequency')
-plt.savefig('../results/Distribution of Power Line Capacity.png')
+plt.savefig('../results/Distribution_of_Power_Line_Capacity.png')
 
 # Correlation analysis on numerical columns with correct column names
 numeric_cols_corrected = ['Power_Demand_kWh', 'Max_Capacity_kWh', 'Max_Generation_Rate_kWh', 'Current_Generation_Rate_kWh']
@@ -55,14 +55,22 @@ combined_data_corrected = pd.concat([
 plt.figure(figsize=(10, 8))
 sns.heatmap(combined_data_corrected.corr(), annot=True, cmap='coolwarm', vmin=-1, vmax=1)
 plt.title('Correlation Matrix')
-plt.savefig('../results/Correlation Matrix.png')
-
+plt.savefig('../results/Correlation_Matrix.png')
 
 # EDA on supplier locations
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=supplier_locations, x='Longitude', y='Latitude', size='Max_Generation_Rate_kWh', legend=False)
 plt.title('Supplier Locations')
-plt.savefig('../results/Supplier Locations.png')
+plt.savefig('../results/Supplier_Locations.png')
+
+# Plot Power Demand over Time
+hourly_trends['Timestamp'] = pd.to_datetime(hourly_trends['Timestamp'])
+hourly_trends.set_index('Timestamp', inplace=True)
+plt.figure(figsize=(14, 7))
+hourly_trends['Power_Demand_kWh'].resample('D').mean().plot()
+plt.title('Daily Average Power Demand')
+plt.ylabel('Power Demand (kWh)')
+plt.savefig('../results/Daily_Average_Power_Demand.png')
 
 # Display the columns of the power_lines dataset
 print(power_lines.columns)

@@ -1,5 +1,6 @@
 # src/preprocess.py
 import pandas as pd
+from sklearn.impute import SimpleImputer
 
 # Load synthetic data
 hourly_trends = pd.read_csv('../data/synthetic_hourly_trends.csv')
@@ -25,6 +26,15 @@ final_data = merged_data[['Timestamp', 'Distributor_ID', 'Power_Demand_kWh', 'Ma
 final_data.columns = ['Timestamp', 'Distributor_ID', 'Power_Demand_kWh', 'Max_Capacity_kWh', 'Current_Load_kWh', 
                       'Max_Generation_Rate_kWh', 'Current_Generation_Rate_kWh', 'Distributor_Latitude', 
                       'Distributor_Longitude', 'Supplier_Latitude', 'Supplier_Longitude']
+
+# Handle missing values
+imputer = SimpleImputer(strategy='mean')
+final_data[['Max_Capacity_kWh', 'Current_Load_kWh', 'Max_Generation_Rate_kWh', 
+            'Current_Generation_Rate_kWh', 'Distributor_Latitude', 'Distributor_Longitude', 
+            'Supplier_Latitude', 'Supplier_Longitude']] = imputer.fit_transform(
+                final_data[['Max_Capacity_kWh', 'Current_Load_kWh', 'Max_Generation_Rate_kWh', 
+                            'Current_Generation_Rate_kWh', 'Distributor_Latitude', 'Distributor_Longitude', 
+                            'Supplier_Latitude', 'Supplier_Longitude']])
 
 # Save final data for model training
 final_data.to_csv('../data/final_synthetic_data.csv', index=False)
