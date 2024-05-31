@@ -1,11 +1,11 @@
 # src/training.py
 import pandas as pd
-from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.model_selection import KFold, train_test_split, cross_val_score
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, BatchNormalization
+from keras.layers import Dense, Dropout, BatchNormalization, LeakyReLU
 from keras.wrappers.scikit_learn import KerasRegressor
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -64,48 +64,55 @@ print(f"R-squared: {r2_score(y_test, y_pred_gb)}")
 print(f"Cross-Validation MAE Scores: {cross_val_score(gb_model, X, y, cv=5, scoring='neg_mean_absolute_error').mean()}")
 joblib.dump(gb_model, '../models/gb_model.pkl')
 
-# Define a function to create the neural network model
-def create_nn_model():
+# Define a function to create the neural network model with different activation functions
+def create_nn_model(activation='relu'):
     model = Sequential()
-    model.add(Dense(128, activation='relu', input_shape=(X_train.shape[1],)))
+    model.add(Dense(128, input_shape=(X_train.shape[1],)))
+    if activation == 'leaky_relu':
+        model.add(LeakyReLU(alpha=0.1))
+    else:
+        model.add(Dense(128, activation=activation))
     model.add(BatchNormalization())
     model.add(Dropout(0.2))
-    model.add(Dense(64, activation='relu'))
+    
+    model.add(Dense(64, activation=activation))
     model.add(BatchNormalization())
     model.add(Dropout(0.2))
-    model.add(Dense(32, activation='relu'))
+    
+    model.add(Dense(32, activation=activation))
     model.add(BatchNormalization())
     model.add(Dense(1))
     model.compile(optimizer='adam', loss='mse')
     return model
 
-# Wrap the Keras model for use with scikit-learn
-nn_model = KerasRegressor(build_fn=create_nn_model, epochs=50, batch_size=32, verbose=1)
+# List of activation functions to try
+activations = ['relu', 'leaky_relu', 'elu', 'swish', 'tanh']
 
-# Train the neural network model
-history = nn_model.fit(X_train, y_train)
-
-
-y_pred_nn = nn_model.predict(X_test)
-print("\n--- Neural Network ---")
-print(f"Mean Squared Error: {mean_squared_error(y_test, y_pred_nn)}")
-print(f"Mean Absolute Error: {mean_absolute_error(y_test, y_pred_nn)}")
-print(f"R-squared: {r2_score(y_test, y_pred_nn)}")
-nn_model.model.save('../models/nn_model.h5')
-
-# Cross-validation for the neural network model
-from sklearn.model_selection import KFold
-kf = KFold(n_splits=5)
-cv_scores = cross_val_score(nn_model, X, y, cv=kf, scoring='neg_mean_absolute_error')
-print(f"Cross-Validation MAE Scores for Neural Network: {np.mean(cv_scores)}")
-
-# Plot training history
-plt.figure(figsize=(10, 6))
-plt.plot(history.history['loss'], label='Loss')
-plt.title('Neural Network Training History')
-plt.xlabel('Epoch')
-plt.ylabel('Loss')
-plt.legend()
-plt.savefig('../results/nn_training_history.png')
-
-print("Model training history and models have been saved.")
+for activation in activations:
+    print(f"\n--- Training with {activation} activation ---")
+    nn_model = KerasRegressor(build_fn=create_nn_model, activation=activation, epochs=10, batch_size=32, verbose=1)
+    
+    # Train the neural network model
+    history = nn_model.fit(X_train, y_train)
+    
+    y_pred_nn = nn_model.predict(X_test)
+    print(f"\n--- Neural Network ({activation}) ---")
+    print(f"Mean Squared Error: {mean_squared_error(y_test, y_pred_nn)}")
+    print(f"Mean Absolute Error: {mean_absolute_error(y_test, y_pred_nn)}")
+    print(f"R-squared: {r2_score(y_test, y_pred_nn)}")
+    nn_model.model.save(f'../models/nn_model_{activation}.h5')
+    
+    # Cross-validation for the neural network model
+    kf = KFold(n_splits=2)
+    cv_scores = cross_val_score(nn_model, X, y, cv=kf, scoring='neg_mean_absolute_error')
+    print(f"Cross-Validation MAE Scores for Neural Network ({activation}): {np.mean(cv_scores)}")
+    
+    # Plot training history
+    plt.figure(figsize=(10, 6))
+    plt.plot(history.history['loss'], label='Loss')
+    plt.title(f'Neural Network Training History ({activation})')
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.legend()
+    plt.savefig(f'../results/nn_training_history_{activation}.png')
+    plt.close()
