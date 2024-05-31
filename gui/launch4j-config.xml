@@ -12,7 +12,7 @@
   <supportUrl></supportUrl>
   <stayAlive>false</stayAlive>
   <restartOnCrash>false</restartOnCrash>
-  <manifest>/home/sari-itani/Documents/GitHub/EV-SOL/gui/manifest.txt</manifest>
+  <manifest>/home/sari-itani/Documents/GitHub/EV-SOL/gui/manifest.manifest</manifest>
   <icon>/home/sari-itani/Desktop/scratch/barney.ico</icon>
   <jre>
     <path>%JAVA_HOME%;%PATH%</path>
