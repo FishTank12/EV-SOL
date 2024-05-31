@@ -3,7 +3,7 @@
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
   <jar>/home/sari-itani/Documents/GitHub/EV-SOL/gui/PowerGridGUI.jar</jar>
-  <outfile>PowerGridGUI.exe</outfile>
+  <outfile>/home/sari-itani/Documents/GitHub/EV-SOL/gui/PowerGridGUI.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
@@ -12,8 +12,8 @@
   <supportUrl></supportUrl>
   <stayAlive>false</stayAlive>
   <restartOnCrash>false</restartOnCrash>
-  <manifest></manifest>
-  <icon>/home/sari-itani/Desktop/scratch/barney.jpg</icon>
+  <manifest>/home/sari-itani/Documents/GitHub/EV-SOL/gui/manifest.txt</manifest>
+  <icon>/home/sari-itani/Desktop/scratch/barney.ico</icon>
   <jre>
     <path>%JAVA_HOME%;%PATH%</path>
     <requiresJdk>false</requiresJdk>
