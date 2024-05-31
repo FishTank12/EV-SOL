@@ -10,7 +10,7 @@ public class PowerGridGUI extends JFrame {
     private JComboBox<String> distributorDropdown;
     private JComboBox<String> supplierDropdown;
     private JComboBox<String> timeDropdown;
-    private JTextField maxCapacityField, currentLoadField, maxGenerationField, currentGenerationField, loadRatioField, generationRatioField;
+    private JTextField maxCapacityField, currentLoadField, maxGenerationField, currentGenerationField;
     private JButton manualInputButton, dropdownInputButton;
     private JLabel predictionLabel;
 
@@ -71,18 +71,15 @@ public class PowerGridGUI extends JFrame {
     }
 
     private String[] getDistributors() {
-        // Fetch distributor data and return as array
-        return new String[]{"D1", "D2", "D3"}; // Placeholder, load actual data if available
+        return new String[]{"D1", "D2", "D3"};
     }
 
     private String[] getSuppliers() {
-        // Fetch supplier data and return as array
-        return new String[]{"S1", "S2", "S3"}; // Placeholder, load actual data if available
+        return new String[]{"S1", "S2", "S3"};
     }
 
     private String[] getTimes() {
-        // Fetch time data and return as array
-        return new String[]{"2024-05-01 00:00:00", "2024-05-01 01:00:00", "2024-05-01 02:00:00"}; // Placeholder, load actual data if available
+        return new String[]{"2024-05-01 00:00:00", "2024-05-01 01:00:00", "2024-05-01 02:00:00"};
     }
 
     private void predictWithManualInput() {
@@ -92,8 +89,8 @@ public class PowerGridGUI extends JFrame {
             input.put("Current_Load_kWh", Double.parseDouble(currentLoadField.getText()));
             input.put("Max_Generation_Rate_kWh", Double.parseDouble(maxGenerationField.getText()));
             input.put("Current_Generation_Rate_kWh", Double.parseDouble(currentGenerationField.getText()));
-            // input.put("Load_Ratio", Double.parseDouble(loadRatioField.getText()));
-            // input.put("Generation_Ratio", Double.parseDouble(generationRatioField.getText()));
+
+            System.out.println("Input Data (Manual): " + input.toString());
 
             String prediction = callPythonScript(input.toString());
             predictionLabel.setText("Predicted Demand: " + prediction);
@@ -109,6 +106,8 @@ public class PowerGridGUI extends JFrame {
             String time = (String) timeDropdown.getSelectedItem();
 
             JSONObject input = queryData(distributorID, supplierID, time);
+
+            System.out.println("Input Data (Dropdown): " + input.toString());
 
             String prediction = callPythonScript(input.toString());
             predictionLabel.setText("Predicted Demand: " + prediction);
@@ -142,7 +141,7 @@ public class PowerGridGUI extends JFrame {
     }
 
     private String callPythonScript(String input) throws Exception {
-        ProcessBuilder processBuilder = new ProcessBuilder("python3", "./script.py", input);
+        ProcessBuilder processBuilder = new ProcessBuilder("python3", "script.py", input);
         processBuilder.redirectErrorStream(true);
         Process process = processBuilder.start();
 
@@ -152,7 +151,7 @@ public class PowerGridGUI extends JFrame {
         while ((line = reader.readLine()) != null) {
             result.append(line);
         }
-        System.out.println(result.toString());
+        System.out.println("Python Script Output: " + result.toString());
         return result.toString();
     }
 
