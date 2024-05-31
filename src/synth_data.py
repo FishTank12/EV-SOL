@@ -41,7 +41,7 @@ destination_ids = np.random.choice(distributor_ids, num_lines)
 
 # Define correlated features
 max_capacity = np.random.uniform(100, 200, num_lines)
-current_load = max_capacity * np.random.uniform(0.5, 0.9)  # Correlated with max_capacity
+current_load = max_capacity * np.random.uniform(0.7, 0.9)  # Correlated with max_capacity
 
 power_lines = pd.DataFrame({
     'Power_Line_ID': line_ids,
@@ -53,7 +53,7 @@ power_lines = pd.DataFrame({
 
 # Generate synthetic data for power supplier locations and generation rates with realistic ranges
 max_generation_rate = np.random.uniform(500, 1000, num_suppliers)
-current_generation_rate = max_generation_rate * np.random.uniform(0.5, 0.8)  # Correlated with max_generation_rate
+current_generation_rate = max_generation_rate * np.random.uniform(0.65, 0.85)  # Correlated with max_generation_rate
 
 supplier_locations = pd.DataFrame({
     'Supplier_ID': source_ids,
