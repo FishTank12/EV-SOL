@@ -90,7 +90,7 @@ activations = ['relu', 'leaky_relu', 'elu', 'swish', 'tanh']
 
 for activation in activations:
     print(f"\n--- Training with {activation} activation ---")
-    nn_model = KerasRegressor(build_fn=create_nn_model, activation=activation, epochs=10, batch_size=32, verbose=1)
+    nn_model = KerasRegressor(build_fn=create_nn_model, activation=activation, epochs=4, batch_size=32, verbose=1)
     
     # Train the neural network model
     history = nn_model.fit(X_train, y_train)
